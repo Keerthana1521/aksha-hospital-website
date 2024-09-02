@@ -2,7 +2,7 @@
     background: linear-gradient(135deg, #0F96B4 0%, #332876 100%);
     color: white;
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
+    height: 85vh;
   }
   
   .footer-content {
@@ -139,11 +139,11 @@ text-align: center;
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 20px;
-    font-size: 18px;
-    height: 68px;
+    font-size: 16px;
+    height: 58px;
     background-color: #e0619e;
     position: relative;
-    bottom: 176px;
+    bottom: 225px;
   }
   
   .footer-bottom a {
@@ -168,12 +168,20 @@ text-align: center;
     left: 43px;
 
   }
-  @media (max-width:1030px){
+  @media only screen and (max-width:1360px){
+    .footer-container{
+        height: 120vh;
+    }
+    .address-info{
+        width: 17%;
+    }
+  }
+  @media only screen and (max-width:1030px){
     .contact-info{
       margin-left: 2rem;
     }
     .footer-container{
-        height: 145vh;
+        height: 149vh;
     }
     .address-info{
         position: relative;
@@ -205,14 +213,14 @@ text-align: center;
   }
   
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .footer-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     .footer-container{
-        height: 179vh;
+        height: 159vh;
     }
 
     .footer-section {
@@ -240,7 +248,7 @@ text-align: center;
     }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
         margin: -1rem;
@@ -248,7 +256,7 @@ text-align: center;
     }
     .address-info{
         left: 139px;
-        bottom: 302px;
+        bottom: 340px;
     }
     .address-info p{
         width: 200px;
@@ -264,7 +272,7 @@ text-align: center;
         padding: 0 15px;
     }
     .footer-section p{
-        font-size: 10px;
+        font-size: 12px;
         width: 136%;
     }
     .footer-section h3{
@@ -300,7 +308,7 @@ text-align: center;
         font-size: 20px;
     }
     .font{
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer-section ul{
         width: 90%;
@@ -310,7 +318,7 @@ text-align: center;
         width: 90%;
     }
     .footer-section ul li a{
-        font-size: 10px;
+        font-size: 12px;
     }
     .footer-logo{
         width: 83px;
@@ -322,7 +330,7 @@ text-align: center;
         font-size: 16px;
     }
     .detail{
-        font-size: 10px;
+        font-size: 12px;
         bottom: 26px;
     left: 27px;
     }
@@ -344,20 +352,34 @@ text-align: center;
     }
     .social-icon{
         font-size: 13px;
+        right: 102px;
     }
     .insta{
         font-size: 13px;
+        right: 102px;
     }
     .footer-bottom p{
         top: 6px;
     }
 }
-@media (max-width:380px){
+@media only screen and (max-width:402px){
+    .address-info{
+        bottom: 306px;
+        margin-left: 4rem;
+    }
+}
+@media only screen and (max-width:398px){
+    .address-info{
+        bottom: 318px;
+    }
+
+}
+@media only screen and (max-width:380px){
     .footer-container{
         height: 124vh;
     }
     .address-info{
-        bottom: 282px;
+        bottom: 318px;
         margin-left: 4rem;
     }
     .address-info p{
@@ -367,8 +389,8 @@ text-align: center;
         font-size: 15px
     }
     .detail{
-        font-size: 8px;
-        bottom: 20px;
+        font-size: 10px;
+        bottom: 24px;
     }
     .social-links{
         width: 69%;
@@ -381,12 +403,18 @@ text-align: center;
     }
 
 }
-@media (max-width:330px){
+@media only screen and (max-width:360px){
+    .address-info{
+        bottom: 316px;
+        margin-left: 3rem;
+    }
+}
+@media only screen and (max-width:330px){
     .address-info p{
         width: 124px;
     }
     .address-info{
-        bottom: 287px;
+        bottom: 298px;
         margin-left: 3rem;
     }
     .links{
