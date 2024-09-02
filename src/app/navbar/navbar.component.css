@@ -1,0 +1,179 @@
+
+ .home-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    position: relative;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(43.8px);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+    top: 16px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .aksha-logo {
+    width: 86px;
+    height: 57px;
+    object-fit: cover;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+  }
+  
+  .appointment-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appointment {
+    border-radius: 25px;
+    background-color: #0f96b4;
+    height: 40px;
+    padding: 0 20px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .appointment:hover {
+    background-color: #0d7b96;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-icon span {
+    width: 100%;
+    height: 3px;
+    background-color: #e91e63;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  @media (max-width: 1024px) {
+    .home-parent {
+      width: 90%;
+    }
+    .appointment{
+        border-radius: 25px;
+    background-color: #0f96b4;
+    height: 34px;
+    padding: 0px 9px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    }
+    .nav-list li {
+      margin: 0 10px;
+    }
+    .nav-list li a {
+        font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-parent{
+        border-radius: 20px 20px 0 0;
+    }
+    .nav-container {
+      display: none;
+      position: absolute;
+      top: 79px;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 0 0 20px 20px;
+    }
+    .appointment-container {
+      display: none;
+    }
+  
+    .nav-container.open {
+      display: flex;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+    }
+  
+    .nav-container.open .nav-list {
+      max-height: 360px;
+    }
+  
+    .nav-list li {
+      margin: 10px 0;
+    }
+  
+    .appointment {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-parent {
+      padding: 15px;
+    }
+  .nav-list li a{
+    font-size: 18px;
+  }
+    .nav-list li {
+      margin: 8px 0;
+    }
+  
+    .appointment {
+      width: 100%;
+    }
+  }
+  
