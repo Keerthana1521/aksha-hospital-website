@@ -1,0 +1,247 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+    background-color: #f0f4f8;
+    top: -85px;
+    position: relative;
+    
+  }
+  
+  .contact-left {
+    flex: 1;
+    padding: 40px;
+    padding-left: 6rem;
+    margin-top: 190px;
+  }
+  
+  .contact-left h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: "Poppins";
+  }
+  .icon{
+    font-size: 36px;
+    color: #000000;
+    padding-right: 10px;
+  }
+  .icon-1{
+    font-size: 24px;
+    color: #000000;
+    padding-right: 10px;
+  }
+  .heading{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins";
+  }
+  .contact-left p {
+    font-size: 16px;
+    margin-bottom: 39px;
+    line-height: 1.6;
+    font-family: "Poppins";
+    margin-top: 10px;
+  }
+  .contact-info{
+    margin-top: 60px;
+  }
+  .contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .contact-info img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    margin-right: 15px;
+  }
+  
+  .contact-right {
+    flex: 0.5;
+    background: linear-gradient(135deg, #0F96B4 0%, #332876 100%);
+    padding: 40px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 180px;
+  }
+  
+  .contact-right h2 {
+    font-size: 32px;
+font-weight: 600;
+font-family: Poppins;
+color: #fff;
+text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .logo{
+    position: relative;
+    left: 30%;
+  }
+  
+  .contact-right form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-right input,
+  .contact-right textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .contact-right button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-right button:hover {
+    background-color: #004799;
+  }
+  
+  .privacy-policy {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  
+  .privacy-policy a {
+    color: white;
+    text-decoration: underline;
+    font-family: "Poppins";
+  }
+  
+  .map-container {
+    /* padding: 20px; */
+    position: relative;
+    bottom: 85px;
+  }
+  .component-39-child {
+    position: absolute;
+    top: 52px;
+    left: -236px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 236px;
+    height: 48px;
+}
+.component-39-item {
+    position: absolute;
+    top: -48px;
+    left: 240px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    width: 236px;
+    height: 48px;
+}
+.sent-message {
+    position: absolute;
+    top: 18px;
+    left: calc(50% - 55px);
+    line-height: 16px;
+    font-weight: 500;
+}
+.component-39 {
+    width: 53%;
+    position: relative;
+    box-shadow: 3px 4px 16px rgba(63, 176, 206, 0.65);
+    background: linear-gradient(90deg, #312976, #0f8faf);
+    height: 52px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Inter;
+    left: 30%;
+    cursor: pointer;
+
+}
+
+
+  
+  @media (max-width: 1024px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-left {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .contact-right {
+      padding: 20px;
+    }
+  
+    .map-container iframe {
+      height: 300px;
+    }
+    .component-39{
+        width: 27%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      /* padding: 20px; */
+      top: -85px;
+        position: relative;
+    }
+    .contact-left {
+      padding: 20px;
+      
+    }
+    .contact-left h2{
+        font-size: 20px;
+    }
+    .contact-left p{
+        font-size: 12px;
+        margin:10px 0;
+    }
+    .contact-info p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .line{
+        width: 100%;
+    }
+    .icon{
+        font-size: 30px;
+    }
+    .icon-1{
+        font-size: 20px;
+    }
+    .component-39{
+        width: 50%;
+    }
+  
+    .contact-right input,
+    .contact-right textarea {
+      font-size: 14px;
+    }
+  
+    .contact-right button {
+      font-size: 14px;
+    }
+  
+    .map-container iframe {
+      height: 250px;
+    }
+  }
+  
