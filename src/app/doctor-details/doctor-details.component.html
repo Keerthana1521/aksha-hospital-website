@@ -4,26 +4,13 @@
         <img [src]="doctor.image" alt="{{doctor.name}}">
       </div>
       <div class="doctor-details">
-        <h1 class="doctor-name"><img class="icon"  src="../../assets/female.svg">{{doctor.name}}<span>{{doctor.qualification}}</span></h1>
+        <h1 class="doctor-name"><img class="icon"  [src]="doctor.icon">{{doctor.name}}<span>{{doctor.qualification}}</span></h1>
         <h2 class="doctor-title">{{doctor.designation}}</h2>
-        <p class="experience">Years of Experience : <strong>8+</strong></p>
+        <p class="experience">Years of Experience : <strong>{{doctor.experience}}+</strong></p>
         <div class="expertise">
           <h3><img  class="icon" src="../../assets/drug.svg">Areas Of Expertise:</h3>
           <ul class="expertise-list">
-            <li>Short height</li>
-            <li>Poor growth</li>
-            <li>Growth hormone deficiency</li>
-            <li>Thyroid disorders</li>
-            <li>Diabetes</li>
-            <li>Hypoglycemia</li>
-            <li>Obesity</li>
-            <li>Pubertal disorders</li>
-            <li>PCOS</li>
-            <li>Calcium and Vitamin D disorders</li>
-            <li>Rickets</li>
-            <li>Pituitary disorders</li>
-            <li>Adrenal disorders</li>
-            <li>Atypical genitalia</li>
+            <li *ngFor="let item of doctor.expertise">{{item}}</li> 
           </ul>
         </div>
       </div>
