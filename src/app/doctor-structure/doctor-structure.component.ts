@@ -11,8 +11,11 @@ export class DoctorStructureComponent {
   @Input() desgination:any;
   @Input() qualification:any;
   @Input() about:any;
-
   showProfileDetails = true;
+
+  openProfileDetails() {
+    this.showProfileDetails = true;
+  }
 
   closeProfileDetails() {
     this.showProfileDetails = false;
