@@ -1,0 +1,238 @@
+.doctor-profile-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 18vh;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .icon{
+    position: relative;
+    top: 12px;
+    right: 8px;
+    width: 36px;
+  }
+  .doctor-image {
+    flex: 1 1 30%;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .doctor-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .doctor-details {
+    flex: 1 1 65%;
+    padding-left: 40px;
+  }
+  
+  .doctor-name {
+    font-size: 32px;
+font-family: Poppins;
+color: #000;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  
+  .doctor-name span {
+    font-size: 18px;
+    /* font-weight: normal; */
+    color: #000;
+    font-size: 24px;
+font-weight: 600;
+  }
+  
+  .doctor-title {
+    /* font-size: 20px;
+    color: #5a5a5a; */
+    margin: 10px 0;
+    font-size: 22px;
+font-weight: 600;
+font-family: Poppins;
+color: #322875;
+  }
+  
+  .experience {
+    /* font-size: 18px; */
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #322875;
+    margin-bottom: 24px;
+  }
+  
+  .expertise {
+    margin-top: 20px;
+  }
+  
+  .expertise h3 {
+    font-size: 28px;
+font-weight: 600;
+font-family: Poppins;
+color: #000;
+    margin-bottom: 10px;
+  }
+  
+  .expertise-list {
+    columns: 2;
+    font-size: 18px;
+line-height: 30px;
+font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 40px;
+  }
+  
+  .expertise-list li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+  }
+  
+  .about-doctor {
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-doctor h3 {
+    font-size: 28px;
+font-weight: 600;
+font-family: Poppins;
+color: #000;
+    margin-bottom: 25px;
+
+  }
+  
+  .about-doctor p {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #000;
+    text-align: justify;
+    margin-bottom: 15px;
+    
+  }
+  .doctor-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    /* padding: 20px; Background gradient similar to the design */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: -25px 25px 0 #aacdf3; /* Subtle box shadow */
+    overflow: hidden;
+  }
+  
+  .doctor-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Slightly rounded corners for the image */
+    display: block;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    margin-top: 15px; 
+    box-shadow: -25px 25px 0 #aacdf3;
+    border-radius: 20px;
+    /* padding-right: 40px; */
+    /* Adjust as needed for vertical alignment */
+  }
+  
+  @media (max-width:1030px){
+    .doctor-image {
+        margin: 0  0 0px 0;
+        max-width: 35%;
+        padding: 0;
+        position: relative;
+        left: 20px;
+      }
+  }
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .profile-header {
+      flex-direction: column;
+    }
+    .doctor-image {
+      margin: 0  0 0px 0;
+      max-width: 35%;
+      padding: 0;
+      /* box-shadow: -70px 20px 0 #aacdf3; */
+      position: relative;
+        left: 33%;
+      /* padding-bottom: 6rem; */
+    }
+    .doctor-details {
+      text-align: center;
+      margin-top: 4rem;
+      padding-left: 0;
+    }
+    .expertise-list {
+      columns: 1;
+    }
+    .doctor-details h1{
+        font-size: 20px;
+    }
+    .doctor-name span{
+        font-size: 20px;
+    }
+    .doctor-title, .experience{
+        font-size: 16px;
+    }
+    .expertise h3{
+        font-size: 20px;
+        text-align: left;
+    }
+    .expertise-list{
+        font-size: 14px;
+        text-align: left;
+    }
+    .about-doctor h3{
+        font-size: 20px;
+    }
+    .about-doctor p{
+        font-size: 14px;
+    }
+  }
+  @media (max-width:430px){
+    .doctor-image{
+        margin: 0 0 0px 0;
+        max-width: 51%;
+        padding: 0;
+        position: relative;
+        left: 27%;
+    }
+.doctor-details h1{
+    font-size: 20px;
+}
+.doctor-name span{
+    font-size: 20px;
+}
+.doctor-title, .experience{
+    font-size: 16px;
+}
+.expertise h3{
+    font-size: 20px;
+}
+.expertise-list{
+    font-size: 14px;
+    text-align: left;
+}
+.about-doctor h3{
+    font-size: 20px;
+}
+.about-doctor p{
+    font-size: 14px;
+}
+  }
+  

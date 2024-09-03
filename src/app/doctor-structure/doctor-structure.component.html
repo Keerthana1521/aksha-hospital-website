@@ -49,7 +49,7 @@ About Doctor
     </div>
   </div> -->
 
-  <div class="container" (mouseenter)="openProfileDetails()" (mouseleave)="closeProfileDetails()">
+  <div class="container" (mouseenter)="openProfileDetails()" ((mouseenter))="closeProfileDetails()">
     <div class="profile">
       <div class="profile-image">
         <img class="doctor" [src]="image" alt="{{name}}">

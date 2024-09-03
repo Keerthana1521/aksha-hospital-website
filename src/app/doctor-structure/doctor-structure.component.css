@@ -23,15 +23,24 @@
   }
   
   /* Hover state: animate the profile and profile-details */
-  .container:hover .profile {
+   .container:hover .profile {
     transform: translateX(100%);
   }
   
   .container:hover .profile-details {
     transform: translateY(0);
     opacity: 1;
-  }
-  
+  } 
+  /* .container:hover .profile,
+.container.touch-active .profile {
+  transform: translateX(100%);
+}
+
+.container:hover .profile-details,
+.container.touch-active .profile-details {
+  transform: translateY(0);
+  opacity: 1;
+} */
   .profile-image {
     width: 300px;
     position: relative;
