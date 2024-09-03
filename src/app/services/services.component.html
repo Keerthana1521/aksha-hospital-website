@@ -1,0 +1,19 @@
+<div class="root_container">
+    <div class="container_1">
+
+    </div>
+
+    <!-- conatiner 2 -->
+     
+    <div class="container_2">
+        <div class="accordian_cards" *ngFor = "let card of tabs">
+            <app-accordion 
+            [icon_1] = card.icon_1
+            [icon_2] = card.icon_2 
+            [title] = card.title >
+                <div class="description">{{card.content}}</div>
+            </app-accordion>
+        </div>                 
+    </div>
+</div>
+

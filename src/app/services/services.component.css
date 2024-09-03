@@ -1,0 +1,47 @@
+.root_container{
+    padding: 0;
+    margin: o;
+    background: #F0F8FF;
+}
+
+.container_1{
+    height: 100vh;
+    background-image: url('../../assets/services/services_bg.png');
+    background-size: cover;
+}
+
+.container_2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10%;
+}
+
+.accordian_cards{
+    margin: 2%;
+}
+
+.description{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    transition: 1s;
+}
+
+@media (max-width : 800px){
+    .container_2{
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width : 480px){
+    .description{
+        font-size: 12px;
+    }
+}
+    
