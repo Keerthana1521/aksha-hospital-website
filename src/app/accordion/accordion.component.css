@@ -46,6 +46,10 @@
     transition: 1s ease;
   }
 
+  .angle{
+    margin-right: 3%;
+  }
+
   @media(max-width : 500px){
     .card_title{
       font-size: 14px;
