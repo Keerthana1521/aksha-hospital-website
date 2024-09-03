@@ -18,7 +18,9 @@
     z-index: 9;
     position: fixed;
   }
-  
+  .active-link {
+   font-weight: bold;
+  }
   .logo-container {
     display: flex;
     align-items: center;

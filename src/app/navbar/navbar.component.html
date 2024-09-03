@@ -45,14 +45,14 @@
     </div>
     <div class="nav-container" [ngClass]="{'open': isMenuOpen}">
         <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Doctors</a></li>
-            <li><a href="#">Specialties</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Home</a></li>
+            <li><a routerLink="/about-us" routerLinkActive="active-link"(click)="closeMenu()">About Us</a></li>
+            <li><a routerLink="/doctors" routerLinkActive="active-link"(click)="closeMenu()">Doctors</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Specialties</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Services</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Blog</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Gallery</a></li>
+            <li><a routerLink="/contact-us" routerLinkActive="active-link"(click)="closeMenu()">Contact Us</a></li>
         </ul>
     </div>
     <div class="appointment-container">
