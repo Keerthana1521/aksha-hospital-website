@@ -1,0 +1,16 @@
+    <div class="content">
+        <div class="heading-1">MEET OUR EXPERIENCED TEAM</div>
+        <div class="heading-2">Our Dedicated Doctors Team</div>
+        <div class="heading-3">
+            We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievement of our staff, We are all work together to help our all patients for recovery
+        </div>
+    </div>
+<div class="doctors">
+<app-doctor-structure class="layout" *ngFor="let doctor of doctors"
+ [name]="doctor.name"
+ [desgination]="doctor.designation"
+ [qualification]="doctor.qualification"
+ [image]="doctor.image"
+ [about]="doctor.about" 
+ ></app-doctor-structure>
+</div>
