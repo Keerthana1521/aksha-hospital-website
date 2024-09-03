@@ -1,11 +1,11 @@
-<div class="doctor-profile-container">
+<div class="doctor-profile-container" *ngIf="doctor">
     <div class="profile-header">
       <div class="doctor-image">
-        <img src="assets/doctor-10.png" alt="Dr. Avani Hegde">
+        <img [src]="doctor.image" alt="{{doctor.name}}">
       </div>
       <div class="doctor-details">
-        <h1 class="doctor-name"><img class="icon"  src="../../assets/female.svg">Dr. Avani Hegde <span>MBBS, MD Pediatrics</span></h1>
-        <h2 class="doctor-title">Consultant – Pediatrician</h2>
+        <h1 class="doctor-name"><img class="icon"  src="../../assets/female.svg">{{doctor.name}}<span>{{doctor.qualification}}</span></h1>
+        <h2 class="doctor-title">{{doctor.designation}}</h2>
         <p class="experience">Years of Experience : <strong>8+</strong></p>
         <div class="expertise">
           <h3><img  class="icon" src="../../assets/drug.svg">Areas Of Expertise:</h3>
@@ -31,15 +31,7 @@
   
     <div class="about-doctor">
       <h3><img class="icon"  src="../../assets/pad.svg">About Doctor</h3>
-      <p>
-        Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-speciality training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bangalore.
-      </p>
-      <p>
-        Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avani Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.
-      </p>
-      <p>
-        Dr. Avni Hegde has previously served as a faculty member at St. John's Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.
-      </p>
+      <p>{{doctor.about}}</p>
     </div>
   </div>
   

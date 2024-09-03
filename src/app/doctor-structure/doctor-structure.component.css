@@ -99,7 +99,7 @@
     width: 116px;
   }
   
-  .view-profile-parent {
+  .view-profile-parent a {
     position: relative;
     border-radius: 4px;
     border: 2px solid #fff;
@@ -115,6 +115,7 @@
     font-size: 16px;
     color: #fff;
     font-family: 'Open Sans';
+    text-decoration: none;
   }
   
   .rectangle-div {
