@@ -14,6 +14,21 @@ import { DoctorComponent } from './doctor/doctor.component';
 import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
 import { ServicesComponent } from './services/services.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { SpecialitiesDesignComponent } from './specialities-design/specialities-design.component';
+import { RadiologyComponent } from './radiology/radiology.component';
+import { EndocrineSurgeryComponent } from './endocrine-surgery/endocrine-surgery.component';
+import { VascularSurgeryComponent } from './vascular-surgery/vascular-surgery.component';
+import { OrthopedicComponent } from './orthopedic/orthopedic.component';
+import { DermotologyComponent } from './dermotology/dermotology.component';
+import { GeneralPhysicianComponent } from './general-physician/general-physician.component';
+import { UrologyComponent } from './urology/urology.component';
+import { NephrologyComponent } from './nephrology/nephrology.component';
+import { PhysiotherapyComponent } from './physiotherapy/physiotherapy.component';
+import { AnesthesiaComponent } from './anesthesia/anesthesia.component';
+import { CardiologyComponent } from './cardiology/cardiology.component';
+import { ENTComponent } from './ent/ent.component';
+import { OncologyComponent } from './oncology/oncology.component';
+import { NeurologyComponent } from './neurology/neurology.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +41,22 @@ import { AccordionComponent } from './accordion/accordion.component';
     ServicesComponent,
     DoctorComponent,
     DoctorDetailsComponent,
-    DoctorStructureComponent
+    DoctorStructureComponent,
+    SpecialitiesDesignComponent,
+    RadiologyComponent,
+    EndocrineSurgeryComponent,
+    VascularSurgeryComponent,
+    OrthopedicComponent,
+    DermotologyComponent,
+    GeneralPhysicianComponent,
+    UrologyComponent,
+    NephrologyComponent,
+    PhysiotherapyComponent,
+    AnesthesiaComponent,
+    CardiologyComponent,
+    ENTComponent,
+    OncologyComponent,
+    NeurologyComponent
   ],
   imports: [
     BrowserModule,
