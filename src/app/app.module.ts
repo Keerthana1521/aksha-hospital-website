@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 // import { PrimeNGConfig } from 'primeng/api';
-import { Accordion, AccordionModule } from 'primeng/accordion';
+// import { Accordion, AccordionModule } from 'primeng/accordion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,7 +31,6 @@ import { AccordionComponent } from './accordion/accordion.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AccordionModule,
     
   ],
   providers: [],
