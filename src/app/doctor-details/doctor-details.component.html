@@ -1,0 +1,24 @@
+<div class="doctor-profile-container" *ngIf="doctor">
+    <div class="profile-header">
+      <div class="doctor-image">
+        <img [src]="doctor.image" alt="{{doctor.name}}">
+      </div>
+      <div class="doctor-details">
+        <h1 class="doctor-name"><img class="icon"  [src]="doctor.icon">{{doctor.name}}<span>{{doctor.qualification}}</span></h1>
+        <h2 class="doctor-title">{{doctor.designation}}</h2>
+        <p class="experience">Years of Experience : <strong>{{doctor.experience}}+</strong></p>
+        <div class="expertise">
+          <h3><img  class="icon" src="../../assets/drug.svg">Areas Of Expertise:</h3>
+          <ul class="expertise-list">
+            <li *ngFor="let item of doctor.expertise">{{item}}</li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <div class="about-doctor">
+      <h3><img class="icon"  src="../../assets/pad.svg">About Doctor</h3>
+      <p>{{doctor.about}}</p>
+    </div>
+  </div>
+  

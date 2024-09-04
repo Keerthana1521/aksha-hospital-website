@@ -1,0 +1,81 @@
+<!-- <div class="profile">
+    <div class="profile-image">
+        <img class="doctor" [src]= "image">
+    </div>
+    <div class="profile-info">
+        <div class="dr-bhoopal-ts">{{name}}</div>
+        <div> {{qualification}}</div>
+        <div>{{desgination}}</div>
+    </div>
+</div>
+<div class="profile-details">
+<div class="rectangle-div">
+About Doctor
+</div>
+<div class="about">
+    {{about}}
+</div>
+<div class="button">
+<div class="view-profile-parent">
+    <b class="view-profile">View Profile</b>
+    </div>
+</div>
+</div> -->
+<!-- 
+<div class="container">
+    <div class="profile">
+      <div class="profile-image">
+        <img class="doctor" [src]= "image" alt="{{name}}">
+      </div>
+      <div class="profile-info">
+        <div class="dr-bhoopal-ts">{{name}}</div>
+        <div>{{qualification}}</div>
+        <div>{{desgination}}</div>
+      </div>
+    </div>
+    <div class="profile-details" >
+        <div class="close-button" (click)="closeProfileDetails()">&#10005;</div>
+      <div class="rectangle-div">
+        About Doctor
+      </div>
+      <div class="about">
+        {{about}}
+      </div>
+      <div class="button">
+        <div class="view-profile-parent">
+          <b class="view-profile">View Profile</b>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="container" (mouseenter)="openProfileDetails()" ((mouseenter))="closeProfileDetails()">
+    <div class="profile">
+      <div class="profile-image">
+        <img class="doctor" [src]="image" alt="{{name}}">
+      </div>
+      <div class="profile-info">
+        <div class="dr-bhoopal-ts">{{name}}</div>
+        <div>{{qualification}}</div>
+        <div>{{desgination}}</div>
+      </div>
+    </div>
+    <div class="profile-details" *ngIf="showProfileDetails">
+      <div class="close-button" (click)="closeProfileDetails()">&#10005;</div>
+      <div class="rectangle-div">
+        About Doctor
+      </div>
+      <div class="about">
+        {{about}}
+      </div>
+      <div class="button">
+        <div class="view-profile-parent">
+            <a [routerLink]="['/doctor', slug]">
+                <b class="view-profile">View Profile</b>
+              </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
