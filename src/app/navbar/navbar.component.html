@@ -45,7 +45,7 @@
     </div>
     <div class="nav-container" [ngClass]="{'open': isMenuOpen}">
         <ul class="nav-list">
-            <li><a routerLink="/" routerLinkActive="active-link"(click)="closeMenu()">Home</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a></li>
             <li><a routerLink="/about-us" routerLinkActive="active-link"(click)="closeMenu()">About Us</a></li>
             <li><a routerLink="/doctors" routerLinkActive="active-link"(click)="closeMenu()">Doctors</a></li>
             <li><a routerLink="/specialties" routerLinkActive="active-link"(click)="closeMenu()">Specialties</a></li>
