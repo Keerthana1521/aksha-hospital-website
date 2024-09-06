@@ -72,7 +72,7 @@
 
 /* container 2 */
 
-.doctors_container{
+/* .doctors_container{
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -135,7 +135,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+} */
 
 @media (max-width : 1200px){
     .speciality_img img{

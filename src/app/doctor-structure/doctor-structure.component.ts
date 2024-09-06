@@ -11,6 +11,7 @@ export class DoctorStructureComponent {
   @Input() desgination:any;
   @Input() qualification:any;
   @Input() about:any;
+  @Input() description:any;
   @Input() slug:any;
   @Input() expertise:any = [];
   @Input() icon:any;

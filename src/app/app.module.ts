@@ -29,6 +29,9 @@ import { CardiologyComponent } from './cardiology/cardiology.component';
 import { ENTComponent } from './ent/ent.component';
 import { OncologyComponent } from './oncology/oncology.component';
 import { NeurologyComponent } from './neurology/neurology.component';
+import { ObstetricsComponent } from './obstetrics/obstetrics.component';
+import { SurgeryComponent } from './surgery/surgery.component';
+import { PediatricianComponent } from './pediatrician/pediatrician.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +59,10 @@ import { NeurologyComponent } from './neurology/neurology.component';
     CardiologyComponent,
     ENTComponent,
     OncologyComponent,
-    NeurologyComponent
+    NeurologyComponent,
+    ObstetricsComponent,
+    SurgeryComponent,
+    PediatricianComponent
   ],
   imports: [
     BrowserModule,
