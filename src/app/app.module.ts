@@ -14,6 +14,7 @@ import { DoctorComponent } from './doctor/doctor.component';
 import { DoctorDetailsComponent } from './doctor-details/doctor-details.component';
 import { ServicesComponent } from './services/services.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AccordionComponent } from './accordion/accordion.component';
     ServicesComponent,
     DoctorComponent,
     DoctorDetailsComponent,
-    DoctorStructureComponent
+    DoctorStructureComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
