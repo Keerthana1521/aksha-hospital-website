@@ -1,20 +1,35 @@
 <div class="carousel-container" [style.backgroundImage]="'url(' + carouselItems[currentIndex].bgImage + ')'">
+  <!-- Left Side: Content -->
   <div class="carousel-content">
-    <div class="text-content">
-      <h1>{{ carouselItems[currentIndex].heading }}</h1>
+    <div class="caro-text-content">
+      <h1 [ngClass]="{
+        'slide-up': animateOutgoing,
+        'slide-down': animateIncoming
+      }">{{ carouselItems[currentIndex].heading }}</h1>
       <p>{{ carouselItems[currentIndex].text }}</p>
       <button class="explore-btn">Explore Now</button>
     </div>
-    <div class="carousel-images">
-      <img [src]="carouselItems[currentIndex].image" alt="Carousel Image" class="carousel-image" />
-    </div>
-  </div>
-  <div class="carousel-controls">
-    <!-- <span class="prev" (click)="prevSlide()">&#9664;</span>
-    <span class="next" (click)="nextSlide()">&#9654;</span> -->
   </div>
 
-  <!-- Pagination dots -->
+  <!-- Right Side: Images -->
+  <div class="caro-image-container">
+    <!-- Active Big Image -->
+    <img 
+    [src]="carouselItems[currentIndex].image" 
+    alt="Active Image" 
+    class="active-image" 
+    [ngClass]="{ 'slide-left': animateImageOut, 'slide-in': animateImageIn }"
+  />
+  <!-- Small Upcoming Image -->
+  <img 
+    [src]="carouselItems[currentIndex].nextImage" 
+    alt="Next Image" 
+    class="next-image" 
+    [ngClass]="{ 'slide-right': animateImageIn }"
+  />
+  </div>
+
+  <!-- Pagination Dots -->
   <div class="carousel-pagination">
     <span
       *ngFor="let item of carouselItems; let i = index"
@@ -23,6 +38,7 @@
     ></span>
   </div>
 </div>
+
 
 
 <div class="facilities-container">
@@ -89,6 +105,53 @@
     <img class="right-image" src="../../assets/about.png">
 
   </div>
+</div>
+
+
+<div class="doctor-container">
+  <h1 class="doc-con-heading">Meet Our Professionals</h1>
+  <p class="doc-con-subheading">
+    We offer extensive medical procedures to outbound and inbound patients, and we are very proud of the achievements of our staff. We are all working together to help our patients for recovery.
+  </p>
+  <div class="main-content">
+    <!-- Left Scrollable List for Departments -->
+    <div class="department-container">
+      <div class="department-list">
+        <div class="department-item" 
+          *ngFor="let department of docDepartments" 
+          (click)="selectDepartment(department)"
+          [class.selected]="department.selected">
+          <p>{{ department.name }}</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Right Profile Section for Doctors -->
+    <div class="doctor-profile" *ngFor="let doctor of filteredDoctors">
+      <div class="doctor-image-wrapper">
+        <img [src]="doctor.image" [alt]="doctor.name" class="doctor-image"/>
+      </div>
+  
+      <div class="doctor-card">
+        <h2 class="doctor-name">
+          {{ doctor.name }} <span class="doctor-title">{{ doctor.qualification }}</span>
+        </h2>
+        
+        <!-- Specialization and Experience -->
+        <p class="specialization">{{ doctor.designation }}</p>
+        <p class="experience">Years of Experience: <strong>{{ doctor.experience }}+</strong></p>
+  
+        <!-- Description -->
+        <p class="doctor-description">
+          {{ doctor.about }}
+        </p>
+  
+        <!-- Button -->
+        <button class="see-more-btn">See More &raquo;</button>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
 <div class="departments-section">
