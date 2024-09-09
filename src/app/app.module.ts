@@ -32,6 +32,7 @@ import { NeurologyComponent } from './neurology/neurology.component';
 import { ObstetricsComponent } from './obstetrics/obstetrics.component';
 import { SurgeryComponent } from './surgery/surgery.component';
 import { PediatricianComponent } from './pediatrician/pediatrician.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { PediatricianComponent } from './pediatrician/pediatrician.component';
     NeurologyComponent,
     ObstetricsComponent,
     SurgeryComponent,
-    PediatricianComponent
+    PediatricianComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

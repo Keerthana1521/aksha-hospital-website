@@ -5,9 +5,10 @@ import { DoctorDetailsComponent } from './doctor-details/doctor-details.componen
 import { AboutComponent } from './about/about.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ServicesComponent } from './services/services.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AboutComponent },
+  { path: '', component: HomeComponent },
   {path:'about-us', component:AboutComponent},
   {path:'contact-us', component:ContactFormComponent},
   {path:'services', component:ServicesComponent},

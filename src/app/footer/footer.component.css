@@ -2,7 +2,7 @@
     background: linear-gradient(135deg, #0F96B4 0%, #332876 100%);
     color: white;
     font-family: 'Poppins', sans-serif;
-    height: 85vh;
+    height: 95vh;
   }
   
   .footer-content {
@@ -139,7 +139,7 @@ text-align: center;
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 16px;
     height: 58px;
     background-color: #e0619e;
@@ -182,11 +182,11 @@ text-align: center;
       margin-left: 2rem;
     }
     .footer-container{
-        height: 149vh;
+        height: 146vh;
     }
     .address-info{
         position: relative;
-        bottom: 467px;
+        bottom: 385px;
         margin-left: 5rem;
         left: 471px;
         width: 42%;
@@ -204,7 +204,7 @@ text-align: center;
     align-items: center;
     }
     .footer-bottom{
-        bottom: 212px;
+      bottom: 184px;
     }
     .insta{
         position: relative;
@@ -221,7 +221,7 @@ text-align: center;
         gap: 20px;
     }
     .footer-container{
-        height: 159vh;
+        height: 141vh;
     }
 
     .footer-section {
@@ -229,7 +229,7 @@ text-align: center;
     }
     .address-info{
         left: 360px;
-        bottom: 472px;
+        bottom: 380px;
         width: 29%;
 
     }
@@ -247,6 +247,9 @@ text-align: center;
         margin: 0 auto 20px;
         display: block;
     }
+    .footer-bottom p{
+      top: 0;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -257,7 +260,7 @@ text-align: center;
     }
     .address-info{
         left: 139px;
-        bottom: 340px;
+        bottom: 261px;
     }
     .address-info p{
         width: 200px;
@@ -266,7 +269,7 @@ text-align: center;
         margin-left: 47px;
     }
     .footer-container{
-        height: 129vh;
+        height: 117vh;
     }
 
     .footer-section {
@@ -341,7 +344,7 @@ text-align: center;
 
     .social-links {
         margin: 0 auto;
-        bottom: 10px;
+        bottom: -7px;
         left: 24px;
         width: 52%;
     }
@@ -377,10 +380,10 @@ text-align: center;
 }
 @media only screen and (max-width:380px){
     .footer-container{
-        height: 124vh;
+        height: 120vh;
     }
     .address-info{
-        bottom: 318px;
+        bottom: 248px;
         margin-left: 4rem;
     }
     .address-info p{
@@ -406,7 +409,7 @@ text-align: center;
 }
 @media only screen and (max-width:360px){
     .address-info{
-        bottom: 316px;
+        bottom: 263px;
         margin-left: 3rem;
     }
 }
@@ -415,7 +418,7 @@ text-align: center;
         width: 124px;
     }
     .address-info{
-        bottom: 298px;
+        bottom: 249px;
         margin-left: 3rem;
     }
     .links{
@@ -429,7 +432,7 @@ text-align: center;
     }
     .footer-bottom{
         font-size: 13px;
-        bottom: 236px;
+        bottom: 198px;
     }
 
 }
