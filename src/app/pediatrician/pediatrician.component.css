@@ -1,0 +1,425 @@
+.root_container{
+    background: #F0F8FF;
+}
+
+.container_1{
+    background-image: url('../../assets/specialiti/pediatric_bg.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.container_1_content{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(15, 150, 180, 0.50) 0%, rgba(50, 40, 117, 0.50) 100%);
+    gap: 70px;
+    border-radius: 20px;
+    padding: 3%;
+}
+
+.Obstetrics_heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.content_1_heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.content_1_para{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.content_2_para{
+    margin-top: 20px;
+}
+
+.content_1_image img{
+    width: 324px;
+    height: auto;
+}
+
+/* container 2 */
+
+.container_2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 4% 8%;
+}
+
+.container_2_heading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.container_2_para{
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+
+.container_2_image img{
+    width: 494px;
+    height: auto;
+}
+
+/* container 3 */
+
+.container_3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 8%;
+}
+
+.container_3_content{
+    display: flex;
+    gap: 0; 
+}
+
+.con_3_con_text{
+    border-radius: 0px 50px 0px 0px;
+    background: #0F96B4;
+    height: 70%;
+    padding: 3%;
+}
+
+.container_3_heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container_3_para{
+    color: #FFF;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 162.5% */
+    margin-top: 20px;
+}
+
+.container_3_content img{
+    width: 380px;
+    height: 520px;
+}
+
+.container_3_img img{
+    width: 425px;
+    height: 356px;
+}
+
+/* container_4_ */
+
+.container_4{
+    background-image: url(../../assets/specialiti/pediatric_container_4_bg.png);
+    background-size: cover;
+    padding: 10%;
+    background-attachment: fixed;
+}
+
+.box_1{
+    margin-top: 40px;
+}
+
+.container_4_heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box_1_para{
+    color: #FFF;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 162.5% */
+}
+
+.box_2_para{
+    margin-top: 20px;
+}
+
+.box_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box_1_img img{
+    width: 540px;
+    height: auto;
+}
+
+@media (max-width : 1200px){
+
+    /* container 1 */
+
+    .container_1{
+        padding: 2%;
+    }
+
+    .Obstetrics_heading{
+        font-size: 24px;
+    }
+
+    .content_1_heading, .container_2_heading, .container_3_heading, .container_5_heading, .container_4_heading{
+        font-size: 18px
+    }
+
+    .content_1_para, .container_2_para, .container_3_para, .box_1_para, .container_5_para{
+        font-size: 14px
+    }
+
+    .content_1_image img{
+        width: 200px;
+        height: auto;
+    }
+
+    /* container 2 */
+
+    .container_2_image img{
+        width: 350px;
+        height: auto;
+    }
+
+    /* container 3 */
+
+    .container_3{
+        flex-direction: column;
+    }
+
+    
+    .content_img img{
+        width: 200px;
+        height: auto;
+    }
+
+    .container_3_heading{
+        font-size: 18px;
+    }
+
+    .container_3_para{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .container_3_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_3_img img{
+        width: 350px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* container 4 */
+
+    .box_1_img img{
+        width: 400px;
+        height: auto;
+    }
+
+    /* container 5 */
+
+    .container_5_image img{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width : 800px){
+
+    /* container 1 */
+
+    .container_1{
+        background-image: url(../../assets/specialiti/pediatric_tab_bg.png);
+        background-size: cover;
+    }
+
+    .content_1_image{
+        display: none;
+    }
+
+    .Obstetrics_heading{
+        font-size: 24px;
+    }
+
+    .content_1_heading{
+        font-size: 18px;
+    }
+
+    .content_1_para{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* container_2 */
+
+    .container_2{
+        flex-direction: column;
+    }
+
+    .container_2_heading{
+        font-size: 18px;
+    }
+
+    .container_2_para{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .container_2_image img{
+        width: 490px;
+        height: auto;
+    }
+
+    /* container 3 */
+
+    .container_3{
+        flex-direction: column;
+    }
+
+    .content_img img{
+        width: 127px;
+        height: auto;
+    }
+
+    .container_3_heading{
+        font-size: 18px
+    }
+
+    .container_3_para{
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 10px;
+    }
+
+    .container_3_img img{
+        width: 290px;
+        height: auto;
+    }
+
+    /* container 4 */
+
+    .container_4_heading{
+        font-size: 16px;
+    }
+
+    .box_1{
+        flex-direction: column;
+    }
+
+    .box_1_para{
+        font-size: 14px;
+    }
+    
+    .box_1_img img{
+        width: 290px;
+        height: auto;
+    }
+
+    .box_2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* container 5 */
+
+    .container_5{
+        flex-direction: column;
+    }
+
+    .container_5_heading{
+        font-size: 18px;
+    }
+
+    .container_5_para{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .container_5_image img{
+        width: 290px;
+        height: auto;
+    }
+}
+
+@media (max-width : 480px){
+
+    .container_1{
+        background-image: url('../../assets/specialiti/pediatric_mobile_bg.png');
+    }
+
+    .Obstetrics_heading{
+        font-size: 18px
+    }
+
+    .content_1_heading, .container_2_heading, .container_3_heading, .container_4_heading, .container_5_heading{
+        font-size: 16px;
+    }
+
+    .content_1_para, .container_2_para, .container_3_para, .box_1_para, .container_5_para{
+        font-size: 12px
+    }
+
+    .content_img img{
+        width: 127px;
+        height: auto;
+    }
+
+    .container_2_image img{
+        width: 290px;
+        height: auto;
+    }
+}

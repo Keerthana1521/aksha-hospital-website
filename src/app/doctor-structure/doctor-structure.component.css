@@ -177,10 +177,36 @@
   .close-button:hover {
     background-color: #e0e0e0;
   }
+
+  .description{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 2% 5% 2%;
+  }
+
+  .team_heading{
+    color: #222;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
   
   @media only screen and (max-width:480px){
     .close-button{
         display: block;
+    }
+
+    .team_heading{
+      font-size: 24px;
     }
   }
   

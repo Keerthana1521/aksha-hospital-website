@@ -1,0 +1,250 @@
+.root_container{
+    background: #F0F8FF;
+}
+
+.container_1{
+    overflow: hidden;
+}
+
+.container_1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.speciality_contents{
+    margin-top: 100px;
+    padding: 10%;
+}
+
+.speciality_img img{
+    width: 900px;
+    height: auto;
+    position: relative;
+    right: 30px;
+    bottom: 100px;
+}
+
+.speciality_heading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.para{
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+    margin-top: 20px;
+}
+
+.services_offer, .list_item{
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+}
+
+.services_heading{
+    color: #000;
+    text-align: justify;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 130% */
+    margin-top: 20px
+}
+
+.speciality_lists{
+    margin-top: 20px;
+}
+
+/* container 2 */
+
+/* .doctors_container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 5% 0;
+}
+
+.team_heading{
+    color: #222;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.doc_1{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding-bottom: 2%;
+}
+
+.doc_1 img{
+    width: 300px;
+    height: 420px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.doc_name{
+    color: #332876;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.qualification{
+    color: #332876;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.department{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+
+@media (max-width : 1200px){
+    .speciality_img img{
+        width: 700px;
+        height: auto;
+    }
+
+    .speciality_heading{
+        font-size: 30px;
+    }
+
+    .services_heading{
+        font-size: 18px;
+    }
+
+    .para,.services_offer, .list_item{
+        font-size: 14px;
+    }
+
+    /* container 2 */
+
+    .doc_1{
+        width: 250px;
+        height: auto;
+    }    
+
+    .doc_1 img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width : 800px){
+    .container_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speciality_contents{
+        margin-top: 100px;
+        margin-left: 0;
+        padding: 10%;
+    }
+
+    .speciality_img img{
+        width: 900px;
+        height: auto;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 100px;
+    }
+}
+
+@media (max-width : 480px){
+    .container_1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speciality_contents{
+        margin-top: 100px;
+        margin-left: 0;
+        padding: 10%;
+    }
+
+    .speciality_img img{
+        width: 550px;
+        height: auto;
+        left: 80px;
+    }
+
+    .speciality_heading{
+        font-size: 24px;
+    }
+
+    .services_heading{
+        font-size: 14px;
+    }
+
+    .para,.services_offer, .list_item{
+        font-size: 12px;
+    }
+
+    .team_heading{
+        font-size: 24px;
+    }
+
+    .doctors_container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .doc_1{
+        width: 230px;
+        height: auto;
+    }    
+
+    .doc_1 img{
+        width: 230px;
+        height: auto;
+    }
+}
+
+@media (max-width : 350px){
+    .speciality_img img{
+        width: 450px;
+        height: auto;
+        left: 30px;
+    }
+}
