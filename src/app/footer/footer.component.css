@@ -9,7 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1412px;
     margin: 3rem;
     margin-top: 0;
     padding-top: 4rem;
@@ -108,7 +108,7 @@ text-align: center;
   
   .social-links {
     position: relative;
-    bottom: 37px;
+    bottom: 97px;
     margin-left: 5rem;
     height: 100px;
   }
@@ -117,8 +117,8 @@ text-align: center;
     position: relative;
     bottom: 296px;
     margin-left: 5rem;
-    left: 923px;
-    width: 26%;
+    left: 1081px;
+    width: 16%;
   }
   .address-info p{
     width: 250px;
@@ -137,7 +137,7 @@ text-align: center;
   
   .footer-bottom {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 9px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 40px;
     font-size: 16px;
@@ -145,6 +145,7 @@ text-align: center;
     background-color: #e0619e;
     position: relative;
     bottom: 225px;
+    font-weight: 500;
   }
   
   .footer-bottom a {
