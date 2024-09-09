@@ -5,6 +5,7 @@
     background-color: #f0f4f8;
     top: -85px;
     position: relative;
+    width: 100%;
     
   }
   
@@ -13,6 +14,7 @@
     padding: 40px;
     padding-left: 6rem;
     margin-top: 190px;
+    width: 50%;
   }
   
   .contact-left h2 {
@@ -49,7 +51,7 @@
   .contact-info p {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 16px;
   }
   
@@ -59,17 +61,18 @@
   }
   
   .social-icons a img {
-    width: 30px;
+    width: 20px;
     margin-right: 15px;
   }
   
   .contact-right {
-    flex: 0.5;
+    flex: 1;
     background: linear-gradient(135deg, #0F96B4 0%, #332876 100%);
     padding: 40px;
     border-radius: 8px;
     color: white;
     margin-top: 180px;
+    width: 50%;
   }
   
   .contact-right h2 {

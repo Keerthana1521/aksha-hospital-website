@@ -7,7 +7,7 @@
         'slide-down': animateIncoming
       }">{{ carouselItems[currentIndex].heading }}</h1>
       <p>{{ carouselItems[currentIndex].text }}</p>
-      <button class="explore-btn">Explore Now</button>
+      <button class="explore-btn"[ngStyle]="{'background-color': carouselItems[currentIndex].buttonColor}" >Explore Now</button>
     </div>
   </div>
 
@@ -18,14 +18,15 @@
     [src]="carouselItems[currentIndex].image" 
     alt="Active Image" 
     class="active-image" 
-    [ngClass]="{ 'slide-left': animateImageOut, 'slide-in': animateImageIn }"
+    [ngClass]="{'slide-left': animateImageOut  }"
   />
   <!-- Small Upcoming Image -->
   <img 
     [src]="carouselItems[currentIndex].nextImage" 
     alt="Next Image" 
     class="next-image" 
-    [ngClass]="{ 'slide-right': animateImageIn }"
+    [ngClass]="{ 'slide-in-right': animateImageIn}"
+    (click)="nextSlide()"
   />
   </div>
 
@@ -34,7 +35,7 @@
     <span
       *ngFor="let item of carouselItems; let i = index"
       [class.active]="i === currentIndex"
-      (click)="currentIndex = i"
+      (click)="goToSlide(i)"
     ></span>
   </div>
 </div>
@@ -210,7 +211,7 @@
   </div>
   <div class="number-2">
     <div class="text-2">
-      <div class="num-text-container"><strong>Quality care</strong> made accessible to all.</div>
+      <div class="num-text-container-1"><strong>Quality care</strong> made accessible to all.</div>
     </div>
     <div class="numbers">
       <div class="parent" *ngFor="let item of numbers.slice(3); let i = index">
@@ -238,8 +239,7 @@
               <h3>Quality Control</h3>
             </div>
             <p class="description">
-              The hospital does not compromise on the quality of care it provides to the patients. To ensure that
-              quality is maintained, the hospital conducts audits to monitor quality control.
+              The hospital does not compromise on the quality of care it provides to the patients. To ensure that quality is maintained, the hospital conducts audits to monitor quality control.
             </p>
           </div>
         </div>
@@ -251,8 +251,7 @@
               <h3>Technology</h3>
             </div>
             <p class="description">
-              The hospital has state-of-the-art technology in every department dedicated to treatment, research, and
-              medical innovation.
+              The hospital has state-of-the-art technology in every department dedicated to the treatment, research and medical innovation. This technology is handled by expert technicians who have received the best training. The technology plays a role in providing efficient treatment.
             </p>
           </div>
         </div>
@@ -264,8 +263,7 @@
               <h3>Personalised Treatment Regimen</h3>
             </div>
             <p class="description">
-              Our experts provide a comprehensive approach in diagnosing and treating adults with diabetes and other
-              endocrine disorders.
+              At the Aksha Hospital center, our experts provide a comprehensive approach in diagnosing and treating adults with diabetes and other endocrine disorders. We also believe in educating people to guide those who have diabetes to have a better quality of life.
             </p>
           </div>
         </div>
@@ -287,8 +285,7 @@
               <h3>Round-the-Clock Treatment</h3>
             </div>
             <p class="description">
-              The hospital has a high number of specialists, well-trained physicians, and staff on a rotational
-              schedule, ensuring 24/7 care.
+              The hospital has a high number of specialists, well-trained physicians and other staff who are kept on a rotational schedule, ensuring that patients receive care 24×7.
             </p>
           </div>
         </div>
@@ -301,7 +298,7 @@
               <h3>Compassionate Care</h3>
             </div>
             <p class="description">
-              The hospital is dedicated to every patient’s individual care, catering to their specific needs.
+              Physicians, nurses and other staff treat the patients by providing them with proper individualised care. They are dedicated to catering to every need of their patients. They hope to make the recovery process easier for the patient.
             </p>
           </div>
         </div>
@@ -313,12 +310,12 @@
               <h3>A Super Speciality Center</h3>
             </div>
             <p class="description">
-              We provide advanced treatment for various disorders and offer the best dental services in town.
+              Being a super speciality centre, we encounter different disorders and diseases, and we are committed to the care of each illness equally. We also offer the best dental services in the town.
             </p>
           </div>
         </div>
       </div>
-      <div class="image-container">
+      <div class="image-container-2">
         <img class="left-image-1" src="../../assets/choose-2.png">
       </div>
     </div>

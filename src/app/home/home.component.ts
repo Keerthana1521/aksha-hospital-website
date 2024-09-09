@@ -25,9 +25,18 @@ export class HomeComponent implements OnInit, OnDestroy {
     { name: 'Pediatrician', selected: false },
     { name: 'Endocrine Surgeries', selected: false },
     { name: 'Vascular Surgeries', selected: false },
-    { name: 'Cardiology', selected: false },
+    { name: 'Orthopedic', selected: false },
     { name: 'General Physician', selected: false },
-    { name: 'High-Risk Pregnancy Care', selected: false },
+    { name: 'Dermatology', selected: false },
+    { name: 'Urology', selected: false },
+    { name: 'Radiology', selected: false },
+    { name: 'Nephrology', selected: false },
+    { name: 'Physiotherapy', selected: false },
+    { name: 'Anesthesia', selected: false },
+    { name: 'Cardiology', selected: false },
+    { name: 'ENT', selected: false },
+    { name: 'Oncology and Onco Surgery', selected: false },
+    { name: 'Neurology', selected: false },
   ];
 
   // Method to select a department
@@ -56,9 +65,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: " MBBS, MD",
       designation: 'Managing Director',
       experience: '13',
-      image: '../../assets/doctor-1.png',
+      image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology...',
+      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
@@ -69,9 +78,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       department: "Obstetrics & Gynecologists",
       qualification: "MBBS, DGO",
       designation: 'Obstertrics & Gynaecologist',
-      experience: '13', image: '../../assets/doctor-2.png',
+      experience: '13', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural child birth even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders, Dr Smitha\'s approach lies in understanding the anxieties that surround fertility, being pregnant, and final delivery. She believes in ethical practice and empowering women to achieve healthier lives.',
       expertise: [
         
       ]
@@ -83,9 +92,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS, FSGE", 
       designation: 'Medical Director of Aksha Hospital', 
       experience: '20', 
-      image: '../../assets/doctor-3.png', 
+      image: '../../assets/scroll-doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases focusing on the entire digestive system which includes the esophagus, stomach, intestines, colon, pancreas, gall bladder, bile ducts, and liver. Also, he has extensive experience in the diagnosis and treatment of Acidity, Inflammatory Bowel Disease, and IBS Treatment. He is compassionate toward his patients and always believes in a patient-first approach.'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
@@ -102,9 +111,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
       designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
       experience: '16', 
-      image: '../../assets/doctor-4.png', 
+      image: '../../assets/scroll-doctor-4.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment...', 
+      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment to patient safety, confidentiality, and a conservative approach while dealing with complex issues. As a full-time Senior Consultant, she holds 13+ years of expertise and more than 3500+ deliveries, handled High-risk cases & managed at the ICU level. Her relentless dedication and commitment to Obstetrics and Gynaecology has helped thousands of women live a better and healthier life.', 
       expertise: [
         'Vaginal Delivery',
         'High Risk Pregnancy',
@@ -123,9 +132,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, DNB Family Medicine", 
       designation: 'Consultant – Family Physician', 
       experience: '10', 
-      image: '../../assets/doctor-5.png', 
+      image: '../../assets/scroll-doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone Echo-Based Training in Dementia Care for general practitioners by NIMHANS.Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients. ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -140,9 +149,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, DNB(Internal Medicine)", 
       designation: 'Consultant- Internal Medicine', 
       experience: '10', 
-      image: '../../assets/doctor-6.png', 
+      image: '../../assets/scroll-doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -153,9 +162,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS (ORTHOPAEDICS)", 
       experience: '15', 
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
-      image: '../../assets/doctor-7.png', 
+      image: '../../assets/scroll-doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast...', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast experience in Orthopedics (Knee & Shoulder), Knee Arthroscopy, Shoulder Arthroscopy, Frozen Shoulder, Sports Injuries, Shoulder Replacement, Shoulder Trauma, and Platelet-rich-plasma injections.', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -173,9 +182,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MD General Medicine", 
       designation: 'Consultant- Cardiologist', 
       experience: '8', 
-      image: '../../assets/doctor-8.png', 
+      image: '../../assets/scroll-doctor-8.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -186,9 +195,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
       designation: 'Consultant- Pediatrics & Neonatology', 
       experience: '10', 
-      image: '../../assets/doctor-9.png', 
+      image: '../../assets/scroll-doctor-9.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
        
       ]
@@ -199,9 +208,9 @@ export class HomeComponent implements OnInit, OnDestroy {
        qualification: "MBBS, MD Pediatrics", 
        designation: 'Consultant- Pediatrician',
         experience: '8', 
-        image: '../../assets/doctor-10.png', 
+        image: '../../assets/scroll-doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology...', 
+        about: '', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -225,9 +234,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "", 
       designation: '', 
       experience: '', 
-      image: '../../assets/doctor-11.png', 
+      image: '../../assets/scroll-doctor-11.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: '',
       expertise: [
         
       ]
@@ -238,7 +247,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS ENT", 
       designation: 'Consultant - ENT', 
       experience: '9', 
-      image: '../../assets/doctor-12.png',
+      image: '../../assets/scroll-doctor-12.png',
       icon:'../../assets/male.svg', 
       about: 'Dr. Sridutt Shekar is dedicated to providing top-notch care for patients with ear, nose, and throat conditions. His expertise spans a wide range of ENT procedures and treatments, ensuring comprehensive and effective care for his patients.', 
       expertise: [
@@ -257,9 +266,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MD - Psychiatry", 
       designation: 'Consultant- Psychiatrist', 
       experience: '20', 
-      image: '../../assets/doctor-13.png', 
+      image: '../../assets/scroll-doctor-13.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and...', 
+      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions', 
       expertise: [
         'Adult psychiatry',
         'Women mental health',
@@ -274,9 +283,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, FRCP, MRCP", 
       designation: 'Consultant - Endocrinologist', 
       experience: '23', 
-      image: '../../assets/doctor-14.png',
+      image: '../../assets/scroll-doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training...', 
+      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada.Dr. Santosh HS is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes. ', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -300,7 +309,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - ENT', 
       experience: '7', 
-      image: '../../assets/doctor-15.png',
+      image: '../../assets/scroll-doctor-15.png',
       icon:'../../assets/female.svg', 
       about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
       expertise: [
@@ -323,7 +332,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     { number: 0, target: 400, statement: 'High-Risk Pregnancy Treatment', showPlus: true },
     { number: 0, target: 7000, statement: 'Happy Patients', showPlus: true },
     { number: 0, target: 500, statement: 'Laparoscopic Surgeries', showPlus: true },
-    { number: 0, target: 200, statement: 'IVF Treatment', showPlus: true }
+    { number: 0, target: 50, statement: 'Medical Beds', showPlus: true }
   ];
   carouselItems = [
     {
@@ -331,21 +340,24 @@ export class HomeComponent implements OnInit, OnDestroy {
       text: 'Aksha Hospital is committed to delivering exceptional healthcare with a focus on compassionate, patient-centered care. Our facility is equipped with the latest medical technology and staffed by highly skilled professionals. We provide a comprehensive range of services, ensuring quality treatment and a supportive environment for all our patients.      ',
       image: '../../assets/caro-1.png', // Replace with actual image path
       bgImage: '../../assets/caro-bg-1.png', // Replace with background image path
-      nextImage:'../../assets/caro-2.png',
+      nextImage:'../../assets/caro-sm-2.png',
+      buttonColor:'#9B9F9B'
     },
     {
       heading: 'NICU',
       text: 'Our Neonatal Intensive Care Unit (NICU) at Aksha Hospital provides specialized care for premature and critically ill newborns. Equipped with cutting-edge technology and a dedicated team of experts, we focus on the delicate needs of newborns to ensure the best possible outcomes. Compassionate care and advanced treatment are at the heart of our NICU services.',
       image: '../../assets/caro-2.png',
       bgImage: '../../assets/caro-bg-2.png',
-      nextImage:'../../assets/caro-3.png',
+      nextImage:'../../assets/caro-sm-3.png',
+      buttonColor:'#7E729F'
     },
     {
       heading: 'ICU',
       text: 'Our Intensive Care Unit (ICU) at Aksha Hospital offers critical care with advanced monitoring and life-support systems. Our expert team provides round-the-clock care for patients with severe and life-threatening conditions. We are dedicated to delivering personalized, high-quality care to support recovery and improve patient outcomes.',
       image: '../../assets/caro-3.png',
       bgImage: '../../assets/caro-bg-3.png',
-      nextImage:'../../assets/caro-4.png',
+      nextImage:'../../assets/caro-sm-4.png',
+      buttonColor:'#4E6C73'
    
     },
     {
@@ -353,7 +365,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       text: 'At Aksha Hospital, our state-of-the-art lab services offer accurate and timely diagnostic results. We utilize advanced technology and follow rigorous quality standards to ensure reliable outcomes. Our skilled team is dedicated to providing comprehensive tests and prompt reports. Trust us for precise diagnostics that support effective treatment plans.',
       image: '../../assets/caro-4.png',
       bgImage: '../../assets/caro-bg-4.png',
-      nextImage:'../../assets/caro-1.png',
+      nextImage:'../../assets/caro-sm-1.png',
+      buttonColor:'#557181'
     }
   ];
   cards = [
@@ -482,15 +495,13 @@ ngOnInit() {
     // this.currentDepartmentIndex = (this.currentDepartmentIndex + 1) % this.departments.length;
     // this.selectedDepartment = this.departments[this.currentDepartmentIndex];
     this.changeDepartment((this.currentDepartmentIndex + 1) % this.departments.length, true);
-  }, 2000); // 20 seconds interval
+  }, 4000); // 20 seconds interval
   const options = {
     root: null, // Use the viewport as the root
     threshold: 0.5 // Trigger when 50% of the section is visible
   };
    // Start the automatic carousel change every 2 seconds
-   this.autoCarouselChangeInterval = setInterval(() => {
-    this.nextSlide();
-  }, 2000); // 2 seconds
+
 
   const observer = new IntersectionObserver(this.startCounter.bind(this), options);
   observer.observe(this.counterSection.nativeElement);
@@ -519,7 +530,12 @@ nextSlide() {
     
   }, 500); // Timing should match the animation duration (0.5s here)
 }
-
+goToSlide(index: number) {
+  if (index !== this.currentIndex) {
+    this.currentIndex = index;
+    // Handle any animation logic if needed
+  }
+}
 // Function to go to the previous slide
 prevSlide() {
   this.currentIndex = (this.currentIndex - 1 + this.carouselItems.length) % this.carouselItems.length;
