@@ -743,6 +743,7 @@ font-size: 64px;
   color: #fff;
   font-family: "Open Sans";
   border: none;
+  cursor: pointer;
 }
 
 .caro-image-container {

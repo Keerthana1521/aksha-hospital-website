@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild,OnDestroy, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -44,6 +45,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   filterDoctorsByDepartment(department: any) {
     this.filteredDoctors = this.doctors.filter(doctor => doctor.department === department.name);
   }
+
 
   // Method to select a department
   selectDepartment(department: any) {
@@ -349,7 +351,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       image: '../../assets/caro-1.png', // Replace with actual image path
       bgImage: '../../assets/caro-bg-1.png', // Replace with background image path
       nextImage:'../../assets/caro-sm-2.png',
-      buttonColor:'#9B9F9B'
+      buttonColor:'#9B9F9B',
+      route: '/about-us' // Add a route property for each item
     },
     {
       heading: 'NICU',
@@ -357,7 +360,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       image: '../../assets/caro-2.png',
       bgImage: '../../assets/caro-bg-2.png',
       nextImage:'../../assets/caro-sm-3.png',
-      buttonColor:'#7E729F'
+      buttonColor:'#7E729F',
+      route: '/services' // Navigate to services page
     },
     {
       heading: 'ICU',
@@ -365,7 +369,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       image: '../../assets/caro-3.png',
       bgImage: '../../assets/caro-bg-3.png',
       nextImage:'../../assets/caro-sm-4.png',
-      buttonColor:'#4E6C73'
+      buttonColor:'#4E6C73',
+      route: '/services' // Navigate to services page
    
     },
     {
@@ -374,7 +379,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       image: '../../assets/caro-4.png',
       bgImage: '../../assets/caro-bg-4.png',
       nextImage:'../../assets/caro-sm-1.png',
-      buttonColor:'#557181'
+      buttonColor:'#557181',
+      route: '/services' // Navigate to services page
     }
   ];
   cards = [
@@ -415,6 +421,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
       image: 'assets/OG.png',
       icon: 'assets/dept-icon-1.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'High-Risk Pregnancy Care',
@@ -422,6 +429,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'High-risk pregnancies are pregnancies that have the chance of developing complications for both mother and child. People who are underweight or overweight, younger than 18 or older than 35, anemic, into their 5th pregnancy or more; have had previous preterm births, had given births to a large or small baby, had a previous pregnancy loss, history of genetic disease, substance abuse, previous cases of twins or triplets, taken infertility medications, or have medical conditions like high BP, heart disease, etc.',
       image: 'assets/dept-1.png',
       icon: 'assets/dept-icon-2.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'Female Infertility Treatment',
@@ -429,6 +437,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Infertility treatment helps couples who are unable to conceive with conception. There are various types of treatment methods based on the cause of infertility. In the case of women, infertility is treated by medications or fertility drugs in cases of hormonal imbalance or problems related to ovulation. Surgery in case the fallopian tubes are blocked or similar such situations Use of assistive reproductive technology (ART) to solve infertility problems.',
       image: 'assets/dept-2.png',
       icon: 'assets/dept-icon-3.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'Surgery + Gastrosurgery',
@@ -436,12 +445,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Gastroenterology is a specialty of medicine that focuses on the diseases affecting the digestive system. This includes the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts, and liver. Though many types of digestive problems can be treated with lifestyle changes and medicines, some of them might require a surgical intervention. Surgical gastroenterology is a part of gastroenterology that is related to treating gastric disorders that might require surgical intervention.',
       image: 'assets/dept-3.png',
       icon: 'assets/dept-icon-4.png',
+      route:'surgery'
     },
     {
       name: 'Vascular Surgeries',
       description:'Vascular surgery is a surgical subspeciality in which diseases of the vascular system, or arteries, veins, and lymphatic circulation, are managed by medical therapy, minimally invasive catheter procedures, and surgical reconstruction. Some of the vascular surgeries that our team performs include varicose vein Trendelenburg operation, diabetic foot care, and laser procedures',
       image: 'assets/dept-4.png',
       icon: 'assets/dept-icon-5.png',
+      route:'vascular-surgery'
     },
     {
       name: 'Endoscopic Procedures',
@@ -449,12 +460,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Endoscopic surgery is performed using a scope, a flexible tube with a camera, and light at the tip. This allows your surgeon to see inside the organ and perform procedures without making major incisions, allowing for easier recovery time and less pain and discomfort. Some procedures performed include: diagnostic procedures in gastroscopy and colonoscopy Therapeutic procedures like banding, sclerotherapy, balloon esophagus dilatation, stent placements, PEG tube insertions, and polypectomies. ERCP procedures are also done here.',
       image: 'assets/dept-5.png',
       icon: 'assets/dept-icon-6.png',
+      route:''
     },
     {
       name: 'Cardiology',
       description:'Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure, and valvular heart disease. Subspecialties of the cardiology field include cardiac electrophysiology, echocardiography, interventional cardiology, and nuclear cardiology.',
       image: 'assets/dept-6.png',
       icon: 'assets/dept-icon-7.png',
+      route:'cardiology'
     },
     {
       name: 'Paediatric & NICU',
@@ -462,6 +475,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. NICU refers to the Neonatal Intensive Care Unit. The birth of a baby is a wonderful and very complex process. Many physical and emotional changes occur for both mother and baby. A baby must make many physical adjustments to life outside the mother’s body. Leaving the uterus means that a baby can no longer depend on the mother’s blood supply and placenta for important body functions. We can manage preborn babies from 32 weeks.',
       image: 'assets/dept-7.png',
       icon: 'assets/dept-icon-8.png',
+      route:"pediatrics"
     },
     {
       name: 'General Physician',
@@ -469,11 +483,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'With healthcare now becoming a priority to most, even the smallest signs of sickness receive care. From an itchy throat to a mild cough or a spike in temperature, many rush to clinics to seek care from general physicians. Our general physicians are highly trained specialists who provide non-surgical health care to patients. They evaluate the medical condition of the patients by suggesting a few lab tests to finalize the diagnosis. They also perform health check-ups on a regular basis to evaluate the status of a disease or medical condition.',
       image: 'assets/dept-8.png',
       icon: 'assets/dept-icon-9.png',
+      route:''
     },
 
     // Add more departments as needed
   ];
-
+  viewMore(department: any) {
+    this.router.navigate([department.route]);
+  }
 
   currentDepartmentIndex = 0; // Track the current index for automatic change
   autoChangeInterval: any; // To store the interval reference
@@ -496,7 +513,17 @@ export class HomeComponent implements OnInit, OnDestroy {
     // }
     this.changeDepartment(index, false);
   }
-  constructor() {}
+  constructor(private router: Router) {}
+  navigateToPage() {
+    const currentRoute = this.carouselItems[this.currentIndex].route;
+    this.router.navigate([currentRoute]); // Navigate based on the route of the current item
+  }
+  about(){
+    this.router.navigate(['/about-us']);
+  }
+  navigateToDoctor(slug: string) {
+    this.router.navigate(['/doctor', slug]);
+  }
 ngOnInit() {
   this.selectDepartment(this.docDepartments[0]);
   this.autoChangeInterval = setInterval(() => {

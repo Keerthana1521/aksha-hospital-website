@@ -7,7 +7,7 @@
         'slide-down': animateIncoming
       }">{{ carouselItems[currentIndex].heading }}</h1>
       <p>{{ carouselItems[currentIndex].text }}</p>
-      <button class="explore-btn"[ngStyle]="{'background-color': carouselItems[currentIndex].buttonColor}" >Explore Now</button>
+      <button class="explore-btn"[ngStyle]="{'background-color': carouselItems[currentIndex].buttonColor}" (click)="navigateToPage()" >Explore Now</button>
     </div>
   </div>
 
@@ -96,7 +96,7 @@
       </div>
     </div>
     <div class="button">
-      <button class="about-us-btn">About Us &#xbb;</button>
+      <button class="about-us-btn" (click)="about()">About Us &#xbb;</button>
     </div>
     <!-- About Us Button -->
   </div>
@@ -149,7 +149,7 @@
     
           <!-- Button -->
           <div class="see-more">
-            <button class="see-more-btn">See More &raquo;</button>
+            <button class="see-more-btn"(click)="navigateToDoctor(doctor.slug)">See More &raquo;</button>
           </div>
           
         </div>
@@ -193,7 +193,7 @@
   
   </div>
   <div class="button">
-    <button class="view-more-btn">View More <img style="padding-left: 20px;width: 11px;height: 9px;" src="../../assets/arrow.png"></button>
+    <button class="view-more-btn"(click)="viewMore(selectedDepartment)">View More <img style="padding-left: 20px;width: 11px;height: 9px;" src="../../assets/arrow.png"></button>
   </div>
   
 </div>
