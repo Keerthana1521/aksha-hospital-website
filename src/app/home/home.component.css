@@ -1080,9 +1080,18 @@ color: #322875;
 /* Responsive styling */
 
 /* Responsive Design */
-@media screen and (max-width:1360px){
+@media screen and (max-width:1370px){
   .departments-section{
     padding-left: 6rem;
+  }
+  .text, .text-2{
+    font-size: 32px;
+  }
+  .number-container{
+    padding-left: 3rem;
+  }
+  .caro-text-content{
+    width: 545px;
   }
 }
 @media screen and (max-width: 1030px) {
