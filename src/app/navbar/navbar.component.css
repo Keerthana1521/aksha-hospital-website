@@ -114,7 +114,7 @@
     left: 69rem;
     top: 13vh;
     position: fixed;
-    z-index: 1;
+    z-index: 9;
     /* display: none; */
 }
 
@@ -198,7 +198,7 @@ margin-bottom: 24px;
 }
 
 .specialties-list li:hover {
-  color: #007bff;
+  color: #0f96b4;
 }
 .third-column {
   display: flex;
@@ -243,6 +243,7 @@ z-index: 1;
   .social-media-section{
 left: 60rem;
 top: 14vh;
+z-index: 1;
   }
 }
 
