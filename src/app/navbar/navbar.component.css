@@ -79,7 +79,10 @@
   cursor: pointer;
   font-size: 16px;
 }
-
+.appointment a{
+  text-decoration: none;
+  color: #fff;
+}
 .appointment:hover {
   background-color: #0d7b96;
 }

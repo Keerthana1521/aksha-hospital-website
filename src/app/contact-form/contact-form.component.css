@@ -122,11 +122,19 @@
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 12px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background 0.3s ease;
+    width: 240px;
   }
-  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .call-now-btn a{
+    text-decoration: none;
+    color: #fff;
+  }
   .call-now-btn:hover {
     background: linear-gradient(to right, #003366, #006699);
   }
