@@ -1651,6 +1651,13 @@ color: #322875;
   
 }
 @media screen and (max-width: 480px) {
+  .see-more-btn{
+    font-size: 10px;
+    padding: 7px 7px;
+  }
+  .doctor-image-wrapper{
+    /* padding-right: 70px; */
+  }
   /* For tablet-sized screens, we apply the 2-1-2 layout */
   .facilities-container {
     display: grid;
@@ -1913,15 +1920,20 @@ color: #322875;
       height: 180px;
 
     }
+    .doctor-profile-container{
+      width: 90%;
+    }
     .doctor-card{
       width: 160px;
       height: 150px;
     }
     .doctor-card:after{
-      right: 94.5%;
+      right: 93.5%;
+      top:23%;
     }
     .doctor-name{
       font-size: 12px;
+      margin-bottom: 3px;
     }
     .doctor-title{
       font-size: 8px;
@@ -1931,6 +1943,7 @@ color: #322875;
     }
     .experience{
       font-size: 10px;
+      margin-bottom: 5px;
     }
     /* General styles for larger screens */
 .department-list {
