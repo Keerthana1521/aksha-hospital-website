@@ -199,7 +199,18 @@
     line-height: normal;
     margin-bottom: 40px;
   }
-  
+  .quali{
+    font-size: 14px;
+font-weight: 600;
+font-family: 'Open Sans';
+color: #332876;
+  }
+  .desi{
+    font-size: 14px;
+font-family: 'Open Sans';
+color: #000;
+text-align: left;
+  }
   @media only screen and (max-width:480px){
     .close-button{
         display: block;

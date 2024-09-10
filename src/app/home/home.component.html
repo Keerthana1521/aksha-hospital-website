@@ -127,30 +127,35 @@
       </div>
     </div>
   
-    <!-- Right Profile Section for Doctors -->
-    <div class="doctor-profile" *ngFor="let doctor of filteredDoctors">
-      <div class="doctor-image-wrapper">
-        <img [src]="doctor.image" [alt]="doctor.name" class="doctor-image"/>
-      </div>
-  
-      <div class="doctor-card">
-        <h2 class="doctor-name">
-          {{ doctor.name }} <span class="doctor-title">{{ doctor.qualification }}</span>
-        </h2>
-        
-        <!-- Specialization and Experience -->
-        <p class="specialization">{{ doctor.designation }}</p>
-        <p class="experience">Years of Experience: <strong>{{ doctor.experience }}+</strong></p>
-  
-        <!-- Description -->
-        <p class="doctor-description">
-          {{ doctor.about }}
-        </p>
-  
-        <!-- Button -->
-        <button class="see-more-btn">See More &raquo;</button>
+    <div class="doctor-profile-container">
+      <div class="doctor-profile" *ngFor="let doctor of filteredDoctors">
+        <div class="doctor-image-wrapper">
+          <img [src]="doctor.image" [alt]="doctor.name" class="doctor-image"/>
+        </div>
+    
+        <div class="doctor-card">
+          <h2 class="doctor-name">
+            {{ doctor.name }} <span class="doctor-title">{{ doctor.qualification }}</span>
+          </h2>
+    
+          <!-- Specialization and Experience -->
+          <p class="specialization">{{ doctor.designation }}</p>
+          <p class="experience">Years of Experience: <strong>{{ doctor.experience }}+</strong></p>
+    
+          <!-- Description -->
+          <p class="doctor-description">
+            {{ doctor.about }}
+          </p>
+    
+          <!-- Button -->
+          <div class="see-more">
+            <button class="see-more-btn">See More &raquo;</button>
+          </div>
+          
+        </div>
       </div>
     </div>
+    
   </div>
   
 </div>

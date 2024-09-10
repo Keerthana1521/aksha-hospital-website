@@ -708,7 +708,7 @@ height: 50px;
   overflow: hidden; /* Ensure no overflow if the text is too long */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .caro-text-content h1 {
   font-family: Poppins;
@@ -836,23 +836,26 @@ color: #000;
   margin: 5% 0;
 }
 
-.doctor-profile{
-width: 80%;
-display: flex;
-justify-content: center;
-align-items: center;
-padding-right: 4rem;
-}
-.doctor-wrapper {
+.doctor-profile-container {
   display: flex;
+  flex-direction: column; /* Stack items vertically */
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.doctor-profile {
+  display: flex;
+  flex-direction: row; /* Keep the doctor image and details side by side */
   padding: 20px;
   margin-bottom: 30px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  width: 100%; /* Ensure it takes up the available space */
 }
 
 .doctor-image-wrapper {
-  width: 50%;
+  width: 50%; /* Image takes 50% of the space */
   padding-right: 20px;
 }
 
@@ -861,6 +864,42 @@ padding-right: 4rem;
   height: 420px;
   border-radius: 10px;
 }
+
+
+.doctor-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.doctor-title {
+  font-size: 1rem;
+  color: grey;
+}
+
+.specialization, .experience {
+  font-size: 1.1rem;
+}
+.see-more{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.see-more-btn {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.see-more-btn:hover {
+  background-color: #004c99;
+}
+
 
 /* Container for the department list */
 .department-container {
@@ -877,7 +916,7 @@ padding-right: 4rem;
   /* border: 2px solid #673ab7; */
   border-radius: 10px;
   padding: 10px;
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
 }
 
@@ -957,10 +996,9 @@ padding-right: 4rem;
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 13%;
-    /* left: 50%; */
-    right: 97.5%;
-    /* margin-left: -25px;*/
+  top: 15%;
+  right: 97.5%;
+
 
   border-top: 0px solid black;
   border-bottom: 2px solid #0f96b4;
@@ -1206,6 +1244,18 @@ color: #322875;
       scrollbar-width: thin; /* Thin scrollbar */
       scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
     }
+    .active-image{
+      width: 388px;
+      height: 329px;
+  
+    }
+    .caro-image-container{
+      padding-left: 82px;
+    }
+    .caro-text-content{
+      width: 302px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -1263,6 +1313,7 @@ color: #322875;
   .image-content {
     margin-bottom: 20px;
   }
+
 }
 @media screen and (max-width: 768px) {
   .facilities-container {
@@ -1578,6 +1629,15 @@ color: #322875;
       scrollbar-width: thin; /* Thin scrollbar */
       scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
     }
+    .carousel-container{
+      height: 120vh;
+    }
+    .caro-image-container{
+      align-items: center;
+    }
+    .carousel-pagination{
+      bottom: 11px;
+    }
   
 }
 @media screen and (max-width: 480px) {
@@ -1716,19 +1776,8 @@ color: #322875;
       font-size: 1.5rem;
     }
 
-    .icon-gallery {
-      gap: 8px;
-      flex-wrap: wrap;
 
-      .icon-item {
-        padding: 8px;
-      }
 
-      .icon-image {
-        width: 30px;
-        height: 30px;
-      }
-    }
 
     /* .department-content {
       flex-direction: column;
@@ -1777,7 +1826,18 @@ color: #322875;
       align-items: center;
       text-align: center;
     }
+    .department-content {
+      .content-left {
+        h2 {
+          font-size: 1.5rem;
+        }
   
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          width: 380px;
+        }}}
+   
     .content-left, .content-right {
       width: 100%; /* Full width for both content areas */
     }
@@ -1785,7 +1845,16 @@ color: #322875;
     .content-left {
       order: 1; /* Keep text first */
     }
-  
+.icon-carousel{
+  gap: 10px;
+}
+  .icon-image{
+    width: 50px;
+    height: 50px;
+  }
+  .icon-item{
+    height: 50px;
+  }
     .content-right {
       order: 2; /* Keep image second */
       margin-bottom: 20px; /* Add spacing below image */
@@ -1809,9 +1878,22 @@ color: #322875;
     }
     .carousel-content{
       max-width: 100%;
+      padding-left: 2rem;
     }
     .caro-image-container{
-      align-items: flex-end;
+      align-items: center;
+      padding-left: 2rem;
+    }
+    .caro-text-content h1{
+      font-size: 36px;
+    }
+    .caro-text-content p{
+      font-size: 14px;
+      text-align: justify;
+      padding-right: 1rem;
+    }
+    .carousel-container{
+      height: 121vh;
     }
     .doctor-description{
       display: none;
@@ -1824,6 +1906,9 @@ color: #322875;
     .doctor-card{
       width: 160px;
       height: 150px;
+    }
+    .doctor-card:after{
+      right: 94.5%;
     }
     .doctor-name{
       font-size: 12px;
@@ -1906,6 +1991,20 @@ color: #322875;
     width: 80%;
     height: 94%;
   }
+  .doctor-card:after{
+    right: 93.5%;
+  }
+  .department-content {
+    .content-left {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 320px;
+      }}}
 }
 @media screen and (max-width: 325px) {
   .card-container {

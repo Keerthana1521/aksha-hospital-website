@@ -80,7 +80,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       designation: 'Obstertrics & Gynaecologist',
       experience: '13', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural child birth even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders, Dr Smitha\'s approach lies in understanding the anxieties that surround fertility, being pregnant, and final delivery. She believes in ethical practice and empowering women to achieve healthier lives.',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
         
       ]
@@ -94,7 +94,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '20', 
       image: '../../assets/scroll-doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases focusing on the entire digestive system which includes the esophagus, stomach, intestines, colon, pancreas, gall bladder, bile ducts, and liver. Also, he has extensive experience in the diagnosis and treatment of Acidity, Inflammatory Bowel Disease, and IBS Treatment. He is compassionate toward his patients and always believes in a patient-first approach.'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases...'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
@@ -113,7 +113,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '16', 
       image: '../../assets/scroll-doctor-4.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment to patient safety, confidentiality, and a conservative approach while dealing with complex issues. As a full-time Senior Consultant, she holds 13+ years of expertise and more than 3500+ deliveries, handled High-risk cases & managed at the ICU level. Her relentless dedication and commitment to Obstetrics and Gynaecology has helped thousands of women live a better and healthier life.', 
+      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for...', 
       expertise: [
         'Vaginal Delivery',
         'High Risk Pregnancy',
@@ -128,13 +128,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Deepa Rao", 
       slug: 'Dr-Deepa-Rao', 
-      department: "Pediatrician",
+      department: "General Physician",
       qualification: "MBBS, DNB Family Medicine", 
       designation: 'Consultant – Family Physician', 
       experience: '10', 
       image: '../../assets/scroll-doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone Echo-Based Training in Dementia Care for general practitioners by NIMHANS.Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients. ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC)... ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -145,7 +145,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
     {
       name: "Dr. Kapil Wajapey", 
-      slug: 'Dr-Kapil-Wajapey', 
+      slug: 'Dr-Kapil-Wajapey',
+      department:'General Physician', 
       qualification: "MBBS, DNB(Internal Medicine)", 
       designation: 'Consultant- Internal Medicine', 
       experience: '10', 
@@ -160,11 +161,12 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Sushal ShanthaKumar", 
       slug: 'Dr-Sushal-ShanthaKumar', 
       qualification: "MBBS, MS (ORTHOPAEDICS)", 
+      department:'Orthopedic',
       experience: '15', 
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
       image: '../../assets/scroll-doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast experience in Orthopedics (Knee & Shoulder), Knee Arthroscopy, Shoulder Arthroscopy, Frozen Shoulder, Sports Injuries, Shoulder Replacement, Shoulder Trauma, and Platelet-rich-plasma injections.', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally ', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -179,6 +181,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Anand Palakshachar", 
       slug: 'Dr-Anand-Palakshachar', 
+      department:'Cardiology',
       qualification: "MBBS, MD General Medicine", 
       designation: 'Consultant- Cardiologist', 
       experience: '8', 
@@ -192,6 +195,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Prasad N A", 
       slug: 'Dr-Prasad-N-A', 
+      department:'Pediatrician',
       qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
       designation: 'Consultant- Pediatrics & Neonatology', 
       experience: '10', 
@@ -206,6 +210,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
        qualification: "MBBS, MD Pediatrics", 
+       department:'Pediatrician',
        designation: 'Consultant- Pediatrician',
         experience: '8', 
         image: '../../assets/scroll-doctor-10.png', 
@@ -245,6 +250,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Sridutt Shekar", 
       slug: 'Dr-Sridutt-Shekar', 
       qualification: "MBBS, MS ENT", 
+      department:'ENT',
       designation: 'Consultant - ENT', 
       experience: '9', 
       image: '../../assets/scroll-doctor-12.png',
@@ -280,12 +286,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Santosh H S ", 
       slug: 'Dr-Santosh-H-S', 
+      department:'Endocrine Surgeries',
       qualification: "MBBS, FRCP, MRCP", 
       designation: 'Consultant - Endocrinologist', 
       experience: '23', 
       image: '../../assets/scroll-doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada.Dr. Santosh HS is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes. ', 
+      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. ', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -306,6 +313,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Sayalee Gadgil", 
       slug: 'Dr-Sayalee-Gadgil', 
+      department:'Radiology',
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - ENT', 
       experience: '7', 
