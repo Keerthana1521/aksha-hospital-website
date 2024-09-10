@@ -1094,6 +1094,9 @@ color: #322875;
   .caro-text-content{
     width: 545px;
   }
+  .department-content     .content-left p{
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 1030px) {
   .facilities-container {
@@ -1145,6 +1148,7 @@ color: #322875;
     height: 450px;
     padding-right: 3rem;
   }
+
   .department-content {
     flex-direction: row;
     align-items: center;
@@ -1648,6 +1652,9 @@ color: #322875;
     .carousel-pagination{
       bottom: 11px;
     }
+    .doctor-profile-container{
+      width: 100%;
+    }
   
 }
 @media screen and (max-width: 480px) {
@@ -1940,6 +1947,7 @@ color: #322875;
     }
     .specialization{
       font-size: 10px;
+      margin-bottom: 3px;
     }
     .experience{
       font-size: 10px;
@@ -2028,6 +2036,9 @@ color: #322875;
         line-height: 26px;
         width: 320px;
       }}}
+  .doctor-profile-container{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 325px) {
   .card-container {
