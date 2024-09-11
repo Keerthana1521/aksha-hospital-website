@@ -1,4 +1,4 @@
-<div class="accordion" (click)="toggleAccordion()" [ngClass]="{ 'active': isActive }">
+<div class="accordion"  (click)="toggleAccordion()" [ngClass]="{ 'active': isActive }">
     <div class="accordion-header flex_box">
       <div class="flex_box">
         <img [src]= "icon_change? icon_2 : icon_1" alt="" class="services_icons">
@@ -8,7 +8,7 @@
         <i [ngClass]="angle_icon ? 'fa-solid fa-angle-down' : 'fa-solid fa-angle-right'"></i>
       </div>
     </div>
-    <div class="accordion-content" *ngIf="isActive">
-      <ng-content></ng-content>
+    <div class="ng_content"  [ngClass]="isActive ? 'accordion-content' : 'dropdown-close'">
+      <div class="description">{{ description }}</div>
     </div>
 </div>  

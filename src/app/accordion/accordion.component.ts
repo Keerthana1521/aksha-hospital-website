@@ -9,6 +9,7 @@ export class AccordionComponent {
   @Input() icon_1: string = '';
   @Input() icon_2: string = '';
   @Input() title: any;
+  @Input() description: any;
   isActive: boolean = false;
   icon_change: boolean = false;
   angle_icon: boolean = false;

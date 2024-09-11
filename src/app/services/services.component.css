@@ -20,19 +20,6 @@
     margin: 2%;
 }
 
-.description{
-    color: #FFF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
-    justify-content: center;
-    padding: 5%;
-    transition: 1s;
-}
-
 @media (max-width : 800px){
     .container_2{
         grid-template-columns: 100%;
