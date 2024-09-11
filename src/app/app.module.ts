@@ -70,7 +70,6 @@ import { SpecialityDropDownComponent } from './speciality-drop-down/speciality-d
   imports: [
     BrowserModule,
     AppRoutingModule,
-    
   ],
   providers: [],
   bootstrap: [AppComponent]

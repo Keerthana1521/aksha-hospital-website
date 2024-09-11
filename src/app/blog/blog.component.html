@@ -1,0 +1,157 @@
+<div class="root_container">
+    <div class="input">
+        <div class="input_container">
+            <input type="text" placeholder="Search Blog" name="" id="">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <div class="page_heading">
+        Blog
+    </div>
+    <div class="container_1">
+        <div class="poster">
+            <div class="poster_image">
+                <img [src]="featuredPost.featured_image_url" alt="">
+            </div>
+            <div class="poster_content">
+                <div class="date">{{ featuredPost.date | date:'mediumDate' }}</div>
+                <div class="blog_heading">{{ featuredPost.title.rendered }}</div>
+                <div class="blog_des" [innerHTML]="featuredPost.excerpt.rendered"></div>
+            </div>
+        </div>
+        <div class="blog_list">
+            <div class="list_poster" *ngFor="let post of posts" [routerLink]="['/blog', post.slug]" class="post-link">
+                <div class="list_poster_image">
+                    <img [src]="post.featured_image_url" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">{{ post.date | date:'mediumDate' }}</div>
+                    <div class="list_blog_heading">{{ post.title.rendered }}</div>
+                    <div class="list_blog_des" [innerHTML]="post.excerpt.rendered"></div>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div>  
+
+<!-- <div class="blog-container"></div>
+    <h1 class="blog-title">The Blog</h1>
+  
+    <div *ngIf="featuredPost" class="featured-post">
+      <img class="featured-image" [src]="featuredPost.featured_image_url" alt="Featured Post">
+      <div class="featured-content">
+        <p class="post-date">{{ featuredPost.date | date:'mediumDate' }}</p>
+        <h2 class="post-title">{{ featuredPost.title.rendered }}</h2>
+        <p class="post-excerpt" [innerHTML]="featuredPost.excerpt.rendered"></p>
+        <a [routerLink]="['/blog', featuredPost.slug]" class="read-more-button">Read More</a>
+      </div>
+    </div>
+  
+
+    <div class="post-grid">
+      <div class="post-card" *ngFor="let post of posts">
+        <a [routerLink]="['/blog', post.slug]" class="post-link">
+          <img class="post-image" [src]="post.featured_image_url" alt="{{ post.title.rendered }}">
+          <div class="post-content">
+            <h3 class="post-title-1">{{ post.title.rendered }}</h3>
+            <p class="post-date">{{ post.date | date:'mediumDate' }}<span *ngFor="let category of categories; let last = last">
+              | {{ category }}<span *ngIf="!last">, </span>
+            </span></p>
+            <p class="post-excerpt-1" [innerHTML]="post.excerpt.rendered"></p>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+  </div> -->
+
+  <!-- <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div>
+            <div class="list_poster">
+                <div class="list_poster_image">
+                    <img src="../../assets/blog_img.png" alt="">
+                </div>
+                <div class="poster_content">
+                    <div class="list_date">Jun 1, 2023</div>
+                    <div class="list_blog_heading">Arthritis or Just Joint Pain? Common Misconceptions</div>
+                    <div class="list_blog_des">Have you ever experienced joint pain? You’re not alone; many people, young and old alike, face this discomfort. The good news is that not all joint pain is arthritis, and there’s no need...</div>
+                </div>
+            </div> -->

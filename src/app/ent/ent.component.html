@@ -1,3 +1,4 @@
+<div class="root_container">
 <app-specialities-design 
 heading="ENT" 
 para_1="The Department of Ear, Nose & Throat (ENT) aims to provide high-quality medical care and treatment for the entire range of ear, nose, and throat problems. Aksha Hospital is a comprehensive center equipped to deal with all ENT problems. Here, the synergy between technical innovation and well-trained manpower aims to provide the best possible treatment. The Division runs an exclusive center for voice disorders, one of the few such centers in the country."
@@ -8,20 +9,13 @@ image="../../assets/specialiti/Ent.png"
 
 <div class="team_heading">Meet Our Medical specialists</div>
 <div class="doctor_details">
-    <app-doctor-structure 
-    image = "../../assets/doctor-1.png" 
-    name = "Dr. Bhoopal" 
-    desgination = "Consultant- Psychiatrist"
-    qualification = "MBBS, MD - Psychiatry"
-    about = "Aksha Hospital is the brainchild of Dr Bhoopal TS."
-    description = "It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology..."
+    <app-doctor-structure *ngFor = 'let doctor of doctors'
+    image = {{doctor.image}}
+    name = "{{doctor.name}}" 
+    desgination = {{doctor.designation}}
+    qualification = {{doctor.qualification}}
+    about = {{doctor.about}}
+    description = ""
     ></app-doctor-structure>
-    <app-doctor-structure 
-    image = "../../assets/doctor-1.png" 
-    name = "Dr. Bhoopal" 
-    desgination = "Consultant- Psychiatrist"
-    qualification = "MBBS, MD - Psychiatry"
-    about = "Aksha Hospital is the brainchild of Dr Bhoopal TS."
-    description = "It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology..."
-    ></app-doctor-structure>
+</div>
 </div>
