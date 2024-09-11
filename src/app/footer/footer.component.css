@@ -370,7 +370,7 @@ text-align: center;
 }
 @media only screen and (max-width:402px){
     .address-info{
-        bottom: 306px;
+        bottom: 278px;
         margin-left: 4rem;
     }
 }

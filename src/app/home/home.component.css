@@ -1895,7 +1895,7 @@ color: #322875;
         p {
           font-size: 16px;
           line-height: 26px;
-          width: 380px;
+          width: 363px;
         }}}
    
     .content-left, .content-right {
@@ -1953,7 +1953,7 @@ color: #322875;
       padding-right: 1rem;
     }
     .carousel-container{
-      height: 121vh;
+      height: 100vh;
     }
     .doctor-description{
       display: none;
@@ -1964,30 +1964,30 @@ color: #322875;
 
     }
     .doctor-profile-container{
-      width: 90%;
+      width: 100%;
     }
     .doctor-card{
       width: 160px;
       height: 150px;
     }
     .doctor-card:after{
-      right: 93.5%;
+      right: 94.5%;
       top:23%;
     }
     .doctor-name{
       font-size: 12px;
-      margin-bottom: 3px;
+      
     }
     .doctor-title{
       font-size: 8px;
     }
     .specialization{
       font-size: 10px;
-      margin-bottom: 3px;
+      
     }
     .experience{
       font-size: 10px;
-      margin-bottom: 5px;
+     
     }
     /* General styles for larger screens */
 .department-list {
@@ -2045,9 +2045,16 @@ color: #322875;
     scrollbar-width: thin; /* Thin scrollbar */
     scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
   }
+  .num-text-container-1{
+    width: 70%;
+  }
 }
 
-
+@media screen and (max-width:410px){
+  .doctor-profile-container{
+    width: 100%;
+  }
+}
   
 
 @media screen and (max-width: 380px) {
