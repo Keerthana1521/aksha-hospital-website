@@ -34,6 +34,9 @@ import { SurgeryComponent } from './surgery/surgery.component';
 import { PediatricianComponent } from './pediatrician/pediatrician.component';
 import { HomeComponent } from './home/home.component';
 import { SpecialityDropDownComponent } from './speciality-drop-down/speciality-drop-down.component';
+import { BlogComponent } from './blog/blog.component';
+import { BlogPostComponent } from './blog-post/blog-post.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,11 +68,15 @@ import { SpecialityDropDownComponent } from './speciality-drop-down/speciality-d
     SurgeryComponent,
     PediatricianComponent,
     HomeComponent,
-    SpecialityDropDownComponent
+    SpecialityDropDownComponent,
+    BlogComponent,
+    BlogPostComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
