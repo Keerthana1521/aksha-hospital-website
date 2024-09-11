@@ -884,7 +884,6 @@ padding-right: 4rem;
 
 /* Scrollbar styling for WebKit browsers (Chrome, Safari, etc.) */
 .department-list::-webkit-scrollbar {
-   /* Width of the scrollbar */
 }
 
 .department-list::-webkit-scrollbar-track {

@@ -33,9 +33,6 @@ import { ObstetricsComponent } from './obstetrics/obstetrics.component';
 import { SurgeryComponent } from './surgery/surgery.component';
 import { PediatricianComponent } from './pediatrician/pediatrician.component';
 import { HomeComponent } from './home/home.component';
-import { BlogComponent } from './blog/blog.component';
-import { HttpClientModule } from '@angular/common/http';
-import { BlogPostComponent } from './blog-post/blog-post.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,13 +64,10 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
     SurgeryComponent,
     PediatricianComponent,
     HomeComponent,
-    BlogComponent,
-    BlogPostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
