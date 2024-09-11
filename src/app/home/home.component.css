@@ -1965,6 +1965,7 @@ color: #322875;
     }
     .doctor-profile-container{
       width: 100%;
+      padding-right: 0;
     }
     .doctor-card{
       width: 160px;
