@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild,OnDestroy, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -25,9 +26,18 @@ export class HomeComponent implements OnInit, OnDestroy {
     { name: 'Pediatrician', selected: false },
     { name: 'Endocrine Surgeries', selected: false },
     { name: 'Vascular Surgeries', selected: false },
-    { name: 'Cardiology', selected: false },
+    { name: 'Orthopedic', selected: false },
     { name: 'General Physician', selected: false },
-    { name: 'High-Risk Pregnancy Care', selected: false },
+    { name: 'Dermatology', selected: false },
+    { name: 'Urology', selected: false },
+    { name: 'Radiology', selected: false },
+    { name: 'Nephrology', selected: false },
+    { name: 'Physiotherapy', selected: false },
+    { name: 'Anesthesia', selected: false },
+    { name: 'Cardiology', selected: false },
+    { name: 'ENT', selected: false },
+    { name: 'Oncology and Onco Surgery', selected: false },
+    { name: 'Neurology', selected: false },
   ];
 
   // Method to select a department
@@ -35,6 +45,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   filterDoctorsByDepartment(department: any) {
     this.filteredDoctors = this.doctors.filter(doctor => doctor.department === department.name);
   }
+
 
   // Method to select a department
   selectDepartment(department: any) {
@@ -56,9 +67,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: " MBBS, MD",
       designation: 'Managing Director',
       experience: '13',
-      image: '../../assets/doctor-1.png',
+      image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology...',
+      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
@@ -69,9 +80,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       department: "Obstetrics & Gynecologists",
       qualification: "MBBS, DGO",
       designation: 'Obstertrics & Gynaecologist',
-      experience: '13', image: '../../assets/doctor-2.png',
+      experience: '13', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
         
       ]
@@ -83,9 +94,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS, FSGE", 
       designation: 'Medical Director of Aksha Hospital', 
       experience: '20', 
-      image: '../../assets/doctor-3.png', 
+      image: '../../assets/scroll-doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases...'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
@@ -102,9 +113,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
       designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
       experience: '16', 
-      image: '../../assets/doctor-4.png', 
+      image: '../../assets/scroll-doctor-4.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment...', 
+      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for...', 
       expertise: [
         'Vaginal Delivery',
         'High Risk Pregnancy',
@@ -119,13 +130,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Deepa Rao", 
       slug: 'Dr-Deepa-Rao', 
-      department: "Pediatrician",
+      department: "General Physician",
       qualification: "MBBS, DNB Family Medicine", 
       designation: 'Consultant – Family Physician', 
       experience: '10', 
-      image: '../../assets/doctor-5.png', 
+      image: '../../assets/scroll-doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC)... ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -136,13 +147,14 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
     {
       name: "Dr. Kapil Wajapey", 
-      slug: 'Dr-Kapil-Wajapey', 
+      slug: 'Dr-Kapil-Wajapey',
+      department:'General Physician', 
       qualification: "MBBS, DNB(Internal Medicine)", 
       designation: 'Consultant- Internal Medicine', 
       experience: '10', 
-      image: '../../assets/doctor-6.png', 
+      image: '../../assets/scroll-doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -151,11 +163,12 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Sushal ShanthaKumar", 
       slug: 'Dr-Sushal-ShanthaKumar', 
       qualification: "MBBS, MS (ORTHOPAEDICS)", 
+      department:'Orthopedic',
       experience: '15', 
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
-      image: '../../assets/doctor-7.png', 
+      image: '../../assets/scroll-doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast...', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally ', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -170,12 +183,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Anand Palakshachar", 
       slug: 'Dr-Anand-Palakshachar', 
+      department:'Cardiology',
       qualification: "MBBS, MD General Medicine", 
       designation: 'Consultant- Cardiologist', 
       experience: '8', 
-      image: '../../assets/doctor-8.png', 
+      image: '../../assets/scroll-doctor-8.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -183,12 +197,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Prasad N A", 
       slug: 'Dr-Prasad-N-A', 
+      department:'Pediatrician',
       qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
       designation: 'Consultant- Pediatrics & Neonatology', 
       experience: '10', 
-      image: '../../assets/doctor-9.png', 
+      image: '../../assets/scroll-doctor-9.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
        
       ]
@@ -197,11 +212,12 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
        qualification: "MBBS, MD Pediatrics", 
+       department:'Pediatrician',
        designation: 'Consultant- Pediatrician',
         experience: '8', 
-        image: '../../assets/doctor-10.png', 
+        image: '../../assets/scroll-doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology...', 
+        about: '', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -225,9 +241,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "", 
       designation: '', 
       experience: '', 
-      image: '../../assets/doctor-11.png', 
+      image: '../../assets/scroll-doctor-11.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: '',
       expertise: [
         
       ]
@@ -236,9 +252,10 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Sridutt Shekar", 
       slug: 'Dr-Sridutt-Shekar', 
       qualification: "MBBS, MS ENT", 
+      department:'ENT',
       designation: 'Consultant - ENT', 
       experience: '9', 
-      image: '../../assets/doctor-12.png',
+      image: '../../assets/scroll-doctor-12.png',
       icon:'../../assets/male.svg', 
       about: 'Dr. Sridutt Shekar is dedicated to providing top-notch care for patients with ear, nose, and throat conditions. His expertise spans a wide range of ENT procedures and treatments, ensuring comprehensive and effective care for his patients.', 
       expertise: [
@@ -257,9 +274,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MD - Psychiatry", 
       designation: 'Consultant- Psychiatrist', 
       experience: '20', 
-      image: '../../assets/doctor-13.png', 
+      image: '../../assets/scroll-doctor-13.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and...', 
+      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions', 
       expertise: [
         'Adult psychiatry',
         'Women mental health',
@@ -271,12 +288,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Santosh H S ", 
       slug: 'Dr-Santosh-H-S', 
+      department:'Endocrine Surgeries',
       qualification: "MBBS, FRCP, MRCP", 
       designation: 'Consultant - Endocrinologist', 
       experience: '23', 
-      image: '../../assets/doctor-14.png',
+      image: '../../assets/scroll-doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training...', 
+      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. ', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -297,10 +315,11 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Sayalee Gadgil", 
       slug: 'Dr-Sayalee-Gadgil', 
+      department:'Radiology',
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - ENT', 
       experience: '7', 
-      image: '../../assets/doctor-15.png',
+      image: '../../assets/scroll-doctor-15.png',
       icon:'../../assets/female.svg', 
       about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
       expertise: [
@@ -323,7 +342,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     { number: 0, target: 400, statement: 'High-Risk Pregnancy Treatment', showPlus: true },
     { number: 0, target: 7000, statement: 'Happy Patients', showPlus: true },
     { number: 0, target: 500, statement: 'Laparoscopic Surgeries', showPlus: true },
-    { number: 0, target: 200, statement: 'IVF Treatment', showPlus: true }
+    { number: 0, target: 50, statement: 'Medical Beds', showPlus: true }
   ];
   carouselItems = [
     {
@@ -331,21 +350,27 @@ export class HomeComponent implements OnInit, OnDestroy {
       text: 'Aksha Hospital is committed to delivering exceptional healthcare with a focus on compassionate, patient-centered care. Our facility is equipped with the latest medical technology and staffed by highly skilled professionals. We provide a comprehensive range of services, ensuring quality treatment and a supportive environment for all our patients.      ',
       image: '../../assets/caro-1.png', // Replace with actual image path
       bgImage: '../../assets/caro-bg-1.png', // Replace with background image path
-      nextImage:'../../assets/caro-2.png',
+      nextImage:'../../assets/caro-sm-2.png',
+      buttonColor:'#9B9F9B',
+      route: '/about-us' // Add a route property for each item
     },
     {
       heading: 'NICU',
       text: 'Our Neonatal Intensive Care Unit (NICU) at Aksha Hospital provides specialized care for premature and critically ill newborns. Equipped with cutting-edge technology and a dedicated team of experts, we focus on the delicate needs of newborns to ensure the best possible outcomes. Compassionate care and advanced treatment are at the heart of our NICU services.',
       image: '../../assets/caro-2.png',
       bgImage: '../../assets/caro-bg-2.png',
-      nextImage:'../../assets/caro-3.png',
+      nextImage:'../../assets/caro-sm-3.png',
+      buttonColor:'#7E729F',
+      route: '/services' // Navigate to services page
     },
     {
       heading: 'ICU',
       text: 'Our Intensive Care Unit (ICU) at Aksha Hospital offers critical care with advanced monitoring and life-support systems. Our expert team provides round-the-clock care for patients with severe and life-threatening conditions. We are dedicated to delivering personalized, high-quality care to support recovery and improve patient outcomes.',
       image: '../../assets/caro-3.png',
       bgImage: '../../assets/caro-bg-3.png',
-      nextImage:'../../assets/caro-4.png',
+      nextImage:'../../assets/caro-sm-4.png',
+      buttonColor:'#4E6C73',
+      route: '/services' // Navigate to services page
    
     },
     {
@@ -353,7 +378,9 @@ export class HomeComponent implements OnInit, OnDestroy {
       text: 'At Aksha Hospital, our state-of-the-art lab services offer accurate and timely diagnostic results. We utilize advanced technology and follow rigorous quality standards to ensure reliable outcomes. Our skilled team is dedicated to providing comprehensive tests and prompt reports. Trust us for precise diagnostics that support effective treatment plans.',
       image: '../../assets/caro-4.png',
       bgImage: '../../assets/caro-bg-4.png',
-      nextImage:'../../assets/caro-1.png',
+      nextImage:'../../assets/caro-sm-1.png',
+      buttonColor:'#557181',
+      route: '/services' // Navigate to services page
     }
   ];
   cards = [
@@ -394,6 +421,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
       image: 'assets/OG.png',
       icon: 'assets/dept-icon-1.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'High-Risk Pregnancy Care',
@@ -401,6 +429,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'High-risk pregnancies are pregnancies that have the chance of developing complications for both mother and child. People who are underweight or overweight, younger than 18 or older than 35, anemic, into their 5th pregnancy or more; have had previous preterm births, had given births to a large or small baby, had a previous pregnancy loss, history of genetic disease, substance abuse, previous cases of twins or triplets, taken infertility medications, or have medical conditions like high BP, heart disease, etc.',
       image: 'assets/dept-1.png',
       icon: 'assets/dept-icon-2.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'Female Infertility Treatment',
@@ -408,6 +437,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Infertility treatment helps couples who are unable to conceive with conception. There are various types of treatment methods based on the cause of infertility. In the case of women, infertility is treated by medications or fertility drugs in cases of hormonal imbalance or problems related to ovulation. Surgery in case the fallopian tubes are blocked or similar such situations Use of assistive reproductive technology (ART) to solve infertility problems.',
       image: 'assets/dept-2.png',
       icon: 'assets/dept-icon-3.png',
+      route:'obsterics-and-gynecology'
     },
     {
       name: 'Surgery + Gastrosurgery',
@@ -415,12 +445,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Gastroenterology is a specialty of medicine that focuses on the diseases affecting the digestive system. This includes the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts, and liver. Though many types of digestive problems can be treated with lifestyle changes and medicines, some of them might require a surgical intervention. Surgical gastroenterology is a part of gastroenterology that is related to treating gastric disorders that might require surgical intervention.',
       image: 'assets/dept-3.png',
       icon: 'assets/dept-icon-4.png',
+      route:'surgery'
     },
     {
       name: 'Vascular Surgeries',
       description:'Vascular surgery is a surgical subspeciality in which diseases of the vascular system, or arteries, veins, and lymphatic circulation, are managed by medical therapy, minimally invasive catheter procedures, and surgical reconstruction. Some of the vascular surgeries that our team performs include varicose vein Trendelenburg operation, diabetic foot care, and laser procedures',
       image: 'assets/dept-4.png',
       icon: 'assets/dept-icon-5.png',
+      route:'vascular-surgery'
     },
     {
       name: 'Endoscopic Procedures',
@@ -428,12 +460,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Endoscopic surgery is performed using a scope, a flexible tube with a camera, and light at the tip. This allows your surgeon to see inside the organ and perform procedures without making major incisions, allowing for easier recovery time and less pain and discomfort. Some procedures performed include: diagnostic procedures in gastroscopy and colonoscopy Therapeutic procedures like banding, sclerotherapy, balloon esophagus dilatation, stent placements, PEG tube insertions, and polypectomies. ERCP procedures are also done here.',
       image: 'assets/dept-5.png',
       icon: 'assets/dept-icon-6.png',
+      route:''
     },
     {
       name: 'Cardiology',
       description:'Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure, and valvular heart disease. Subspecialties of the cardiology field include cardiac electrophysiology, echocardiography, interventional cardiology, and nuclear cardiology.',
       image: 'assets/dept-6.png',
       icon: 'assets/dept-icon-7.png',
+      route:'cardiology'
     },
     {
       name: 'Paediatric & NICU',
@@ -441,6 +475,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. NICU refers to the Neonatal Intensive Care Unit. The birth of a baby is a wonderful and very complex process. Many physical and emotional changes occur for both mother and baby. A baby must make many physical adjustments to life outside the mother’s body. Leaving the uterus means that a baby can no longer depend on the mother’s blood supply and placenta for important body functions. We can manage preborn babies from 32 weeks.',
       image: 'assets/dept-7.png',
       icon: 'assets/dept-icon-8.png',
+      route:"pediatrics"
     },
     {
       name: 'General Physician',
@@ -448,11 +483,14 @@ export class HomeComponent implements OnInit, OnDestroy {
         'With healthcare now becoming a priority to most, even the smallest signs of sickness receive care. From an itchy throat to a mild cough or a spike in temperature, many rush to clinics to seek care from general physicians. Our general physicians are highly trained specialists who provide non-surgical health care to patients. They evaluate the medical condition of the patients by suggesting a few lab tests to finalize the diagnosis. They also perform health check-ups on a regular basis to evaluate the status of a disease or medical condition.',
       image: 'assets/dept-8.png',
       icon: 'assets/dept-icon-9.png',
+      route:''
     },
 
     // Add more departments as needed
   ];
-
+  viewMore(department: any) {
+    this.router.navigate([department.route]);
+  }
 
   currentDepartmentIndex = 0; // Track the current index for automatic change
   autoChangeInterval: any; // To store the interval reference
@@ -475,22 +513,30 @@ export class HomeComponent implements OnInit, OnDestroy {
     // }
     this.changeDepartment(index, false);
   }
-  constructor() {}
+  constructor(private router: Router) {}
+  navigateToPage() {
+    const currentRoute = this.carouselItems[this.currentIndex].route;
+    this.router.navigate([currentRoute]); // Navigate based on the route of the current item
+  }
+  about(){
+    this.router.navigate(['/about-us']);
+  }
+  navigateToDoctor(slug: string) {
+    this.router.navigate(['/doctor', slug]);
+  }
 ngOnInit() {
   this.selectDepartment(this.docDepartments[0]);
   this.autoChangeInterval = setInterval(() => {
     // this.currentDepartmentIndex = (this.currentDepartmentIndex + 1) % this.departments.length;
     // this.selectedDepartment = this.departments[this.currentDepartmentIndex];
     this.changeDepartment((this.currentDepartmentIndex + 1) % this.departments.length, true);
-  }, 2000); // 20 seconds interval
+  }, 4000); // 20 seconds interval
   const options = {
     root: null, // Use the viewport as the root
     threshold: 0.5 // Trigger when 50% of the section is visible
   };
    // Start the automatic carousel change every 2 seconds
-   this.autoCarouselChangeInterval = setInterval(() => {
-    this.nextSlide();
-  }, 2000); // 2 seconds
+
 
   const observer = new IntersectionObserver(this.startCounter.bind(this), options);
   observer.observe(this.counterSection.nativeElement);
@@ -519,7 +565,12 @@ nextSlide() {
     
   }, 500); // Timing should match the animation duration (0.5s here)
 }
-
+goToSlide(index: number) {
+  if (index !== this.currentIndex) {
+    this.currentIndex = index;
+    // Handle any animation logic if needed
+  }
+}
 // Function to go to the previous slide
 prevSlide() {
   this.currentIndex = (this.currentIndex - 1 + this.carouselItems.length) % this.carouselItems.length;

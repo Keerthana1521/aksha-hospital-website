@@ -17,7 +17,7 @@ export class DoctorDetailsComponent {
       experience: '13',
       image: '../../assets/doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology...',
+      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
@@ -29,7 +29,7 @@ export class DoctorDetailsComponent {
       designation: 'Obstertrics & Gynaecologist',
       experience: '13', image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural child birth even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders, Dr Smitha\'s approach lies in understanding the anxieties that surround fertility, being pregnant, and final delivery. She believes in ethical practice and empowering women to achieve healthier lives.',
       expertise: [
         
       ]
@@ -42,7 +42,7 @@ export class DoctorDetailsComponent {
       experience: '20', 
       image: '../../assets/doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases focusing on the entire digestive system which includes the esophagus, stomach, intestines, colon, pancreas, gall bladder, bile ducts, and liver. Also, he has extensive experience in the diagnosis and treatment of Acidity, Inflammatory Bowel Disease, and IBS Treatment. He is compassionate toward his patients and always believes in a patient-first approach.'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
@@ -60,7 +60,7 @@ export class DoctorDetailsComponent {
       experience: '16', 
       image: '../../assets/doctor-4.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment...', 
+      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment to patient safety, confidentiality, and a conservative approach while dealing with complex issues. As a full-time Senior Consultant, she holds 13+ years of expertise and more than 3500+ deliveries, handled High-risk cases & managed at the ICU level. Her relentless dedication and commitment to Obstetrics and Gynaecology has helped thousands of women live a better and healthier life.', 
       expertise: [
         'Vaginal Delivery',
         'High Risk Pregnancy',
@@ -80,7 +80,7 @@ export class DoctorDetailsComponent {
       experience: '10', 
       image: '../../assets/doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone Echo-Based Training in Dementia Care for general practitioners by NIMHANS.Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients.', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -110,7 +110,7 @@ export class DoctorDetailsComponent {
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
       image: '../../assets/doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast...', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast experience in Orthopedics (Knee & Shoulder), Knee Arthroscopy, Shoulder Arthroscopy, Frozen Shoulder, Sports Injuries, Shoulder Replacement, Shoulder Trauma, and Platelet-rich-plasma injections.', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -156,7 +156,7 @@ export class DoctorDetailsComponent {
         experience: '8', 
         image: '../../assets/doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology...', 
+        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bangalore.     Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avni Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.     Dr. Avni Hegde has previously served as a faculty member at St. John\'s Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -214,7 +214,7 @@ export class DoctorDetailsComponent {
       experience: '20', 
       image: '../../assets/doctor-13.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and...', 
+      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions', 
       expertise: [
         'Adult psychiatry',
         'Women mental health',
@@ -231,7 +231,7 @@ export class DoctorDetailsComponent {
       experience: '23', 
       image: '../../assets/doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training...', 
+      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada. Dr. Santosh HS is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes. ', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',

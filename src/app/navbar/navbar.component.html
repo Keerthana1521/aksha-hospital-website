@@ -1,62 +1,63 @@
-<!-- <div class="home-parent">
-    <div>
-<img class="aksha-logo" src="../../assets/aksha-logo.png">
-    </div>
-    <div>
-<ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Doctors</li>
-    <li>Services</li>
-    <li>Blog</li>
-    <li>Gallery</li>
-    <li>Contact Us</li>
-</ul>
-    </div>
-    <div>
-<button class="appointment">Book an Appointment</button>
-    </div>
-</div> -->
-
-
-<!-- <div class="home-parent">
+<div class="home-parent"  [ngClass]="{'dropdown-open': isDropdownOpen}">
     <div class="logo-container">
-        <img class="aksha-logo" src="../../assets/aksha-logo.png" alt="Aksha Hospital Logo">
-    </div>
-    <div class="nav-container">
-        <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Doctors</a></li>
-            <li><a href="#">Specialties</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </div>
-    <div class="appointment-container">
-        <button class="appointment">Book Appointment</button>
-    </div>
-</div> -->
-<div class="home-parent">
-    <div class="logo-container">
-        <img class="aksha-logo" src="../../assets/aksha-logo.png" alt="Aksha Hospital Logo">
+      <a href="/"><img class="aksha-logo" src="../../assets/aksha-logo.png" alt="Aksha Hospital Logo"></a>
     </div>
     <div class="nav-container" [ngClass]="{'open': isMenuOpen}">
         <ul class="nav-list">
-            <li><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()">Home</a></li>
-            <li><a routerLink="/about-us" routerLinkActive="active-link"(click)="closeMenu()">About Us</a></li>
-            <li><a routerLink="/doctors" routerLinkActive="active-link"(click)="closeMenu()">Doctors</a></li>
-            <li><a routerLink="/specialties" routerLinkActive="active-link"(click)="closeMenu()">Specialties</a></li>
-            <li><a routerLink="/services" routerLinkActive="active-link"(click)="closeMenu()">Services</a></li>
-            <li><a routerLink="/blog" routerLinkActive="active-link"(click)="closeMenu()">Blog</a></li>
-            <li><a routerLink="/gallery" routerLinkActive="active-link"(click)="closeMenu()">Gallery</a></li>
-            <li><a routerLink="/contact-us" routerLinkActive="active-link"(click)="closeMenu()">Contact Us</a></li>
+            <li><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }"
+                    (click)="closeMenu()"(click)="closeDropdown()">Home</a></li>
+            <li><a routerLink="/about-us" routerLinkActive="active-link" (click)="closeMenu()" (click)="closeDropdown()">About Us</a></li>
+            <li><a routerLink="/doctors" routerLinkActive="active-link" (click)="closeMenu()" (click)="closeDropdown()">Doctors</a></li>
+            <li class="specialties-dropdown">
+                <a class="dropbtn" (click)="toggleDropdown()">Specialties<img class="arrow" src="../../assets/dropdown-arrow.svg"></a>
+                <div class="dropdown-content" *ngIf="isDropdownOpen">
+                  <div class="specialties-list">
+                    <ul>
+                      <li (click)="goToSpecialty('obsterics-and-gynecology')" (mouseenter)="onHover('obstetrics')" (mouseleave)="onLeave()"><img class="dot" src="../../assets/dot.svg">Obstetrics & Gynecologists</li>
+                      <li (click)="goToSpecialty('surgery')" (mouseenter)="onHover('gastrosurgery')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Gastrosurgery</li>
+                      <li (click)="goToSpecialty('pediatrics')"(mouseenter)="onHover('pediatrician')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Pediatrician</li>
+                      <li (click)="goToSpecialty('endocrine-surgery')"(mouseenter)="onHover('endocrine')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Endocrine Surgeries</li>
+                      <li (click)="goToSpecialty('vascular-surgery')"(mouseenter)="onHover('vascular')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Vascular Surgeries</li>
+                      <li (click)="goToSpecialty('orthopedic')"(mouseenter)="onHover('orthopedic')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Orthopedic</li>
+                      <li (click)="goToSpecialty('general-physician')"(mouseenter)="onHover('general_physician')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">General Physician</li>
+                    </ul>
+                    <ul>
+                      <li (click)="goToSpecialty('dermatology')"(mouseenter)="onHover('dermatology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Dermatology</li>
+                      <li (click)="goToSpecialty('urology')"(mouseenter)="onHover('urology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Urology</li>
+                      <li (click)="goToSpecialty('radiology')"(mouseenter)="onHover('radiology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Radiology</li>
+                      <li (click)="goToSpecialty('nephrology')"(mouseenter)="onHover('nephrology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Nephrology</li>
+                      <li (click)="goToSpecialty('physiotherapy')"(mouseenter)="onHover('physiotherapy')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Physiotherapy</li>
+                      <li (click)="goToSpecialty('anesthesia')"(mouseenter)="onHover('anesthesia')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Anesthesia</li>
+                      <li (click)="goToSpecialty('cardiology')"(mouseenter)="onHover('cardiology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Cardiology</li>
+                    </ul>
+                    <!-- Third column with ENT, Oncology, Neurology, and image -->
+          <div class="third-column">
+            <ul>
+              <li (click)="goToSpecialty('ent')"(mouseenter)="onHover('ent')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">ENT</li>
+              <li (click)="goToSpecialty('oncology')"(mouseenter)="onHover('oncology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Oncology and Onco Surgery</li>
+              <li (click)="goToSpecialty('neurology')"(mouseenter)="onHover('neurology')" (mouseleave)="onLeave()"><img  class="dot" src="../../assets/dot.svg">Neurology</li>
+            </ul>
+
+            <!-- Image at the bottom of the third column -->
+            <div class="specialty-image" *ngIf="hoveredSpecialty">
+              <img [src]="specialtyImages[hoveredSpecialty]" alt="{{hoveredSpecialty}} Image" />
+            </div>
+                  </div>
+          
+                  <!-- Image Display -->
+                
+                </div>
+                </div>
+              </li>
+
+            <li><a routerLink="/services" routerLinkActive="active-link" (click)="closeMenu()"(click)="closeDropdown()">Services</a></li>
+            <li><a routerLink="/blog" routerLinkActive="active-link" (click)="closeMenu()" (click)="closeDropdown()">Blog</a></li>
+            <li><a routerLink="/gallery" routerLinkActive="active-link" (click)="closeMenu()"(click)="closeDropdown()">Gallery</a></li>
+            <li><a routerLink="/contact-us" routerLinkActive="active-link" (click)="closeMenu()"(click)="closeDropdown()">Contact Us</a></li>
         </ul>
     </div>
     <div class="appointment-container">
-        <button class="appointment">Book Appointment</button>
+        <button class="appointment"><a href="tel:080 26772555">Book Appointment</a></button>
     </div>
     <div class="menu-icon" (click)="toggleMenu()">
         <span></span>
@@ -67,32 +68,17 @@
 <div class="social-media-section" [ngClass]="{'visible': isMenuVisible || !isMobile}">
     <div class="social-media-container">
         <span class="social-label">Social Media</span>
-        <a href="https://www.facebook.com" target="_blank" class="social-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="white" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02"/></svg>
+        <a href="https://www.facebook.com/profile.php?id=100083045476522" target="_blank" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="white"
+                    d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02" />
+            </svg>
         </a>
-        <a href="https://www.instagram.com" target="_blank" class="social-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="#ffffff" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
+        <a href="https://www.instagram.com/akshahospital_7thblock/?fbclid=IwZXh0bgNhZW0CMTEAAR0jkc3TzFfmuJjvrXQV5ZSrUCTLJzkh-umNurFGxc_VMLtN2BdQEmqhGPo_aem_xi5cvUlqGxf1-2OsceCL0A" target="_blank" class="social-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="#ffffff"
+                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+            </svg>
         </a>
     </div>
 </div>
-
-
-<!-- <div class="home-parent">
-    <b class="home">Home</b>
-    <div class="about-us">About Us</div>
-    <div class="doctor">Doctor</div>
-    <div class="services">Services</div>
-    <div class="blog">Blog</div>
-    <div class="gallery">Gallery</div>
-    <div class="contact-us">Contact Us</div>
-    <img class="aksha-3-32-1" alt="AkshaHospital" src="../../assets/aksha-logo.png">
-    <div class="heading-2">
-    <div class="link">
-    <div class="book-appointment">Book Appointment</div>
-    </div>
-    </div>
-    <div class="specialties-parent">
-    <div class="specialties">Specialties</div>
-    <img class="group-child" alt="AkshaHospital" src="../../assets/drop-down-arrow.png">
-    </div>
-    </div> -->

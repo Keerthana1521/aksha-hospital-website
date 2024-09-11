@@ -5,6 +5,7 @@
     background-color: #f0f4f8;
     top: -85px;
     position: relative;
+    width: 100%;
     
   }
   
@@ -13,6 +14,7 @@
     padding: 40px;
     padding-left: 6rem;
     margin-top: 190px;
+    width: 50%;
   }
   
   .contact-left h2 {
@@ -49,7 +51,7 @@
   .contact-info p {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 16px;
   }
   
@@ -59,19 +61,85 @@
   }
   
   .social-icons a img {
-    width: 30px;
+    width: 20px;
     margin-right: 15px;
   }
   
   .contact-right {
-    flex: 0.5;
+    flex: 1;
     background: linear-gradient(135deg, #0F96B4 0%, #332876 100%);
     padding: 40px;
     border-radius: 8px;
     color: white;
     margin-top: 180px;
+    width: 50%;
+    padding: 105px;
+    /* text-align: center; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  
+  .contact-heading {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
   }
   
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .phone-number, .mobile-number {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .call-now-btn {
+    background: linear-gradient(to right, #004d99, #0099cc);
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 240px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .call-now-btn a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .call-now-btn:hover {
+    background: linear-gradient(to right, #003366, #006699);
+  }
+  
+/*   
   .contact-right h2 {
     font-size: 32px;
 font-weight: 600;
@@ -125,7 +193,7 @@ text-align: center;
     color: white;
     text-decoration: underline;
     font-family: "Poppins";
-  }
+  } */
   
   .map-container {
     /* padding: 20px; */
@@ -187,6 +255,9 @@ text-align: center;
   
     .contact-right {
       padding: 20px;
+      flex:1;
+      width: 100%;
+      margin-top: 0;
     }
   
     .map-container iframe {
@@ -194,6 +265,9 @@ text-align: center;
     }
     .component-39{
         width: 27%;
+    }
+    .contact-info{
+      margin-bottom: 45px;
     }
   }
   
@@ -205,7 +279,20 @@ text-align: center;
     }
     .contact-left {
       padding: 20px;
+      width: 100%;
       
+    }
+    .contact-heading{
+      font-size: 24px;
+      font-weight: 500;
+      text-align: left;
+    }
+    .phone-number, .mobile-number {
+      font-size: 22px;
+      font-weight: 400px;
+    }
+    .contact-right{
+      width: 100%;
     }
     .contact-left h2{
         font-size: 20px;
@@ -218,6 +305,12 @@ text-align: center;
         font-size: 12px;
         font-weight: 600;
     }
+    .contact-info{
+      margin-bottom: 42px;
+  }
+  .contact-info{
+      margin-top: 28px;
+  }
     .line{
         width: 100%;
     }

@@ -188,45 +188,40 @@
 
   margin-top: 3rem;
 }
-
-/* Diagonal lines using before and after */
-.about-us-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0 50px;
-  width: 100%;
-  height: 2px;
-  background: white;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transition: 1s;
-}
-.about-us-btn::after {
-  content: "";
-  position: absolute;
-  inset: 110px 0;
-  width: 100%;
-  height: 2px;
-  background: white;
-  border-left: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transition: 1s;
+.btn{
+  background: linear-gradient(90deg, #332876, #0f96b4);
+  font-weight: 100;
+  
+  svg {
+    height: 58px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 8;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
 }
 
-.about-us-btn:hover {
-  border: 1px solid #fff;
+.btn:hover {
+  background:linear-gradient(90deg, #332876, #0f96b4);
+  /* font-weight: 900;
+  letter-spacing: 1px; */
+  
+  rect {
+    stroke-width: 10;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
 }
 
-/* Hover state */
-.about-us-btn:hover::after {
-  inset: 60px 0;
-  transform: skewX(15deg);
-}
-
-.about-us-btn:hover::before {
-  inset: 0 60px;
-  transform: skewX(80deg);
-}
 
 /* Right side - Experience and image grid */
 .right-content {
@@ -308,15 +303,30 @@
 .text-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
 }
 .image-container {
   display: flex;
   width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 9rem;
+
+}
+.image-container-2{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 9rem;
 }
 .left-image-1 {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
+}
+.left-image-2{
+  width: 468px;
+  height: 566px;
 }
 .text-content {
   flex: 1;
@@ -338,7 +348,7 @@
   font-family: Poppins;
   color: #000;
   text-align: left;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .item-icon {
@@ -448,12 +458,16 @@
   width: 70%;
 
 }
+.num-text-container-1{
+  width: 45%;
+}
 .departments-section {
   padding: 40px;
   background-color: #f0f8ff;
   text-align: center;
-  padding-left: 6rem;
+  padding-left: 7rem;
   padding-right: 3rem;
+
 }
 .section-heading {
   font-size: 36px;
@@ -560,7 +574,7 @@ text-align: justify;
   background: linear-gradient(90deg, #332876, #0f96b4);
   color: white;
   border: none;
-  padding: 20px 40px;
+  padding: 11px 40px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 5px;
@@ -571,6 +585,7 @@ text-align: justify;
 position: relative;
 bottom: 105px;
 font-family: 'Open Sans';
+height: 58px;
 }
 .icon-carousel-container {
   display: flex;
@@ -604,6 +619,7 @@ font-family: 'Open Sans';
   height: 728px;
   /* padding: 30px; */
   overflow: hidden;
+  padding-top: 9rem;
 
 
 }
@@ -631,18 +647,29 @@ font-family: 'Open Sans';
   padding-left: 6rem;
   max-width: 50%;
 }
-/* Slide-up animation (for outgoing heading) */
-@keyframes slideUp {
+/* CSS Animation for Sliding the Active Image Left */
+@keyframes slideLeft {
   from {
+    transform: translateX(0);
     opacity: 1;
-    transform: translateY(0); /* Starts from its original position */
   }
   to {
+    transform: translateX(-10%);
     opacity: 0;
-    transform: translateY(-30px); /* Slides upwards */
   }
 }
 
+/* CSS Animation for Sliding the Next Image in from the Right */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 /* Slide-down animation (for incoming heading) */
 @keyframes slideDown {
   from {
@@ -654,20 +681,6 @@ font-family: 'Open Sans';
     transform: translateY(0); /* Slides to normal position */
   }
 }
-
-
-/* Apply the animations when the class is dynamically added */
-.slide-left {
-  animation: slideLeft 1s ease-in-out;
-}
-
-.slide-in {
-  animation: slideIn 1s ease-in-out;
-}
-
-.fade-in {
-  animation: fadeIn 1s ease-in-out;
-}
 /* Apply animations when the class is dynamically added */
 .slide-up {
   animation: slideUp 0.6s ease-in-out;
@@ -676,13 +689,21 @@ font-family: 'Open Sans';
 .slide-down {
   animation: slideDown 0.6s ease-in-out;
 }
+/* Classes to Trigger the Animation */
+.slide-left {
+  animation: slideLeft 0.5s ease-in-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInFromRight 0.5s ease-in-out forwards;
+}
 
 .caro-text-content {
   height: 400px; /* Set a fixed height for the text container */
   overflow: hidden; /* Ensure no overflow if the text is too long */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .caro-text-content h1 {
   font-family: Poppins;
@@ -715,8 +736,9 @@ font-size: 64px;
   text-align: left;
   font-size: 16px;
   color: #fff;
-  font-family: Inter;
+  font-family: "Open Sans";
   border: none;
+  cursor: pointer;
 }
 
 .caro-image-container {
@@ -732,27 +754,34 @@ font-size: 64px;
   height: 380px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 10px;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  
+/*  
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; */
 }
 
 .next-image {
   width: 340px;
-  height: 280px;
+  height: 287px;
   object-fit: cover;
   border-radius: 10px;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   opacity: 0.8;
   padding-left: 49px;
+ 
+  z-index: -1; /* Ensure it is behind until clicked */
+
+  border:none
 }
 
 .carousel-pagination {
   position: absolute;
-  bottom: 10px;
+  bottom: 45px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
+  z-index: 2;
 }
 
 .carousel-pagination span {
@@ -764,7 +793,7 @@ font-size: 64px;
 }
 
 .carousel-pagination span.active {
-  background-color: #4a90e2;
+  background-color: #0f96b4;
 }
 
 .doctor-container {
@@ -803,23 +832,26 @@ color: #000;
   margin: 5% 0;
 }
 
-.doctor-profile{
-width: 80%;
-display: flex;
-justify-content: center;
-align-items: center;
-padding-right: 4rem;
-}
-.doctor-wrapper {
+.doctor-profile-container {
   display: flex;
+  flex-direction: column; /* Stack items vertically */
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.doctor-profile {
+  display: flex;
+  flex-direction: row; /* Keep the doctor image and details side by side */
   padding: 20px;
   margin-bottom: 30px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  width: 100%; /* Ensure it takes up the available space */
 }
 
 .doctor-image-wrapper {
-  width: 50%;
+  width: 50%; /* Image takes 50% of the space */
   padding-right: 20px;
 }
 
@@ -828,6 +860,83 @@ padding-right: 4rem;
   height: 420px;
   border-radius: 10px;
 }
+
+
+.doctor-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.doctor-title {
+  font-size: 1rem;
+  color: grey;
+}
+
+.specialization, .experience {
+  font-size: 1.1rem;
+}
+.see-more{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.see-more-btn {
+  position: relative;
+  display: inline-block;
+  box-shadow: 3px 4px 15px rgba(63, 176, 206, 0.65);
+  background: linear-gradient(90deg, #332876, #0f96b4);
+  color: white;
+  border: none;
+  padding: 11px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden; /* Ensures the diagonal lines are contained within the button */
+  transition: 0.3s ease;
+
+}
+.see-more-btn{
+  background: linear-gradient(90deg, #332876, #0f96b4);
+  font-weight: 100;
+  
+  svg {
+    height: 38px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+}
+
+.see-more-btn:hover {
+  background:linear-gradient(90deg, #332876, #0f96b4);
+  /* font-weight: 900;
+  letter-spacing: 1px; */
+  
+  rect {
+    stroke-width: 6;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+/* 
+.see-more-btn:hover {
+  background-color: #004c99;
+} */
+
 
 /* Container for the department list */
 .department-container {
@@ -838,13 +947,13 @@ padding-right: 4rem;
 }
 
 .department-list {
-  width: 250px;
-  max-height: 385px; /* Adjust this based on your need */
+  width: 350px;
+  max-height: 420px; /* Adjust this based on your need */
   overflow-y: auto;
   /* border: 2px solid #673ab7; */
   border-radius: 10px;
   padding: 10px;
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
 }
 
@@ -884,6 +993,9 @@ padding-right: 4rem;
 
 /* Scrollbar styling for WebKit browsers (Chrome, Safari, etc.) */
 .department-list::-webkit-scrollbar {
+  width: 4px; 
+  height: 10px;/* Width of the scrollbar */
+  border-radius: 10px;
 }
 
 .department-list::-webkit-scrollbar-track {
@@ -893,22 +1005,23 @@ padding-right: 4rem;
 
 .department-list::-webkit-scrollbar-thumb {
   background-color: #e91e63; /* Pink thumb color */
-  border-radius: 10px; /* Rounded thumb */
+  border-radius: 100px; /* Rounded thumb */
   border: 2px solid #422e8e; /* Border around the thumb */
-  height: 20px;
+  height: 2px;
 }
 
 /* For Firefox */
 .department-list {
   scrollbar-width: thin;
-  scrollbar-color: #e91e63 #422e8e; /* thumb color #e91e63, track color #422e8e */
+  scrollbar-color: #e91e63 #422e8e;
+   /* thumb color #e91e63, track color #422e8e */
 }
 /* Container for the doctor card */
 .doctor-card {
-  width: 390px;
+  width: 314px;
   height: 376px;
   padding: 20px;
-  border: 2px solid #00bcd4;
+  border: 2px solid #0f96b4;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -920,14 +1033,13 @@ padding-right: 4rem;
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 13%;
-    /* left: 50%; */
-    right: 97.5%;
-    /* margin-left: -25px;*/
+  top: 15%;
+  right: 97.5%;
+
 
   border-top: 0px solid black;
-  border-bottom: 2px solid #00bcd4;
-  border-left: 2px solid #00bcd4;
+  border-bottom: 2px solid #0f96b4;
+  border-left: 2px solid #0f96b4;
   border-right: 0px solid #000;
   transform: rotate(45deg);
   margin-top: -25px;
@@ -1005,7 +1117,23 @@ color: #322875;
 /* Responsive styling */
 
 /* Responsive Design */
-
+@media screen and (max-width:1370px){
+  .departments-section{
+    padding-left: 6rem;
+  }
+  .text, .text-2{
+    font-size: 32px;
+  }
+  .number-container{
+    padding-left: 3rem;
+  }
+  .caro-text-content{
+    width: 545px;
+  }
+  .department-content     .content-left p{
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 1030px) {
   .facilities-container {
     /* display: grid;
@@ -1026,6 +1154,9 @@ color: #322875;
     height: 58px;
   }
   .left-image-1 {
+   width:100%;
+  height: 70%;  }
+  .left-image-2{
     width: 80%;
     height: 80%;
   }
@@ -1053,6 +1184,7 @@ color: #322875;
     height: 450px;
     padding-right: 3rem;
   }
+
   .department-content {
     flex-direction: row;
     align-items: center;
@@ -1132,6 +1264,11 @@ color: #322875;
       padding: 10px;
       overflow-x: auto; /* Enable horizontal scrolling */
     }
+    .departments-section{
+      padding-left: 3rem;
+      padding-right: 0rem;
+  
+    }
     
     /* Hide scrollbar but keep functionality */
   
@@ -1157,6 +1294,18 @@ color: #322875;
       scrollbar-width: thin; /* Thin scrollbar */
       scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
     }
+    .active-image{
+      width: 388px;
+      height: 329px;
+  
+    }
+    .caro-image-container{
+      padding-left: 82px;
+    }
+    .caro-text-content{
+      width: 302px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -1214,6 +1363,7 @@ color: #322875;
   .image-content {
     margin-bottom: 20px;
   }
+
 }
 @media screen and (max-width: 768px) {
   .facilities-container {
@@ -1285,6 +1435,18 @@ color: #322875;
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding-left: 1rem;
+  }
+  .left-image-1{
+    width: 80%;
+    height: 80%;
+  }
+
+  .image-container-2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
   }
   .text-content {
     text-align: left;
@@ -1517,9 +1679,28 @@ color: #322875;
       scrollbar-width: thin; /* Thin scrollbar */
       scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
     }
+    .carousel-container{
+      height: 120vh;
+    }
+    .caro-image-container{
+      align-items: center;
+    }
+    .carousel-pagination{
+      bottom: 11px;
+    }
+    .doctor-profile-container{
+      width: 100%;
+    }
   
 }
 @media screen and (max-width: 480px) {
+  .see-more-btn{
+    font-size: 10px;
+    padding: 7px 7px;
+  }
+  .doctor-image-wrapper{
+    /* padding-right: 70px; */
+  }
   /* For tablet-sized screens, we apply the 2-1-2 layout */
   .facilities-container {
     display: grid;
@@ -1639,6 +1820,10 @@ color: #322875;
     width: 100%;
     height: 94%;
   }
+  .left-image-2{
+    width: 100%;
+    height: 94%;
+  }
   
 .departments-section{
   padding-left: 1rem;
@@ -1651,19 +1836,8 @@ color: #322875;
       font-size: 1.5rem;
     }
 
-    .icon-gallery {
-      gap: 8px;
-      flex-wrap: wrap;
 
-      .icon-item {
-        padding: 8px;
-      }
 
-      .icon-image {
-        width: 30px;
-        height: 30px;
-      }
-    }
 
     /* .department-content {
       flex-direction: column;
@@ -1712,7 +1886,18 @@ color: #322875;
       align-items: center;
       text-align: center;
     }
+    .department-content {
+      .content-left {
+        h2 {
+          font-size: 1.5rem;
+        }
   
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          width: 363px;
+        }}}
+   
     .content-left, .content-right {
       width: 100%; /* Full width for both content areas */
     }
@@ -1720,7 +1905,16 @@ color: #322875;
     .content-left {
       order: 1; /* Keep text first */
     }
-  
+.icon-carousel{
+  gap: 10px;
+}
+  .icon-image{
+    width: 50px;
+    height: 50px;
+  }
+  .icon-item{
+    height: 50px;
+  }
     .content-right {
       order: 2; /* Keep image second */
       margin-bottom: 20px; /* Add spacing below image */
@@ -1744,9 +1938,22 @@ color: #322875;
     }
     .carousel-content{
       max-width: 100%;
+      padding-left: 2rem;
     }
     .caro-image-container{
-      align-items: flex-end;
+      align-items: center;
+      padding-left: 2rem;
+    }
+    .caro-text-content h1{
+      font-size: 36px;
+    }
+    .caro-text-content p{
+      font-size: 14px;
+      text-align: justify;
+      padding-right: 1rem;
+    }
+    .carousel-container{
+      height: 100vh;
     }
     .doctor-description{
       display: none;
@@ -1756,21 +1963,32 @@ color: #322875;
       height: 180px;
 
     }
+    .doctor-profile-container{
+      width: 100%;
+      padding-right: 0;
+    }
     .doctor-card{
       width: 160px;
       height: 150px;
     }
+    .doctor-card:after{
+      right: 94.5%;
+      top:23%;
+    }
     .doctor-name{
       font-size: 12px;
+      
     }
     .doctor-title{
       font-size: 8px;
     }
     .specialization{
       font-size: 10px;
+      
     }
     .experience{
       font-size: 10px;
+     
     }
     /* General styles for larger screens */
 .department-list {
@@ -1828,9 +2046,16 @@ color: #322875;
     scrollbar-width: thin; /* Thin scrollbar */
     scrollbar-color: #D91E63 #422e8e; /* Thumb color and track color for Firefox */
   }
+  .num-text-container-1{
+    width: 70%;
+  }
 }
 
-
+@media screen and (max-width:410px){
+  .doctor-profile-container{
+    width: 100%;
+  }
+}
   
 
 @media screen and (max-width: 380px) {
@@ -1840,6 +2065,23 @@ color: #322875;
   .left-image-1 {
     width: 80%;
     height: 94%;
+  }
+  .doctor-card:after{
+    right: 93.5%;
+  }
+  .department-content {
+    .content-left {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 320px;
+      }}}
+  .doctor-profile-container{
+    width: 100%;
   }
 }
 @media screen and (max-width: 325px) {

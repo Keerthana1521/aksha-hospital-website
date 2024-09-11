@@ -9,7 +9,7 @@
         <p class="experience">Years of Experience : <strong>{{doctor.experience}}+</strong></p>
         <div class="expertise">
           <h3><img  class="icon" src="../../assets/drug.svg">Areas Of Expertise:</h3>
-          <ul class="expertise-list">
+          <ul [ngClass]="doctor.expertise.length > 7 ? 'two-columns' : 'single-column'">
             <li *ngFor="let item of doctor.expertise">{{item}}</li> 
           </ul>
         </div>

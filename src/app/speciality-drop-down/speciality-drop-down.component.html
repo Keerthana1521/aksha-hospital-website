@@ -1,0 +1,10 @@
+<div class="specialties-dropdown">
+    <div class="specialty-list">
+      <div class="specialty-item" *ngFor="let specialty of specialties" (mouseover)="onHoverSpecialty(specialty)">
+        <p>{{ specialty.name }}</p>
+      </div>
+    </div>
+    <div class="specialty-image">
+      <img [src]="selectedSpecialtyImage" [alt]="selectedSpecialty.name" />
+    </div>
+  </div>
