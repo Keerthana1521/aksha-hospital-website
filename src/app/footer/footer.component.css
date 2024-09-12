@@ -368,15 +368,23 @@ text-align: center;
         top: 6px;
     }
 }
+@media only screen and (max-width:415px){
+  .footer-container{
+    height: 700px;
+  }
+}
 @media only screen and (max-width:402px){
     .address-info{
         bottom: 278px;
         margin-left: 4rem;
     }
+    .footer-container{
+      height: 722px;
+    }
 }
-@media only screen and (max-width:398px){
+@media only screen and (max-width:400px){
     .address-info{
-        bottom: 318px;
+        bottom: 277px;
     }
 
 }
