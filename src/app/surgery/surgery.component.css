@@ -3,10 +3,10 @@
 }
 
 .container_1{
-    background-image: url('../../assets/specialiti/Obstetrics_bg.png');
+    background-image: url('../../assets/specialiti/Gastrology_bg.png');
     background-size: cover;
     /* background-repeat: no-repeat; */
-    height: 120vh;
+    height: 920px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +208,7 @@
 /* container 1 */
 @media (max-width : 800px){
 .container_1{
-    background-image: url(../../assets/specialiti/Obstetrics_bg_tab.png);
+    background-image: url(../../assets/specialiti/Gastrology_bg.png);
     background-size: cover;
 }
 
@@ -279,7 +279,7 @@
 
 @media (max-width : 800px){
 .container_1{
-    background-image: url('../../assets/specialiti/Obstetrics_bg_mobile.png');
+    background-image: url('../../assets/specialiti/Gastrology_mobile_bg.png');
 }
 
 .Obstetrics_heading{
