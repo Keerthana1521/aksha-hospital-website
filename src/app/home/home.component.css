@@ -1959,13 +1959,13 @@ color: #322875;
       display: none;
     }
     .doctor-image{
-      width: 160px;
-      height: 180px;
+      width: 177px;
+        height: 195px;
 
     }
     .doctor-profile-container{
       width: 100%;
-      padding-right: 0;
+      padding: 0;
     }
     .doctor-card{
       width: 160px;

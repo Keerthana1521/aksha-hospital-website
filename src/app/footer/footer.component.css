@@ -271,7 +271,7 @@ text-align: center;
         margin-left: 47px;
     }
     .footer-container{
-        height: 652px;
+        height: 685px;
     }
 
     .footer-section {
@@ -382,7 +382,7 @@ text-align: center;
 }
 @media only screen and (max-width:380px){
     .footer-container{
-        height: 120vh;
+        height: 700px;
     }
     .address-info{
         bottom: 248px;
@@ -413,6 +413,9 @@ text-align: center;
     .address-info{
         bottom: 263px;
         margin-left: 3rem;
+    }
+    .footer-container{
+      height: 720px;
     }
 }
 @media only screen and (max-width:330px){
