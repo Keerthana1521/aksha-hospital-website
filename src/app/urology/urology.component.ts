@@ -11,7 +11,7 @@ export class UrologyComponent {
       name: "Dr. Sayalee Gadgil", 
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - ENT', 
+      designation: 'Consultant - Radiology', 
       experience: '7', 
       image: '../../assets/doctor-15.png',
       icon:'../../assets/female.svg', 
