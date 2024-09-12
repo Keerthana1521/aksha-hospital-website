@@ -30,7 +30,7 @@ import { ENTComponent } from './ent/ent.component';
 import { OncologyComponent } from './oncology/oncology.component';
 import { NeurologyComponent } from './neurology/neurology.component';
 import { ObstetricsComponent } from './obstetrics/obstetrics.component';
-import { SurgeryComponent } from './surgery/surgery.component';
+import { SurgeryComponent } from './gastro_surgery/surgery.component';
 import { PediatricianComponent } from './pediatrician/pediatrician.component';
 import { HomeComponent } from './home/home.component';
 import { SpecialityDropDownComponent } from './speciality-drop-down/speciality-drop-down.component';
