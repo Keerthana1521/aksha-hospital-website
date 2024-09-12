@@ -17,7 +17,7 @@
     <div class="container_2_heading">Common surgeries in Gastroenterology and General Surgery</div>
     <div class="container_2">
         <div class="container_2_content">
-            <div class="container_2_para">General surgery is a surgical speciality that focuses on abdominal contents, including the oesophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix, bile ducts, and often the thyroid gland (depending on local referral patterns). They also deal with diseases involving the skin, breast, soft tissue, trauma, peripheral vascular disease, and hernias. Some of the surgical procedures performed by our gastroenterologists and general surgeons include: Whipple’s Pancreaticoduodenectomy Choledochal cyst and hepaticojejunostomy Frey’s pancreaticojejunostomy Splenectomy Hydatid cyst liver excision (open and laparoscopic) Cholecystectomies (open and laparoscopic) Palliative bypass surgeries</div>
+            <div class="container_2_para">General surgery is a surgical speciality that focuses on abdominal contents, including the oesophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix, bile ducts, and often the thyroid gland (depending on local referral patterns). They also deal with diseases involving the skin, breast, soft tissue, trauma, peripheral vascular disease, and hernias. Some of the surgical procedures performed by our gastroenterologists and general surgeons include: Whipple’s Pancreaticoduodenectomy, Choledochal cyst and hepaticojejunostomy, Frey’s pancreaticojejunostomy, Splenectomy, Hydatid cyst liver excision (open and laparoscopic), Cholecystectomies (open and laparoscopic), Palliative bypass surgeries.</div>
         </div>
         <div class="container_2_image">
             <img src="../../assets/specialiti/surgery_container_2_image.png" alt="">
@@ -44,21 +44,13 @@
 
     <div class="team_heading">Meet Our Medical specialists</div>
     <div class="doctor_details">
-        <app-doctor-structure 
-        image = "../../assets/doctor-1.png" 
-        name = "Dr. Bhoopal" 
-        desgination = "Consultant- Psychiatrist"
-        qualification = "MBBS, MD - Psychiatry"
-        about = "Aksha Hospital is the brainchild of Dr Bhoopal TS."
-        description = "It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology..."
-        ></app-doctor-structure>
-        <app-doctor-structure 
-        image = "../../assets/doctor-1.png" 
-        name = "Dr. Bhoopal" 
-        desgination = "Consultant- Psychiatrist"
-        qualification = "MBBS, MD - Psychiatry"
-        about = "Aksha Hospital is the brainchild of Dr Bhoopal TS."
-        description = "It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology..."
+        <app-doctor-structure *ngFor = 'let doctor of doctors'
+        image = {{doctor.image}}
+        name = "{{doctor.name}}" 
+        desgination = {{doctor.designation}}
+        qualification = {{doctor.qualification}}
+        about = {{doctor.about}}
+        description = ""
         ></app-doctor-structure>
     </div>
     </div>
