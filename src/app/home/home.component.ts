@@ -317,7 +317,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Sayalee-Gadgil', 
       department:'Radiology',
       qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - ENT', 
+      designation: 'Consultant - Radiology', 
       experience: '7', 
       image: '../../assets/scroll-doctor-15.png',
       icon:'../../assets/female.svg', 

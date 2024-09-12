@@ -116,7 +116,7 @@
     font-family: Poppins, sans-serif;
     color: #fff;
     position: relative;
-    left: 69rem;
+    left: 63rem;
     top: 13vh;
     position: fixed;
     z-index: 9;
@@ -248,7 +248,7 @@ z-index: 1;
   }
   .social-media-section{
 left: 60rem;
-top: 15vh;
+top: 14.5vh;
 z-index: 9;
   }
 }
@@ -286,7 +286,7 @@ z-index: 9;
     color: #fff;
     position: relative;
     left: 42rem;
-    top: 17vh;
+    top: 14.5vh;
     position: fixed;
     /* z-index: 9; */
     margin: 0px 74px;
@@ -327,6 +327,7 @@ z-index: 1;
       border-radius: 0px 0px 0 0;
       margin: 0 auto;
       width: 100%;
+      top: 50px;
   }
   .nav-container {
     display: none;
@@ -380,7 +381,7 @@ z-index: 1;
     color: #fff;
     position: relative;
     left: -2rem;
-    top: 63vh;
+    top: 0px;
     position: fixed;
     /* z-index: 9; */
     margin: 0 30px;
@@ -428,6 +429,7 @@ z-index: 1;
 @media (max-width: 480px) {
   .home-parent {
     padding: 15px;
+    top: 50px;
   }
 .nav-list li a{
   font-size: 18px;
@@ -454,7 +456,7 @@ z-index: 1;
     color: #fff;
     position: relative;
     left: -2rem;
-    top: 66vh;
+    top: 0vh;
     position: fixed;
     /* z-index: 9; */
     
