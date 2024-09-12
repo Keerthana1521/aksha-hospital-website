@@ -46,11 +46,12 @@
     <div class="doctor_details">
         <app-doctor-structure *ngFor = 'let doctor of doctors'
         image = {{doctor.image}}
-        name = "{{doctor.name}}" 
+        name = {{doctor.name}} 
         desgination = {{doctor.designation}}
         qualification = {{doctor.qualification}}
         about = {{doctor.about}}
         description = ""
+        slug={{doctor.slug}}
         ></app-doctor-structure>
     </div>
     </div>
