@@ -20,7 +20,7 @@ import { OrthopedicComponent } from './orthopedic/orthopedic.component';
 import { PediatricianComponent } from './pediatrician/pediatrician.component';
 import { PhysiotherapyComponent } from './physiotherapy/physiotherapy.component';
 import { RadiologyComponent } from './radiology/radiology.component';
-import { SurgeryComponent } from './surgery/surgery.component';
+import { SurgeryComponent } from './gastro_surgery/surgery.component';
 import { UrologyComponent } from './urology/urology.component';
 import { VascularSurgeryComponent } from './vascular-surgery/vascular-surgery.component';
 

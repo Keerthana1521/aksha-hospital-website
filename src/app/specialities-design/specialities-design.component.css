@@ -227,7 +227,7 @@
     .doctors_container{
         flex-direction: column;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 70px;
     }
 
     .doc_1{
@@ -238,6 +238,14 @@
     .doc_1 img{
         width: 230px;
         height: auto;
+    }
+}
+
+@media (max-width : 400px){
+    .speciality_img img{
+        width: 450px;
+        height: auto;
+        left: 50x;
     }
 }
 
