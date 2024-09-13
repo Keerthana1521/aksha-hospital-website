@@ -28,5 +28,20 @@ export class OrthopedicComponent {
           'Platelet-rich-plasma injections',
         ]
       },
+      {
+        name: "Dr. Sujayendra D M", 
+        slug: 'Dr-Sujayendra-D-M', 
+        qualification: "MBBS, MS(Ortho), DNB(Ortho)", 
+        designation: 'Consultant - Orthopaedics', 
+        experience: '', 
+        image: '../../assets/doctor-16.png',
+        icon:'../../assets/male.svg', 
+        about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities, he gained wide exposure to hand surgeries...', 
+        expertise: [
+          'Fracture care',
+          'Joint Replacement and Arthroscopy(keyhole) Surgeries',
+          'Hand surgeries'
+        ]
+      },
     ]
 }
