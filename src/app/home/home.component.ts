@@ -334,7 +334,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department:'Orthopaedic',
       designation: 'Consultant - Orthopaedics', 
       experience: '', 
-      image: '../../assets/doctor-16.png',
+      image: '../../assets/scroll-doctor-16.png',
       icon:'../../assets/male.svg', 
       about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities,', 
       expertise: [
@@ -350,7 +350,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department:'Nephrology',
       designation: 'Consultant - Nephrologist', 
       experience: '', 
-      image: '../../assets/doctor-17.png',
+      image: '../../assets/scroll-doctor-17.png',
       icon:'../../assets/male.svg', 
       about: '', 
       expertise: [
