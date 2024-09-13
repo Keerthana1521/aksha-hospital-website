@@ -95,7 +95,7 @@ export class DoctorComponent {
       experience: '10', 
       image: '../../assets/doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -128,7 +128,7 @@ export class DoctorComponent {
       experience: '8', 
       image: '../../assets/doctor-8.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
         
       ]
@@ -141,7 +141,7 @@ export class DoctorComponent {
       experience: '10', 
       image: '../../assets/doctor-9.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...', 
+      about: '', 
       expertise: [
        
       ]
@@ -180,7 +180,7 @@ export class DoctorComponent {
       experience: '', 
       image: '../../assets/doctor-11.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+      about: '',
       expertise: [
         
       ]
