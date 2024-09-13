@@ -261,5 +261,36 @@ export class DoctorComponent {
         'Abdominal Imaging',
       ]
     },
+    {
+      name: "Dr. Sujayendra D M", 
+      slug: 'Dr-Sujayendra-D-M', 
+      qualification: "MBBS, MS(Ortho), DNB(Ortho)", 
+      designation: 'Consultant - Orthopaedics', 
+      experience: '11', 
+      image: '../../assets/doctor-16.png',
+      icon:'../../assets/male.svg', 
+      about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities,', 
+      expertise: [
+        'Fracture care',
+        'Joint Replacement and Arthroscopy(keyhole) Surgeries',
+        'Hand surgeries'
+      ]
+    },
+    {
+      name: "Dr. Rajiv E N", 
+      slug: 'Dr-Rajiv-E-N', 
+      qualification: "MBBS, MD(General Medicine), DM(Nephrology)", 
+      department:'Nephrology',
+      designation: 'Consultant - Nephrologist', 
+      experience: '', 
+      image: '../../assets/doctor-17.png',
+      icon:'../../assets/male.svg', 
+      about: '', 
+      expertise: [
+        'Nephrology',
+        'Dialysis',
+        'Renal Transplantation'
+      ]
+    }
   ]
 }
