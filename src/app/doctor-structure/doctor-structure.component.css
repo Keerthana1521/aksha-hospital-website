@@ -51,6 +51,8 @@
   }
   
   .doctor {
+    width: 300px;
+    height: auto;
     border-radius: 25px 25px 0 0;
   }
   

@@ -5,6 +5,17 @@
 
 /* doctor details */
 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(148, 204, 204, 0.425);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    width: 9px;
+    background: radial-gradient(131.63% 83.12% at 62.9% 68.58%, #9747FF 0%, #332876 100%);
+    border-radius: 30px;
+}
+
 .doctor_details{
     display: flex;
     justify-content: center;
