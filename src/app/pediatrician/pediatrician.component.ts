@@ -47,16 +47,20 @@ export class PediatricianComponent {
         ]
       },
       {
-        name: "Dr. Vivekananda Kustagi", 
-        slug: 'Dr-Vivekananda-Kustagi', 
-        qualification: "", 
-        designation: '', 
-        experience: '', 
-        image: '../../assets/doctor-11.png', 
-        icon:'../../assets/male.svg',
-        about: '',
-        expertise: [
-          
+        name: "Dr. Vivekanand Kustagi",
+        slug : "Dr. Vivekanand Kustagi",
+        qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
+        department : "Paediatrics",
+        designation: 'Consultant - Paediatrics', 
+        experience : "28",
+        image : "../../assets/doctor-11.png",
+        about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+        expertise : [
+          'Endo-urology',
+          'Uro-oncology',
+          'Genito-urinary',
+          'reconstruction',
+          'kidney stones'
         ]
       },
   ]

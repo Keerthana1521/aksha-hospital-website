@@ -236,19 +236,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Atypical genitalia'
       ]
     },
-    {
-      name: "Dr. Vivekananda Kustagi", 
-      slug: 'Dr-Vivekananda-Kustagi', 
-      qualification: "", 
-      designation: '', 
-      experience: '', 
-      image: '../../assets/scroll-doctor-11.png', 
-      icon:'../../assets/male.svg',
-      about: '',
-      expertise: [
-        
-      ]
-    },
+
     {
       name: "Dr. Sridutt Shekar", 
       slug: 'Dr-Sridutt-Shekar', 
@@ -365,7 +353,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Vijaya Kumar", 
       slug: 'Dr-Vijaya-Kumar', 
       qualification: "MBBS. DA DNB in Anaesthesialogy ", 
-      department:'Anaesthesialogy',
+      department:'Anesthesia',
       designation: 'Consultant - Anaesthesialogy', 
       experience: '22', 
       image: '../../assets/doctor-18.jpg',
@@ -379,7 +367,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: "Dr. Palaniappan S",
       slug : "Dr-Palaniappan-S",
       qualification : "BPT, MSc(Y&N), FCR.",
-      department : "Physiotheraphy",
+      department : "Physiotherapy",
       experience : "20",
       image : "../../assets/doctor-19.jpg",
       about : "Ortho, stroke, cardiac Rehabilitation",
