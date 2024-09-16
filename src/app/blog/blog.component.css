@@ -173,9 +173,9 @@
   }
 /* Container for the category filter dropdown */
 .category-filter {
-    margin: 20px 0;
+    margin-bottom: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
   }
@@ -192,7 +192,7 @@
     cursor: pointer;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
     outline: none;
-    width: 30%;
+    width: 50%;
     appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;

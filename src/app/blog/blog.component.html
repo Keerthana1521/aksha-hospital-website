@@ -8,12 +8,12 @@
             <input type="text" placeholder="Search Blog" [(ngModel)]="searchText" (input)="filterBlogs()" name="" id="">
             <i class="fa-solid fa-magnifying-glass"></i>
         </div> -->
-        <div class="category-filter">
+        <!-- <div class="category-filter">
             <select [(ngModel)]="selectedCategory" (change)="filterBlogs()">
                 <option value="">All Categories</option>
                 <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
             </select>
-        </div>
+        </div> -->
     </div>
     <div class="container_1">
         <div class="poster" *ngIf="featuredPost">
@@ -28,6 +28,12 @@
             </div>
         </div>
         <div class="blog_list">
+            <div class="category-filter">
+                <select [(ngModel)]="selectedCategory" (change)="filterBlogs()">
+                    <option value="">All Categories</option>
+                    <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+                </select>
+            </div>
             <div *ngFor="let post of filteredPosts" [routerLink]="['/blog', post.slug]" class="post-link">
                 <div class="list_poster_image">
                     <img [src]="post.featured_image_url" alt="">
