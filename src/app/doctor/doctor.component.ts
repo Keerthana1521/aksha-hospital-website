@@ -291,6 +291,65 @@ export class DoctorComponent {
         'Dialysis',
         'Renal Transplantation'
       ]
+    },
+    {
+      name: "Dr. Vijaya Kumar", 
+      slug: 'Dr. Vijaya Kumar', 
+      qualification: "MBBS. DA DNB in Anaesthesialogy ", 
+      department:'Anaesthesialogy',
+      designation: 'Consultant - Anaesthesialogy', 
+      experience: '22', 
+      image: '../../assets/doctor-18.jpg',
+      icon:'../../assets/male.svg', 
+      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality ', 
+      expertise: [
+        'Anaesthesialogy'
+      ]
+    },
+    {
+      name: "Dr. Palaniappan S",
+      slug : "Dr. Palaniappan S",
+      qualification : "BPT, MSc(Y&N), FCR.",
+      department : "Physiotheraphy",
+      experience : "20",
+      image : "../../assets/doctor-19.jpg",
+      about : "Ortho, stroke, cardiac Rehabilitation",
+      expertise : [
+        'Cardiac & Neuro Rehabilitation'
+      ]   
+    },
+    {
+      name: "Dr. Vivekanand Kustagi",
+      slug : "Dr. Vivekanand Kustagi",
+      qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
+      department : "Paediatrics",
+      designation: 'Consultant - Paediatrics', 
+      experience : "28",
+      image : "../../assets/doctor-20.jpeg",
+      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+      expertise : [
+        'Endo-urology',
+        'Uro-oncology',
+        'Genito-urinary',
+        'reconstruction',
+        'kidney stones'
+      ]
+    },
+    {
+      name: "Dr. Sowmya S",
+      slug : "Dr. Sowmya S",
+      qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
+      department : "Clinical Psychology",
+      designation : "Consultant - Clinical Psychology",
+      experience : "3",
+      image : "../../assets/doctor-21.jpg",
+      about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",
+      expertise : [
+          'Psycho-oncology',
+          'Behavioural endocrinology, Psycho-education',
+          'Providing Supportive Psychotherapy',
+          'Stress management counseling and treating a variety of clinical disorders using an integrative approach'
+      ]
     }
   ]
 }
