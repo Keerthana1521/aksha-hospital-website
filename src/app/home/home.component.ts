@@ -38,6 +38,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     { name: 'ENT', selected: false },
     { name: 'Oncology and Onco Surgery', selected: false },
     { name: 'Neurology', selected: false },
+    { name: 'Psychology', selected: false },
   ];
 
   // Method to select a department
@@ -273,10 +274,11 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Manju-Aswath', 
       qualification: "MBBS, MD - Psychiatry", 
       designation: 'Consultant- Psychiatrist', 
+      department:'Psychology',
       experience: '20', 
       image: '../../assets/scroll-doctor-13.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions', 
+      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. ', 
       expertise: [
         'Adult psychiatry',
         'Women mental health',
@@ -358,7 +360,67 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Dialysis',
         'Renal Transplantation'
       ]
-    }
+    },
+    {
+      name: "Dr. Vijaya Kumar", 
+      slug: 'Dr-Vijaya-Kumar', 
+      qualification: "MBBS. DA DNB in Anaesthesialogy ", 
+      department:'Anaesthesialogy',
+      designation: 'Consultant - Anaesthesialogy', 
+      experience: '22', 
+      image: '../../assets/doctor-18.jpg',
+      icon:'../../assets/male.svg', 
+      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality ', 
+      expertise: [
+        'Anaesthesialogy'
+      ]
+    },
+    {
+      name: "Dr. Palaniappan S",
+      slug : "Dr-Palaniappan-S",
+      qualification : "BPT, MSc(Y&N), FCR.",
+      department : "Physiotheraphy",
+      experience : "20",
+      image : "../../assets/doctor-19.jpg",
+      about : "Ortho, stroke, cardiac Rehabilitation",
+      expertise : [
+        'Cardiac & Neuro Rehabilitation'
+      ]   
+    },
+
+    {
+      name: "Dr. Sowmya S",
+      slug : "Dr-Sowmya-S",
+      qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
+      department : "Psychology",
+      designation : "Consultant - Clinical Psychology",
+      experience : "3",
+      image : "../../assets/doctor-21.jpg",
+      about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",
+      expertise : [
+          'Psycho-oncology',
+          'Behavioural endocrinology, Psycho-education',
+          'Providing Supportive Psychotherapy',
+          'Stress management counseling and treating a variety of clinical disorders using an integrative approach'
+      ]
+    },
+    {
+      name: "Dr. Vivekanand Kustagi",
+      slug : "Dr-Vivekanand-Kustagi",
+      qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
+      department : "Pediatrician",
+      designation: 'Consultant - Paediatrics', 
+      experience : "28",
+      image : "../../assets/scroll-doctor-11.png",
+      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+      expertise : [
+        'Endo-urology',
+        'Uro-oncology',
+        'Genito-urinary',
+        'reconstruction',
+        'kidney stones'
+      ]
+    },
   ]
 
   // The currently selected doctor (initialized with the first doctor)

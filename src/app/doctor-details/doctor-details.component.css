@@ -36,7 +36,7 @@
     z-index: 0;
     width: 300px;
     height: 420px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     /* padding: 2rem; */
     display: flex;
@@ -44,39 +44,39 @@
     align-items: center;
     font-family: sans-serif;
     font-weight: bold;
-    
-    &::before {
-      content: '';
-      position: absolute;
-      z-index: -2;
-      left: -50%;
-      top: -50%;
-      width: 200%;
-      height: 200%;
-      background-color: #fff;
-      background-repeat: no-repeat;
-      background-size: 50% 50%, 50% 50%;
-      background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-      background-image: linear-gradient(#E0619E,#E0619E), linear-gradient(#0F96B4, #0F96B4), linear-gradient(#332876, #332876);
-      animation: rotate 4s linear infinite;
-    }
-    
-    &::after {
-      content: '';
-      position: absolute;
-      z-index: -1;
-      left: 6px;
-      top: 6px;
-      width: calc(100% - 12px);
-      height: calc(100% - 12px);
-      background: white;
-      border-radius: 5px;
-    }
+  }
+  .doctor-image:hover img {
+    /* Change to your desired border color */
   }
   .doctor-image img {
-    width: 100%;
-    border-radius: 10px;
+    width: 330px;
+    border-radius: 20px;
     object-fit: cover;
+  ; /* Optional rounded corners */
+  border: 7px solid transparent; /* Initial transparent border */
+  transition: border-color 0.4s ease-in-out;
+  }
+  @keyframes borderAnimation {
+    0% {
+      border-color: transparent;
+    }
+    25% {
+      border-color: #D964A2; /* First color */
+    }
+    50% {
+      border-color: #332876; /* Second color */
+    }
+    75% {
+      border-color: #34A853; /* Third color */
+    }
+    100% {
+      border-color: #0F96B4; /* Final color */
+    }
+  }
+  
+  /* Animate border on hover */
+  .doctor-image img {
+    animation: borderAnimation 2s infinite alternate; /* Runs animation forever */
   }
   
   .doctor-details {

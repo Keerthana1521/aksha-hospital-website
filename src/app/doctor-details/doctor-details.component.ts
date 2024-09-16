@@ -175,16 +175,20 @@ export class DoctorDetailsComponent {
       ]
     },
     {
-      name: "Dr. Vivekananda Kustagi", 
-      slug: 'Dr-Vivekananda-Kustagi', 
-      qualification: "", 
-      designation: '', 
-      experience: '', 
-      image: '../../assets/doctor-11.png', 
-      icon:'../../assets/male.svg',
-      about: '',
-      expertise: [
-        
+      name: "Dr. Vivekanand Kustagi",
+      slug : "Dr-Vivekanand-Kustagi",
+      qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
+      department : "Paediatrics",
+      designation: 'Consultant - Paediatrics', 
+      experience : "28",
+      image : "../../assets/doctor-11.png",
+      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+      expertise : [
+        'Endo-urology',
+        'Uro-oncology',
+        'Genito-urinary',
+        'reconstruction',
+        'kidney stones'
       ]
     },
     {
@@ -296,7 +300,7 @@ export class DoctorDetailsComponent {
     },
     {
       name: "Dr. Vijaya Kumar", 
-      slug: 'Dr. Vijaya Kumar', 
+      slug: 'Dr-Vijaya-Kumar', 
       qualification: "MBBS. DA DNB in Anaesthesialogy ", 
       department:'Anaesthesialogy',
       designation: 'Consultant - Anaesthesialogy', 
@@ -310,7 +314,7 @@ export class DoctorDetailsComponent {
     },
     {
       name: "Dr. Palaniappan S",
-      slug : "Dr. Palaniappan S",
+      slug : "Dr-Palaniappan-S",
       qualification : "BPT, MSc(Y&N), FCR.",
       department : "Physiotheraphy",
       experience : "20",
@@ -320,26 +324,10 @@ export class DoctorDetailsComponent {
         'Cardiac & Neuro Rehabilitation'
       ]   
     },
-    {
-      name: "Dr. Vivekanand Kustagi",
-      slug : "Dr. Vivekanand Kustagi",
-      qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
-      department : "Paediatrics",
-      designation: 'Consultant - Paediatrics', 
-      experience : "28",
-      image : "../../assets/doctor-20.jpeg",
-      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
-      expertise : [
-        'Endo-urology',
-        'Uro-oncology',
-        'Genito-urinary',
-        'reconstruction',
-        'kidney stones'
-      ]
-    },
+
     {
       name: "Dr. Sowmya S",
-      slug : "Dr. Sowmya S",
+      slug : "Dr-Sowmya-S",
       qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
       department : "Clinical Psychology",
       designation : "Consultant - Clinical Psychology",

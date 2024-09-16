@@ -19,4 +19,7 @@ export class BlogService{
   getCategory(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/categories/${id}`);
   }
+  getMediaById(id: number): Observable<any> {
+    return this.http.get(`${this.baseUrl}/media/${id}`);
+  }
 }
