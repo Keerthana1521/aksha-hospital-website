@@ -396,7 +396,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       designation : "Consultant - Clinical Psychology",
       experience : "3",
       image : "../../assets/doctor-21.jpg",
-      about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",
+      about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. ",
       expertise : [
           'Psycho-oncology',
           'Behavioural endocrinology, Psycho-education',

@@ -288,7 +288,7 @@ export class DoctorDetailsComponent {
       qualification: "MBBS, MD(General Medicine), DM(Nephrology)", 
       department:'Nephrology',
       designation: 'Consultant - Nephrologist', 
-      experience: '', 
+      experience: '8', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
       about: '', 
