@@ -19,7 +19,11 @@ export class BlogPostComponent {
   const slug = this.route.snapshot.paramMap.get('slug')!;
   this.blogService.getPostBySlug(slug).subscribe(async (data: any) => {
     this.post = data[0];
-
+    if (this.post.featured_media) {
+      this.blogService.getMediaById(this.post.featured_media).subscribe(media => {
+        this.post.featured_image_url = media.source_url;
+      });
+    }
       // Fetch categories
       const categoryPromises = this.post.categories.map((categoryId: number) =>
         this.blogService.getCategory(categoryId).toPromise()

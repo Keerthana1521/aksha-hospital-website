@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { BlogService} from '../blog.service';
 import { ActivatedRoute } from '@angular/router';
 import { Title, Meta } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-blog',
@@ -14,7 +15,7 @@ export class BlogComponent {
   featuredPost: any; 
   categories: string[] = [];
 
-  constructor(private blogService: BlogService,private route: ActivatedRoute,private titleService: Title, private metaService: Meta) { }
+  constructor(private blogService: BlogService,private route: ActivatedRoute,private titleService: Title, private metaService: Meta,private sanitizer: DomSanitizer) { }
   generateSlug(title: string): string {
     return title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
   }
@@ -48,6 +49,11 @@ export class BlogComponent {
         });
       }
     });
+  }
+  stripHtmlTags(content: string): string {
+    const tempElement = document.createElement('div');
+    tempElement.innerHTML = content;
+    return tempElement.textContent || tempElement.innerText || '';
   }
   
 }

@@ -16,18 +16,20 @@
             <div class="poster_content">
                 <div class="date">{{ featuredPost.date | date:'mediumDate' }}</div>
                 <div class="blog_heading">{{ featuredPost.title.rendered }}</div>
-                <div class="blog_des" [innerHTML]="featuredPost.excerpt.rendered"></div>
+                <div class="blog_des">{{ stripHtmlTags(featuredPost.excerpt.rendered) | slice:0:300  }}...</div>
+                <button [routerLink]="['/blog', featuredPost.slug]" class="read-more-btn">Read More</button>
             </div>
         </div>
         <div class="blog_list">
-            <div class="list_poster" *ngFor="let post of posts" [routerLink]="['/blog', post.slug]" class="post-link">
+            <div *ngFor="let post of posts" [routerLink]="['/blog', post.slug]" class="post-link">
                 <div class="list_poster_image">
                     <img [src]="post.featured_image_url" alt="">
                 </div>
                 <div class="poster_content">
                     <div class="list_date">{{ post.date | date:'mediumDate' }}</div>
                     <div class="list_blog_heading">{{ post.title.rendered }}</div>
-                    <div class="list_blog_des" [innerHTML]="post.excerpt.rendered"></div>
+                    <div class="list_blog_des">{{ stripHtmlTags(post.excerpt.rendered) | slice:0:200  }}...</div>
+                    <button [routerLink]="['/blog', post.slug]" class="read-more-btn">Read More</button>
                 </div>
             </div>            
         </div>

@@ -24,6 +24,7 @@ import { SurgeryComponent } from './gastro_surgery/surgery.component';
 import { UrologyComponent } from './urology/urology.component';
 import { VascularSurgeryComponent } from './vascular-surgery/vascular-surgery.component';
 import { BlogComponent } from './blog/blog.component';
+import { BlogPostComponent } from './blog-post/blog-post.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -49,7 +50,9 @@ const routes: Routes = [
   {path:'surgery', component:SurgeryComponent},
   {path:'urology', component:UrologyComponent},
   {path:'vascular-surgery', component:VascularSurgeryComponent},
-  {path:'blog',component: BlogComponent}
+  {path:'blog',component: BlogComponent},
+  { path: 'blog/:slug', component: BlogPostComponent },
+
 ];
 
 @NgModule({
