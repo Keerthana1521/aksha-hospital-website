@@ -22,4 +22,7 @@ export class BlogService{
   getMediaById(id: number): Observable<any> {
     return this.http.get(`${this.baseUrl}/media/${id}`);
   }
+  getCategories(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.baseUrl}/categories`);
+  }
 }
