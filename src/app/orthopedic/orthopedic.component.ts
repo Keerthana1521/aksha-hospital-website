@@ -29,14 +29,14 @@ export class OrthopedicComponent {
         ]
       },
       {
-        name: "Dr. Sujayendra D M", 
+        name: "Dr. Sujayendra D. M", 
         slug: 'Dr-Sujayendra-D-M', 
-        qualification: "MBBS, MS(Ortho), DNB(Ortho)", 
+        qualification: "MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery", 
         designation: 'Consultant - Orthopaedics', 
-        experience: '', 
+        experience: '10', 
         image: '../../assets/doctor-16.png',
         icon:'../../assets/male.svg', 
-        about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities, he gained wide exposure to hand surgeries...', 
+        about: "Dr. Sujayendra D M is a Orthopaedic surgeon with higher training in musculoskeletal trauma and arthroplasty, 10 Years Experience Overall (7 years as specialist) Dr. Sujayendra D M practices at...", 
         expertise: [
           'Fracture care',
           'Joint Replacement and Arthroscopy(keyhole) Surgeries',

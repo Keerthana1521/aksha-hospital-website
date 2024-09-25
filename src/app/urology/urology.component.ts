@@ -8,17 +8,15 @@ import { Component } from '@angular/core';
 export class UrologyComponent {
   doctors = [
     {
-      name: "Dr. Sayalee Gadgil", 
-      slug: 'Dr-Sayalee-Gadgil', 
-      qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - Radiology', 
-      experience: '7', 
-      image: '../../assets/doctor-15.png',
-      icon:'../../assets/female.svg', 
-      about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
-      expertise: [
-        'Fetal Medicine',
-        'Abdominal Imaging',
+      name: "Dr. Manohar C S",
+      slug : "Dr. Manohar C S",
+      qualification : "MBBS, MS – Urology",
+      department : "Urology/Genito-Urinary Surgery",
+      designation : "Consultant - Urology/Genito-Urinary Surgery",
+      experience : "17",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Manohar C S is a Urologist in Bangalore and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2003 and MS – Urology from Kempegowda...",
+      expertise : [
       ]
     },
   ]

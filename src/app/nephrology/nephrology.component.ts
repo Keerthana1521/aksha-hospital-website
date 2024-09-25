@@ -13,16 +13,16 @@ export class NephrologyComponent {
       qualification: "MBBS, MD(General Medicine), DM(Nephrology)", 
       department:'Nephrology',
       designation: 'Consultant - Nephrologist', 
-      experience: '', 
+      experience: '15', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: '', 
+      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr Rajiv isn't just a doctor; he is a partner in your...", 
       expertise: [
         'Nephrology',
         'Dialysis',
         'Renal Transplantation'
       ]
-    }
+    },
   ]
 
 }
