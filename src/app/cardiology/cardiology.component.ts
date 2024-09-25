@@ -8,16 +8,15 @@ import { Component } from '@angular/core';
 export class CardiologyComponent {
     doctors = [
       {
-        name: "Dr. Anand Palakshachar", 
-        slug: 'Dr-Anand-Palakshachar', 
-        qualification: "MBBS, MD General Medicine", 
-        designation: 'Consultant- Cardiologist', 
-        experience: '8', 
-        image: '../../assets/doctor-8.png', 
-        icon:'../../assets/male.svg',
-        about: '', 
-        expertise: [
-          
+        name: "Dr. Anand Palakshachar",
+        slug : "Dr. Anand Palakshachar",
+        qualification : "MBBS, MD - General Medicine, DM - Cardiology",
+        department : "Cardiology",
+        designation : "Consultant - Cardiologist",
+        experience : "7",
+        image : "../../assets/doctor-8.png",
+        about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from Rguhs...",
+        expertise : [
         ]
       },
     ]

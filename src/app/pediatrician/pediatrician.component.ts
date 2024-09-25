@@ -48,7 +48,7 @@ export class PediatricianComponent {
       },
       {
         name: "Dr. Vivekanand Kustagi",
-        slug : "Dr. Vivekanand Kustagi",
+        slug : "Dr-Vivekanand-Kustagi",
         qualification : "MBBS, MD, DNB, FIAA, FIAP, PGPN (Boston), and MBA",
         department : "Paediatrics",
         designation: 'Consultant - Paediatrics', 

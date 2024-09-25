@@ -10,12 +10,12 @@ export class GeneralPhysicianComponent {
     {
       name: "Dr. Kapil Wajapey", 
       slug: 'Dr-Kapil-Wajapey', 
-      qualification: "MBBS, DNB(Internal Medicine)", 
+      qualification: "MBBS, DNB - General Medicine,MRCP(UK). CCEBDM Certification in Diabetes", 
       designation: 'Consultant- Internal Medicine', 
-      experience: '10', 
+      experience: '13', 
       image: '../../assets/doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: '', 
+      about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bangalore and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bangalore. He completed MBBS from R G U H S in 2011 and DNB...', 
       expertise: [
         
       ]

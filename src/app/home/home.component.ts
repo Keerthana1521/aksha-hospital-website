@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     { name: 'Obstetrics & Gynecologists', selected: false },
     { name: 'Gastrosurgery', selected: false },
     { name: 'Pediatrician', selected: false },
-    { name: 'Endocrine Surgeries', selected: false },
+    { name: 'Endocrinology', selected: false },
     { name: 'Vascular Surgeries', selected: false },
     { name: 'Orthopaedic', selected: false },
     { name: 'General Physician', selected: false },
@@ -278,7 +278,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Santosh H S ", 
       slug: 'Dr-Santosh-H-S', 
-      department:'Endocrine Surgeries',
+      department:'Endocrinology',
       qualification: "MBBS, FRCP, MRCP", 
       designation: 'Consultant - Endocrinologist', 
       experience: '23', 

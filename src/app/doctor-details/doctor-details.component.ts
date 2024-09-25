@@ -14,7 +14,7 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Bhoopal-T-S',
       qualification: " MBBS, MD",
       designation: 'Managing Director',
-      experience: '13',
+      experience: '40',
       image: '../../assets/doctor-1.png',
       icon:'../../assets/male.svg',
       about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
@@ -27,7 +27,8 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Smitha-Bhoopal',
       qualification: "MBBS, DGO",
       designation: 'Obstertrics & Gynaecologist',
-      experience: '13', image: '../../assets/doctor-2.png',
+      experience: '35', 
+      image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
       about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural child birth even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders, Dr Smitha\'s approach lies in understanding the anxieties that surround fertility, being pregnant, and final delivery. She believes in ethical practice and empowering women to achieve healthier lives.',
       expertise: [
@@ -94,7 +95,7 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Kapil-Wajapey', 
       qualification: "MBBS, DNB(Internal Medicine)", 
       designation: 'Consultant- Internal Medicine', 
-      experience: '10', 
+      experience: '13', 
       image: '../../assets/doctor-6.png', 
       icon:'../../assets/male.svg',
       about: '', 
@@ -123,16 +124,15 @@ export class DoctorDetailsComponent {
       ]
     },
     {
-      name: "Dr. Anand Palakshachar", 
-      slug: 'Dr-Anand-Palakshachar', 
-      qualification: "MBBS, MD General Medicine", 
-      designation: 'Consultant- Cardiologist', 
-      experience: '8', 
-      image: '../../assets/doctor-8.png', 
-      icon:'../../assets/male.svg',
-      about: '', 
-      expertise: [
-        
+      name: "Dr. Anand Palakshachar",
+      slug : "Dr. Anand Palakshachar",
+      qualification : "MBBS, MD - General Medicine, DM - Cardiology",
+      department : "Cardiology",
+      designation : "Consultant - Cardiologist",
+      experience : "7",
+      image : "../../assets/doctor-8.png",
+      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from Rguhs in 2009,MD - General Medicine from University College of Medical Sciences, Delhi University in 2013 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2017. Visiting Consultant in Cardiology  at Apollo Speciality  Hospital Jayanagar",
+      expertise : [
       ]
     },
     {
@@ -258,24 +258,25 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - Radiology', 
-      experience: '7', 
-      image: '../../assets/doctor-15.png',
+      experience: '6', 
+      image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
       about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
       expertise: [
-        'Fetal Medicine',
-        'Abdominal Imaging',
+        'Abdominal radiology',
+        'obstetrics and gynaecology ultrasound',
+        '3D and 4D USG Breast imaging'
       ]
     },
     {
-      name: "Dr. Sujayendra D M", 
+      name: "Dr. Sujayendra D. M", 
       slug: 'Dr-Sujayendra-D-M', 
-      qualification: "MBBS, MS(Ortho), DNB(Ortho)", 
+      qualification: "MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery", 
       designation: 'Consultant - Orthopaedics', 
-      experience: '', 
+      experience: '10', 
       image: '../../assets/doctor-16.png',
       icon:'../../assets/male.svg', 
-      about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities, he gained wide exposure to hand surgeries, paediatric Orthopaedics, spine surgeries, Arthroscopy, Arthroplasty and complex trauma surgeries. After senior residency at St. John\'s Medical College and KMC, Manipal, he was promoted to Assistant Professor of Orthopaedics at KMC, Manipal. Having completed the basic, advanced and master\'s course from A.O, he has acquired extensive training in Orthopaedics Trauma. He is also a National Faculty (as table instructor) for AO Trauma India. He was awarded a Fellowship in Arthroplasty (joint replacement surgery) by the India Orthopaedic Association.', 
+      about: "Dr. Sujayendra D M is a Orthopaedic surgeon with higher training in musculoskeletal trauma and arthroplasty, 10 Years Experience Overall (7 years as specialist) Dr. Sujayendra D M practices at St. Philomena's Hospital, Bangalore. His qualification is MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery", 
       expertise: [
         'Fracture care',
         'Joint Replacement and Arthroscopy(keyhole) Surgeries',
@@ -288,10 +289,10 @@ export class DoctorDetailsComponent {
       qualification: "MBBS, MD(General Medicine), DM(Nephrology)", 
       department:'Nephrology',
       designation: 'Consultant - Nephrologist', 
-      experience: '8', 
+      experience: '15', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: '', 
+      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr Rajiv isn't just a doctor; he is a partner in your quest for kidney health, offering a distinctive blend of knowledge and a sincere commitment to your well-being. In his role as the Lead Consultant, Dr Rajiv sets the tone for our mission to redefine nephrological care. It's not just a position; it signifies a lifetime dedication to ensuring every patient experiences the highest standard of care in Nephrology and Kidney Transplantation. In the intricate landscape of renal health, Dr Rajiv stands as a symbol of approachability, seamlessly blending traditional wisdom with cutting-edge solutions. Choosing Dr Rajiv is choosing a knowledgeable ally in your journey to kidney well-being. His consultations go beyond routine medical discussions; they are personalized conversations where your concerns are met with understanding and a commitment to nephrological excellence. He invites you into a space where every diagnostic approach and transplant procedure is approached with a lead consultant's touch—precise, caring, and dedicated to your health. Make the thoughtful decision to choose Dr Rajiv, the lead consultant whose distinctive approach to Nephrology and Kidney Transplantation ensures that your confidence in his care is the first step toward a future of enduring renal health. Your nephrological journey is entrusted to the hands of a knowledgeable and approachable leader, committed to ensuring every aspect of your kidney care is a testament to medical excellence.", 
       expertise: [
         'Nephrology',
         'Dialysis',
@@ -340,7 +341,156 @@ export class DoctorDetailsComponent {
           'Providing Supportive Psychotherapy',
           'Stress management counseling and treating a variety of clinical disorders using an integrative approach'
       ]
-    }
+    }, 
+    {
+      name: "Dr. Vinay B N",
+      slug : "Dr. Vinay B. N",
+      qualification : "MBBS, MS - General Surgery, Fellowship in Gastroenterology, MCh - Surgical Gastroenterology/G.I. Surgery",
+      department : "Gastroenterologist,GastroIntestinal Surgeon,Laparoscopic Surgeon",
+      designation : "Consultant - Gastroenterologist",
+      experience : "23",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Vinay B N has 10 years of working experience in GI surgery department at various capacities both in large public sector and in private sector hospitals.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Pradeep Kumar N",
+      slug : "Dr. Pradeep Kumar N",
+      qualification : "MBBS, DNB - Plastic Surgery",
+      department : "Plastic Surgeon",
+      designation : "Consultant - Plastic Surgeon",
+      experience : "12",
+      image : "../../assets/doctor-22.jpeg",
+      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYAPLASTICSURGERYTEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer foundation, Q-Medical Centre in Sivanchetti Gardens, Bangalore,Kanva sri sai Hospital in Nandini Layout, Bangalore and DHEE Hospitals in Kanakpura Road, Bangalore. He completed MBBS from BMCRI in 2012 and DNB - Plastic Surgery from National Board of Examination, India in 2018.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Bharath Kumar V. K",
+      slug : "Dr. Bharath Kumar V. K",
+      qualification : "MBBS, DMRD",
+      department : " specialist in Radiology / Sonology / Ultrasound",
+      designation : "Consultant - Radiology",
+      experience : "",
+      image : "../../assets/doctor-15.png",
+      about : "During my Radiology career I was exposed to all conventional and modern imaging modalities viz Conventional Radiography, Mammography, Ultrasonography including Colour Doppler and 4D, Helical CT, MRI, Digital Subtraction Angiography, Picture Archieving and Communication System (PACS) and Teleradiology.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Pramod. B. R",
+      slug : "Dr. Pramod. B. R",
+      qualification : "MBBS, MS - General Surgery, MRCS (UK), MCh - U, DNB - Urology/Genito",
+      department : "Urology/Genito-Urinary Surgery",
+      designation : "Consultant - Urology/Genito-Urinary Surgery",
+      experience : "18",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bangalore and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar in Jayanagar, Bangalore, Apollo Hospital in Bannerghatta Road, Bangalore. He completed MBBS from Mysore Medical College in 2000, MS - General Surgery from Stanley Medical College & Hospital, Chennai in 2005 and MRCS (UK) from The Royal College of Surgeons (RCS), the UK in 2006. He Completed MCh - Urology/Genito-Urinary Surgery from Rajiv Gandhi University of Health Sciences RGUHS 2010 & DNB - Urology/Genito - Urinary Surgery from New Delhi.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Manohar C S",
+      slug : "Dr. Manohar C S",
+      qualification : "MBBS, MS – Urology",
+      department : "Urology/Genito-Urinary Surgery",
+      designation : "Consultant - Urology/Genito-Urinary Surgery",
+      experience : "17",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Manohar C S is a Urologist in Bangalore and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2003 and MS – Urology from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2006.He is a member of Urological Society of India (USI) and American Urological Association (AUA). Some of the services provided by the doctor are: Laparoscopy, Andrology, Urinary Incontinence (Ui) Treatment, Pediatric Urology and Reconstructive Urology etc.",
+      expertise : [
+      ]
+    },
+
+    {
+      name: "Dr. Chetan Pai R",
+      slug : "Dr. Chetan Pai R",
+      qualification : "MBBS, DNB ENT",
+      department : "ENT Specialist",
+      designation : "Consultant - ENT Specialist",
+      experience : "13",
+      image : "../../assets/doctor-15.png",
+      about : "Dr Chetan Pai R is a well-known ENT Surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and DNB in ENT from St Johns Medical College, Bangalore in 2011. He has also participated in research work, and various workshops under the ENT department, and published many papers. Doctor Pai has also received many awards in his field. Check the contact details and consultation fee of Dr. Chetan Pai R for priority appointments and a hassle-free experience at HexaHealth.",
+      expertise : [
+
+      ]
+    },
+    {
+      name: "Dr Bangarswamy V",
+      slug : "Dr Bangarswamy V",
+      qualification : "MBBS, MS (General Surgery)",
+      department : "General Surgery",
+      designation : "Consultant - General Surgeon",
+      experience : "66",
+      image : "../../assets/doctor-23.jpeg",
+      about : "I have worked in governament service in Karnataka State Joint Service during 1958 retaired from governament service as District Surgeon 1996, after retairment i had worked in pvt hospital as general consultatnt at present am working at aksh hospital jayanagar 7th block. 1st Appiontment during 1958 at district hospital ballary ,worked as medical office in verious health centers and district hospitals after obtaining MS qulification.",
+      expertise : [
+      ]
+    },
+    {  
+      name: "Dr. Subhash R C",
+      slug : "Dr. Subhash R C",
+      qualification : "MBBS, MS - General Surgery",
+      department : "General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
+      experience : "25",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Sachin Digamber Nale",
+      slug : "Dr. Sachin Digamber Nale",
+      qualification : "MBBS, MS - General Surgery",
+      department : "General Surgeon,Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon,Laparoscopic Surgeon",
+      experience : "25",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore.BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy",
+      expertise : [
+      ]
+    },
+
+    {
+      name: "Dr. Muralikrishna N",
+      slug : "Dr. Muralikrishna N",
+      qualification : "MBBS, DNB - Peripheral Vascular Surgery",
+      department : "Vascular Surgery",
+      designation : "Consultant - Vascular Surgeon",
+      experience : "18",
+      image : "../../assets/doctor-15.png",
+      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr Raveendra Reddy N",
+      slug : "Dr Raveendra Reddy N",
+      qualification : "MBBS, FcARCSI, FCCS,Fellow in Intensive Care(King's College Hospital, London)",
+      department : "Anaesthesia and Intensive Care Medicine ",
+      designation : "Consultant - Anaesthesia and Intensive Care Medicine ",
+      experience : "19",
+      image : "../../assets/doctor-15.png",
+      about : "Completed my undergraduate from Kasturba Medical College, Manipal.Then worked as a Resident in  the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then stared my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine .",
+      expertise : [
+        "Critical care","Anaesthesia"
+      ]
+    },
+    {
+      name: "Dt Asha Krishna",
+      slug : "Dt Asha Krishna",
+      qualification : "MSc, MPhil, DDHN, Diabetic Educator",
+      department : "Dietitian",
+      designation : "Consultant - Dietitian",
+      experience : "12",
+      image : "../../assets/doctor-15.png",
+      about : "",
+      expertise : [
+        "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
+    },
+
   ]
 
   constructor(private route: ActivatedRoute) { }

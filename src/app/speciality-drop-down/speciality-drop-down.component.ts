@@ -11,7 +11,7 @@ export class SpecialityDropDownComponent {
     { name: 'Obstetrics & Gynecologists', image: 'assets/obstetrics.jpg' },
     { name: 'Gastrosurgery', image: 'assets/gastro.jpg' },
     { name: 'Pediatrician', image: 'assets/pediatric.jpg' },
-    { name: 'Endocrine Surgeries', image: 'assets/endocrine.jpg' },
+    { name: 'Endocrinology', image: 'assets/endocrine.jpg' },
     { name: 'Vascular Surgeries', image: 'assets/vascular.jpg' },
     { name: 'Orthopedic', image: 'assets/orthopedic.jpg' },
     { name: 'General Physician', image: 'assets/general_physician.jpg' },
