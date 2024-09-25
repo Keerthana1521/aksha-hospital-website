@@ -38,6 +38,7 @@ import { BlogComponent } from './blog/blog.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -72,6 +73,7 @@ import { FormsModule } from '@angular/forms';
     SpecialityDropDownComponent,
     BlogComponent,
     BlogPostComponent,
+    GalleryComponent,
 
   ],
   imports: [

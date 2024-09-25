@@ -1,0 +1,13 @@
+<div class="gallery-container">
+    <div class="page_heading">
+      Gallery
+    </div>
+    <div class="gallery">
+        <div *ngFor="let image of images" class="gallery-item">
+          <img [src]="image" [alt]="getCaption(image)" />
+          <!-- <div class="caption">{{ getCaption(image) }}</div> -->
+        </div>
+      </div>
+</div>
+
+  
