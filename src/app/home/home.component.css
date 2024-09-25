@@ -1707,6 +1707,7 @@ color: #322875;
     }
     .doctor-profile-container{
       width: 100%;
+      padding-right: 0;
     }
   
 }
