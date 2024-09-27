@@ -39,6 +39,7 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
+import { FamilyComponent } from './family/family.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -74,6 +75,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     BlogComponent,
     BlogPostComponent,
     GalleryComponent,
+    FamilyComponent
 
   ],
   imports: [
