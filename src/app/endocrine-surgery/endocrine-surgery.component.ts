@@ -15,7 +15,7 @@ doctors = [
     experience: '23', 
     image: '../../assets/doctor-14.png',
     icon:'../../assets/male.svg',
-    about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training...', 
+    about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and...', 
     expertise: [
       'Diabetes Mellitus Management',
       'Thyroid Disorders',

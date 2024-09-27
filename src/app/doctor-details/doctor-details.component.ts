@@ -43,12 +43,12 @@ export class DoctorDetailsComponent {
       experience: '20', 
       image: '../../assets/doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases focusing on the entire digestive system which includes the esophagus, stomach, intestines, colon, pancreas, gall bladder, bile ducts, and liver. Also, he has extensive experience in the diagnosis and treatment of Acidity, Inflammatory Bowel Disease, and IBS Treatment. He is compassionate toward his patients and always believes in a patient-first approach.'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 20 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology diseases focusing on the entire digestive system which includes the esophagus, stomach, intestines, colon, pancreas, gall bladder, bile ducts, and liver. Also, he has extensive experience in the diagnosis and treatment of Acidity, Inflammatory Bowel Disease and IBS Treatment. He is compassionate toward his patients and always believes in a patient-first approach.'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
         'HPB Surgeries',
-        'TColorectal Diseases',
+        'Colorectal Diseases',
         'Proctological Conditions (piles, fissures, fistulas)',
         'Endoscopic Investigation',
       ]
@@ -61,7 +61,7 @@ export class DoctorDetailsComponent {
       experience: '16', 
       image: '../../assets/doctor-4.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment to patient safety, confidentiality, and a conservative approach while dealing with complex issues. As a full-time Senior Consultant, she holds 13+ years of expertise and more than 3500+ deliveries, handled High-risk cases & managed at the ICU level. Her relentless dedication and commitment to Obstetrics and Gynaecology has helped thousands of women live a better and healthier life.', 
+      about: 'Dr. Madhuri Sumanth’s practice is “Respect Motherhood” and delivering the best care for all pregnant ladies. She is an experienced and compassionate renowned obstetrician for Normal deliveries and handling high-risk pregnancies. She is best in her commitment to patient safety, confidentiality, and a conservative approach while dealing with complex issues. As a full-time Senior Consultant, she holds 16+ years of expertise and more than 3500+ deliveries, handled High-risk cases & managed at the ICU level. Her relentless dedication and commitment to Obstetrics and Gynaecology has helped thousands of women live a better and healthier life.', 
       expertise: [
         'Vaginal Delivery',
         'High Risk Pregnancy',
@@ -93,12 +93,12 @@ export class DoctorDetailsComponent {
     {
       name: "Dr. Kapil Wajapey", 
       slug: 'Dr-Kapil-Wajapey', 
-      qualification: "MBBS, DNB(Internal Medicine)", 
+      qualification: "MBBS, DNB - General Medicine,MRCP(UK). CCEBDM Certification in Diabetes", 
       designation: 'Consultant- Internal Medicine', 
       experience: '13', 
       image: '../../assets/doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: '', 
+      about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bangalore and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bangalore. He completed MBBS from R G U H S in 2011 and DNB...', 
       expertise: [
         
       ]
@@ -111,7 +111,7 @@ export class DoctorDetailsComponent {
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
       image: '../../assets/doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast experience in Orthopedics (Knee & Shoulder), Knee Arthroscopy, Shoulder Arthroscopy, Frozen Shoulder, Sports Injuries, Shoulder Replacement, Shoulder Trauma, and Platelet-rich-plasma injections.', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 15 years of extensive experience. He has a vast experience in Orthopedics (Knee & Shoulder), Knee Arthroscopy, Shoulder Arthroscopy, Frozen Shoulder, Sports Injuries, Shoulder Replacement, Shoulder Trauma, and Platelet-rich-plasma injections.', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -131,7 +131,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Cardiologist",
       experience : "7",
       image : "../../assets/doctor-8.png",
-      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from Rguhs in 2009,MD - General Medicine from University College of Medical Sciences, Delhi University in 2013 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2017. Visiting Consultant in Cardiology  at Apollo Speciality  Hospital Jayanagar",
+      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from RGUHS in 2009, MD - General Medicine from University College of Medical Sciences, Delhi University in 2013 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2017. Visiting Consultant in Cardiology  at Apollo Speciality  Hospital Jayanagar",
       expertise : [
       ]
     },
@@ -156,7 +156,7 @@ export class DoctorDetailsComponent {
         experience: '8', 
         image: '../../assets/doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bangalore.     Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avni Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.     Dr. Avni Hegde has previously served as a faculty member at St. John\'s Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.', 
+        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bangalore.     Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avani Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.     Dr. Avani Hegde has previously served as a faculty member at St. John\'s Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -182,7 +182,7 @@ export class DoctorDetailsComponent {
       designation: 'Consultant - Paediatrics', 
       experience : "28",
       image : "../../assets/doctor-11.png",
-      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+      about : "I am a professor in Paediatrics, having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases. Member of many International and National Paediatric Associations.",
       expertise : [
         'Endo-urology',
         'Uro-oncology',
@@ -218,7 +218,7 @@ export class DoctorDetailsComponent {
       experience: '20', 
       image: '../../assets/doctor-13.png', 
       icon:'../../assets/female.svg',
-      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions', 
+      about: 'Dr. Manju Ashwath has dedicated over 20 years as a consultant psychiatrist, providing expert care in adult, child, and geriatric psychiatry, as well as in alcohol and substance abuse de-addiction. Her approach is comprehensive, integrating biological, psychological and social methods to support patients and their families. She has played an active role in the Indian Psychiatric Society - Karnataka Chapter and has contributed to academic discussions and research published in prominent journals. She is also a sought-after speaker, raising awareness about mental health at various educational and corporate institutions.', 
       expertise: [
         'Adult psychiatry',
         'Women mental health',
@@ -235,7 +235,7 @@ export class DoctorDetailsComponent {
       experience: '23', 
       image: '../../assets/doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada. Dr. Santosh HS is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes. ', 
+      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada. He is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes.', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -258,14 +258,20 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - Radiology', 
-      experience: '6', 
+      experience: '9', 
       image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
-      about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
+      about: 'Dr Sayalee Gadgil is a practicing radiologist in Bengaluru. She completed her M.B.B.S. training from Rajiv Gandhi Medical College, Thane, Maharashtra and  post-graduate training in Radiology at Saifee hospital, Mumbai in 2019. She worked at various government institutions like King Edward Memorial (KEM) hospital and HBT Trauma hospital, Mumbai. Dr. Sayalee did an academic observership specializing in abdominal radiology at Stanford hospital in California, USA. She is a certified Fellow of the Royal College of Radiology, (F.R.C.R) UK.', 
       expertise: [
         'Abdominal radiology',
         'obstetrics and gynaecology ultrasound',
-        '3D and 4D USG Breast imaging'
+        '3D and 4D USG Breast imaging',
+        'Areas of interest include abdominal imaging',
+        'Fetal diagnostic imaging',
+        'gynaecology transvaginal scans',
+        'breast sonography and biopsy, 3D and 4D ultrasound',
+        'She is also well versed with CT and MRI imaging of acute abdomen',
+        'MRI pelvis and performs diagnostic/ therapeutic sonography guided procedures.'
       ]
     },
     {
@@ -292,7 +298,7 @@ export class DoctorDetailsComponent {
       experience: '15', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr Rajiv isn't just a doctor; he is a partner in your quest for kidney health, offering a distinctive blend of knowledge and a sincere commitment to your well-being. In his role as the Lead Consultant, Dr Rajiv sets the tone for our mission to redefine nephrological care. It's not just a position; it signifies a lifetime dedication to ensuring every patient experiences the highest standard of care in Nephrology and Kidney Transplantation. In the intricate landscape of renal health, Dr Rajiv stands as a symbol of approachability, seamlessly blending traditional wisdom with cutting-edge solutions. Choosing Dr Rajiv is choosing a knowledgeable ally in your journey to kidney well-being. His consultations go beyond routine medical discussions; they are personalized conversations where your concerns are met with understanding and a commitment to nephrological excellence. He invites you into a space where every diagnostic approach and transplant procedure is approached with a lead consultant's touch—precise, caring, and dedicated to your health. Make the thoughtful decision to choose Dr Rajiv, the lead consultant whose distinctive approach to Nephrology and Kidney Transplantation ensures that your confidence in his care is the first step toward a future of enduring renal health. Your nephrological journey is entrusted to the hands of a knowledgeable and approachable leader, committed to ensuring every aspect of your kidney care is a testament to medical excellence.", 
+      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr. Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr. Rajiv isn't just a doctor; he is a partner in your quest for kidney health, offering a distinctive blend of knowledge and a sincere commitment to your well-being. In his role as the Lead Consultant, Dr. Rajiv sets the tone for our mission to redefine nephrological care. It's not just a position; it signifies a lifetime dedication to ensuring every patient experiences the highest standard of care in Nephrology and Kidney Transplantation. In the intricate landscape of renal health, Dr. Rajiv stands as a symbol of approachability, seamlessly blending traditional wisdom with cutting-edge solutions. Choosing Dr. Rajiv is choosing a knowledgeable ally in your journey to kidney well-being. His consultations go beyond routine medical discussions; they are personalized conversations where your concerns are met with understanding and a commitment to nephrological excellence. He invites you into a space where every diagnostic approach and transplant procedure is approached with a lead consultant's touch- precise, caring and dedicated to your health. Make the thoughtful decision to choose Dr. Rajiv, the lead consultant whose distinctive approach to Nephrology and Kidney Transplantation ensures that your confidence in his care is the first step toward a future of enduring renal health. Your nephrological journey is entrusted to the hands of a knowledgeable and approachable leader, committed to ensuring every aspect of your kidney care is a testament to medical excellence.", 
       expertise: [
         'Nephrology',
         'Dialysis',
@@ -302,25 +308,26 @@ export class DoctorDetailsComponent {
     {
       name: "Dr. Vijaya Kumar", 
       slug: 'Dr-Vijaya-Kumar', 
-      qualification: "MBBS. DA DNB in Anaesthesialogy ", 
-      department:'Anaesthesialogy',
-      designation: 'Consultant - Anaesthesialogy', 
+      qualification: "MBBS, DA, DNB in Anesthesiology ", 
+      department:'Anesthesiology',
+      designation: 'Consultant - Anesthesiology', 
       experience: '22', 
       image: '../../assets/doctor-18.jpg',
       icon:'../../assets/male.svg', 
-      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality ', 
+      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality.', 
       expertise: [
-        'Anaesthesialogy'
+        'Anesthesiology'
       ]
     },
     {
       name: "Dr. Palaniappan S",
       slug : "Dr-Palaniappan-S",
       qualification : "BPT, MSc(Y&N), FCR.",
+      designation: 'Physiotherapist', 
       department : "Physiotheraphy",
       experience : "20",
       image : "../../assets/doctor-19.jpg",
-      about : "Ortho, stroke, cardiac Rehabilitation",
+      about : "Ortho, stroke, cardiac Rehabilitation.",
       expertise : [
         'Cardiac & Neuro Rehabilitation'
       ]   
@@ -331,7 +338,7 @@ export class DoctorDetailsComponent {
       slug : "Dr-Sowmya-S",
       qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
       department : "Clinical Psychology",
-      designation : "Consultant - Clinical Psychology",
+      designation : "Clinical Psychology",
       experience : "3",
       image : "../../assets/doctor-21.jpg",
       about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",
@@ -362,8 +369,9 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Plastic Surgeon",
       experience : "12",
       image : "../../assets/doctor-22.jpeg",
-      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYAPLASTICSURGERYTEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer foundation, Q-Medical Centre in Sivanchetti Gardens, Bangalore,Kanva sri sai Hospital in Nandini Layout, Bangalore and DHEE Hospitals in Kanakpura Road, Bangalore. He completed MBBS from BMCRI in 2012 and DNB - Plastic Surgery from National Board of Examination, India in 2018.",
+      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer foundation, Q-Medical Centre in Sivanchetti Gardens, Bangalore, Kanva sri sai Hospital in Nandini Layout, Bangalore and DHEE Hospitals in Kanakpura Road, Bangalore. He completed MBBS from BMCRI in 2012 and DNB - Plastic Surgery from National Board of Examination, India in 2018.",
       expertise : [
+
       ]
     },
     {
@@ -402,7 +410,6 @@ export class DoctorDetailsComponent {
       expertise : [
       ]
     },
-
     {
       name: "Dr. Chetan Pai R",
       slug : "Dr. Chetan Pai R",
@@ -411,20 +418,20 @@ export class DoctorDetailsComponent {
       designation : "Consultant - ENT Specialist",
       experience : "13",
       image : "../../assets/doctor-15.png",
-      about : "Dr Chetan Pai R is a well-known ENT Surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and DNB in ENT from St Johns Medical College, Bangalore in 2011. He has also participated in research work, and various workshops under the ENT department, and published many papers. Doctor Pai has also received many awards in his field. Check the contact details and consultation fee of Dr. Chetan Pai R for priority appointments and a hassle-free experience at HexaHealth.",
+      about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr. Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr. Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and his DNB in ENT from St. Johns Medical College, Bangalore, in 2011. He has also participated in research work and various workshops under the ENT department and published many papers. Doctor Pai has also received many awards in his field.",
       expertise : [
 
       ]
     },
     {
-      name: "Dr Bangarswamy V",
+      name: "Dr. Bangarswamy V",
       slug : "Dr Bangarswamy V",
       qualification : "MBBS, MS (General Surgery)",
       department : "General Surgery",
       designation : "Consultant - General Surgeon",
       experience : "66",
       image : "../../assets/doctor-23.jpeg",
-      about : "I have worked in governament service in Karnataka State Joint Service during 1958 retaired from governament service as District Surgeon 1996, after retairment i had worked in pvt hospital as general consultatnt at present am working at aksh hospital jayanagar 7th block. 1st Appiontment during 1958 at district hospital ballary ,worked as medical office in verious health centers and district hospitals after obtaining MS qulification.",
+      about : "I worked in government service in the Karnataka State Joint Service during 1958 and retired from government service as a district surgeon in 1996. After retirement, I worked in a PVT hospital as a general consultant. At present, I am working at Aksha Hospital, Jayanagar, 7th block. 1st Appiontment during 1958 at district hospital Ballary, worked as medical office in numerous health centers and district hospitals after obtaining MS qualification.",
       expertise : [
       ]
     },
@@ -432,8 +439,8 @@ export class DoctorDetailsComponent {
       name: "Dr. Subhash R C",
       slug : "Dr. Subhash R C",
       qualification : "MBBS, MS - General Surgery",
-      department : "General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
-      designation : "Consultant - General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
+      department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       experience : "25",
       image : "../../assets/doctor-15.png",
       about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
@@ -444,11 +451,11 @@ export class DoctorDetailsComponent {
       name: "Dr. Sachin Digamber Nale",
       slug : "Dr. Sachin Digamber Nale",
       qualification : "MBBS, MS - General Surgery",
-      department : "General Surgeon,Laparoscopic Surgeon",
-      designation : "Consultant - General Surgeon,Laparoscopic Surgeon",
+      department : "General Surgeon, Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
       experience : "25",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore.BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy",
+      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy.",
       expertise : [
       ]
     },
@@ -490,6 +497,19 @@ export class DoctorDetailsComponent {
       expertise : [
         "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
     },
+    {
+      name : "Reshma Bhoopal",
+      slug : "Reshma-Bhoopal",
+      qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bangalore, SHRM-CP Certification – Certified, May 2024",
+      experience : "6",
+      designation : "HR Professional | SHRM-CP Certified",
+      image : "../../assets/ReshmaBhoopal.png",
+      about : "Reshma Bhoopal is an experienced HR professional with over 6 years of expertise in talent acquisition, employee engagement, and HR compliance. Holding an MBA in Human Resources and a Bachelor's in Computer Science, she blends her global HR knowledge with hands-on experience in HR technology, including PeopleSoft HRMS. She has worked with prominent organizations, including Aksha Hospital and Nous Infosystems, driving employee relations, compliance training, and recruitment strategies. Reshma’s entrepreneurial spirit also shines through her role as the owner of Arts from Glass, where she manages business operations and creative workshops.",
+      expertise : [
+        "Talent Acquisition & Employee Relations","HR Compliance & Training", "Business Operations & Financial Management", "HRMS & PeopleSoft HRMS Specialist"
+      ]
+
+    }
 
   ]
 

@@ -6,18 +6,19 @@ import { Component } from '@angular/core';
   styleUrl: './anesthesia.component.css'
 })
 export class AnesthesiaComponent {
-  doctors =[{
+  doctors =[
+    {
     name: "Dr. Vijaya Kumar", 
     slug: 'Dr-Vijaya-Kumar', 
-    qualification: "MBBS. DA DNB in Anaesthesialogy ", 
-    department:'Anaesthesialogy',
-    designation: 'Consultant - Anaesthesialogy', 
+    qualification: "MBBS, DA, DNB in Anesthesiology ", 
+    department:'Anesthesiology',
+    designation: 'Consultant - Anesthesiology', 
     experience: '22', 
     image: '../../assets/doctor-18.jpg',
     icon:'../../assets/male.svg', 
-    about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality ', 
+    about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality.', 
     expertise: [
-      'Anaesthesialogy'
+      'Anesthesiology'
     ]
   },
   {

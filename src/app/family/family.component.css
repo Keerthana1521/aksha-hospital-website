@@ -1,0 +1,69 @@
+.family_photo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    align-items: center;
+}
+
+.family_members{
+    width: 200px;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.family_members a{
+    text-decoration: none;
+}
+
+.family_members:hover{
+    filter: brightness(0.8);
+    transition: 300ms;
+}
+
+.image img{
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.name{
+    color: #332876;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.designation{
+    color: #332876;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width : 1200px){
+    .family_photo{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding: 10%;
+
+    }
+}
+
+@media (max-width : 500px){
+    .family_photo{
+        display: grid;
+        grid-template-columns: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
