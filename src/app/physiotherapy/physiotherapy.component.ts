@@ -10,13 +10,13 @@ doctors = [
   
   {
     name: "Dr. Palaniappan S",
-    slug : "Dr. Palaniappan S",
+    slug : "Dr-Palaniappan-S",
     qualification : "BPT, MSc(Y&N), FCR.",
-    designation:'',
+    designation: 'Physiotherapist', 
     department : "Physiotheraphy",
     experience : "20",
     image : "../../assets/doctor-19.jpg",
-    about : "Ortho, stroke, cardiac Rehabilitation",
+    about : "Ortho, stroke, cardiac Rehabilitation.",
     expertise : [
       'Cardiac & Neuro Rehabilitation'
     ]   

@@ -54,7 +54,7 @@ export class PediatricianComponent {
         designation: 'Consultant - Paediatrics', 
         experience : "28",
         image : "../../assets/doctor-11.png",
-        about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+        about : "I am a professor in Paediatrics, having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases. Member of many International and National Paediatric Associations.",
         expertise : [
           'Endo-urology',
           'Uro-oncology',

@@ -16,7 +16,7 @@ export class NephrologyComponent {
       experience: '15', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr Rajiv isn't just a doctor; he is a partner in your...", 
+      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr. Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr. Rajiv isn't just a doctor; he is a partner...", 
       expertise: [
         'Nephrology',
         'Dialysis',

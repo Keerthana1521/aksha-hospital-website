@@ -15,25 +15,25 @@ export class SurgeryComponent {
         experience: '20', 
         image: '../../assets/doctor-3.png', 
         icon:'../../assets/male.svg',
-        about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
+        about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 20 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
         , expertise: [
           'Laparoscopic Surgeries ',
           'Laser Surgeries',
           'HPB Surgeries',
-          'TColorectal Diseases',
+          'Colorectal Diseases',
           'Proctological Conditions (piles, fissures, fistulas)',
           'Endoscopic Investigation',
         ]
       },
       {
-        name: "Dr Bangarswamy V",
+        name: "Dr. Bangarswamy V",
         slug : "Dr Bangarswamy V",
         qualification : "MBBS, MS (General Surgery)",
         department : "General Surgery",
         designation : "Consultant - General Surgeon",
         experience : "66",
         image : "../../assets/doctor-23.jpeg",
-        about : "I have worked in governament service in Karnataka State Joint Service during 1958 retaired from governament service as District Surgeon 1996, after retairment i had worked in pvt hospital as general consultatnt at present...",
+        about : "I worked in government service in the Karnataka State Joint Service during 1958 and retired from government service as a district surgeon in 1996. After retirement, I worked in a PVT hospital as a general consultant...",
         expertise : [
         ]
       },
@@ -56,7 +56,7 @@ export class SurgeryComponent {
         name: "Dr. Subhash R C",
         slug : "Dr. Subhash R C",
         qualification : "MBBS, MS - General Surgery",
-        department : "General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
+        department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
         designation : "Consultant - General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
         experience : "25",
         image : "../../assets/doctor-15.png",
@@ -68,11 +68,11 @@ export class SurgeryComponent {
         name: "Dr. Sachin Digamber Nale",
         slug : "Dr. Sachin Digamber Nale",
         qualification : "MBBS, MS - General Surgery",
-        department : "General Surgeon,Laparoscopic Surgeon",
-        designation : "Consultant - General Surgeon,Laparoscopic Surgeon",
+        department : "General Surgeon, Laparoscopic Surgeon",
+        designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
         experience : "25",
         image : "../../assets/doctor-15.png",
-        about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore.BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore...",
+        about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial...",
         expertise : [
         ]
       },

@@ -40,12 +40,12 @@ export class DoctorComponent {
       experience: '20', 
       image: '../../assets/doctor-3.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 17 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
+      about: 'Dr. Sumanth Bhoopal is one of the most eminent doctors in the specialty of Surgical Gastroenterology & Interventional Endoscopy with over 20 years of expertise with 5000+ procedures. He holds vast experience in treating major and minor Gastroenterology...'
       , expertise: [
         'Laparoscopic Surgeries ',
         'Laser Surgeries',
         'HPB Surgeries',
-        'TColorectal Diseases',
+        'Colorectal Diseases',
         'Proctological Conditions (piles, fissures, fistulas)',
         'Endoscopic Investigation',
       ]
@@ -108,7 +108,7 @@ export class DoctorComponent {
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
       image: '../../assets/doctor-7.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 14 years of extensive experience. He has a vast...', 
+      about: 'Dr. Sushal ShanthaKumar is one of the most eminent & top 5 Orthopedic Surgeons in Bengaluru, specializing in Knee and Shoulder: Sports Injuries using arthroscopic (keyhole) and minimally invasive surgeries with over 15 years of extensive experience. He has a vast...', 
       expertise: [
         'Shoulder & Knee Injures',
         'Knee Arthroscopy',
@@ -128,7 +128,7 @@ export class DoctorComponent {
       designation : "Consultant - Cardiologist",
       experience : "7",
       image : "../../assets/doctor-8.png",
-      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from Rguhs...",
+      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from RGUHS...",
       expertise : [
       ]
     },
@@ -179,7 +179,7 @@ export class DoctorComponent {
       designation: 'Consultant - Paediatrics', 
       experience : "28",
       image : "../../assets/doctor-11.png",
-      about : "I am a professor in Paediatrics , having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases .Member of many international and National paediatric associations ",
+      about : "I am a professor in Paediatrics, having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases. Member of many International and National Paediatric Associations.",
       expertise : [
         'Endo-urology',
         'Uro-oncology',
@@ -232,7 +232,7 @@ export class DoctorComponent {
       experience: '23', 
       image: '../../assets/doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training...', 
+      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and...', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -255,14 +255,20 @@ export class DoctorComponent {
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - Radiology', 
-      experience: '6', 
+      experience: '9', 
       image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
-      about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
+      about: 'Dr Sayalee Gadgil is a practicing radiologist in Bengaluru. She completed her M.B.B.S. training from Rajiv Gandhi Medical College, Thane, Maharashtra and  post-graduate training in Radiology at Saifee hospital, Mumbai in 2019. She worked at various government institutions...', 
       expertise: [
         'Abdominal radiology',
         'obstetrics and gynaecology ultrasound',
-        '3D and 4D USG Breast imaging'
+        '3D and 4D USG Breast imaging',
+        'Areas of interest include abdominal imaging',
+        'Fetal diagnostic imaging',
+        'gynaecology transvaginal scans',
+        'breast sonography and biopsy, 3D and 4D ultrasound',
+        'She is also well versed with CT and MRI imaging of acute abdomen',
+        'MRI pelvis and performs diagnostic/ therapeutic sonography guided procedures.'
       ]
     },
     {
@@ -289,7 +295,7 @@ export class DoctorComponent {
       experience: '15', 
       image: '../../assets/doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr Rajiv isn't just a doctor; he is a partner in your...", 
+      about: "Embark on a journey of kidney care guided by the genuine expertise of Dr. Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr. Rajiv isn't just a doctor; he is a partner...", 
       expertise: [
         'Nephrology',
         'Dialysis',
@@ -299,25 +305,26 @@ export class DoctorComponent {
     {
       name: "Dr. Vijaya Kumar", 
       slug: 'Dr-Vijaya-Kumar', 
-      qualification: "MBBS. DA DNB in Anaesthesialogy ", 
-      department:'Anaesthesialogy',
-      designation: 'Consultant - Anaesthesialogy', 
+      qualification: "MBBS, DA, DNB in Anesthesiology ", 
+      department:'Anesthesiology',
+      designation: 'Consultant - Anesthesiology', 
       experience: '22', 
       image: '../../assets/doctor-18.jpg',
       icon:'../../assets/male.svg', 
-      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality ', 
+      about: 'Given anaesthesia for major and complicated cases experience in pain management experience in ICU speciality.', 
       expertise: [
-        'Anaesthesialogy'
+        'Anesthesiology'
       ]
     },
     {
       name: "Dr. Palaniappan S",
       slug : "Dr-Palaniappan-S",
       qualification : "BPT, MSc(Y&N), FCR.",
+      designation: 'Physiotherapist', 
       department : "Physiotheraphy",
       experience : "20",
       image : "../../assets/doctor-19.jpg",
-      about : "Ortho, stroke, cardiac Rehabilitation",
+      about : "Ortho, stroke, cardiac Rehabilitation.",
       expertise : [
         'Cardiac & Neuro Rehabilitation'
       ]   
@@ -327,7 +334,7 @@ export class DoctorComponent {
       slug : "Dr-Sowmya-S",
       qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
       department : "Clinical Psychology",
-      designation : "Consultant - Clinical Psychology",
+      designation : "Clinical Psychology",
       experience : "3",
       image : "../../assets/doctor-21.jpg",
       about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication.",
@@ -358,7 +365,7 @@ export class DoctorComponent {
       designation : "Consultant - Plastic Surgeon",
       experience : "12",
       image : "../../assets/doctor-22.jpeg",
-      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYAPLASTICSURGERYTEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer ...",
+      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara...",
       expertise : [
       ]
     },
@@ -398,29 +405,28 @@ export class DoctorComponent {
       expertise : [
       ]
     },
-    
     {
       name: "Dr. Chetan Pai R",
       slug : "Dr. Chetan Pai R",
       qualification : "MBBS, DNB ENT",
       department : "ENT Specialist",
       designation : "Consultant - ENT Specialist",
-      experience : "13+",
+      experience : "13",
       image : "../../assets/doctor-15.png",
-      about : "Dr Chetan Pai R is a well-known ENT Surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
+      about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
       expertise : [
 
       ]
     },
     {
-      name: "Dr Bangarswamy V",
+      name: "Dr. Bangarswamy V",
       slug : "Dr Bangarswamy V",
       qualification : "MBBS, MS (General Surgery)",
       department : "General Surgery",
       designation : "Consultant - General Surgeon",
       experience : "66",
       image : "../../assets/doctor-23.jpeg",
-      about : "I have worked in governament service in Karnataka State Joint Service during 1958 retaired from governament service as District Surgeon 1996, after retairment i had worked in pvt hospital as general consultatnt at present...",
+      about : "I worked in government service in the Karnataka State Joint Service during 1958 and retired from government service as a district surgeon in 1996. After retirement, I worked in a PVT hospital as a general consultant...",
       expertise : [
       ]
     },
@@ -428,8 +434,8 @@ export class DoctorComponent {
       name: "Dr. Subhash R C",
       slug : "Dr. Subhash R C",
       qualification : "MBBS, MS - General Surgery",
-      department : "General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
-      designation : "Consultant - General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
+      department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       experience : "25",
       image : "../../assets/doctor-15.png",
       about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
@@ -440,11 +446,11 @@ export class DoctorComponent {
       name: "Dr. Sachin Digamber Nale",
       slug : "Dr. Sachin Digamber Nale",
       qualification : "MBBS, MS - General Surgery",
-      department : "General Surgeon,Laparoscopic Surgeon",
-      designation : "Consultant - General Surgeon,Laparoscopic Surgeon",
+      department : "General Surgeon, Laparoscopic Surgeon",
+      designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
       experience : "25",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore.BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore...",
+      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial...",
       expertise : [
       ]
     },
