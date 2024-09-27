@@ -25,9 +25,11 @@ import { UrologyComponent } from './urology/urology.component';
 import { VascularSurgeryComponent } from './vascular-surgery/vascular-surgery.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  {path:'gallery', component:GalleryComponent},
   {path:'about-us', component:AboutComponent},
   {path:'contact-us', component:ContactFormComponent},
   {path:'services', component:ServicesComponent},
