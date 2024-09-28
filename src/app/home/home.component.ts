@@ -509,7 +509,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       name: 'High-Risk Pregnancy Care',
       description:
         'High-risk pregnancies are pregnancies that have the chance of developing complications for both mother and child. People who are underweight or overweight, younger than 18 or older than 35, anemic, into their 5th pregnancy or more; have had previous preterm births, had given births to a large or small baby, had a previous pregnancy loss, history of genetic disease, substance abuse, previous cases of twins or triplets, taken infertility medications, or have medical conditions like high BP, heart disease, etc.',
-      image: 'assets/dept-1.png',
+      image: 'assets/dept-1.jpg',
       icon: 'assets/dept-icon-2.png',
       route:'obsterics-and-gynecology'
     },

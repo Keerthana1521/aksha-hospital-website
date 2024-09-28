@@ -335,7 +335,7 @@ z-index: 1;
     top: 79px;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255);
     /* border-radius: 0 0 20px 20px; */
   }
   .appointment-container {

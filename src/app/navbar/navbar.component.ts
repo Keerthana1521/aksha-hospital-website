@@ -73,5 +73,6 @@ hoveredSpecialty: string | null = null;
   goToSpecialty(specialty: string) {
     this.closeDropdown();
     this.router.navigate([`/${specialty}`]);
+    this.isMenuOpen = false;
   }
 }
