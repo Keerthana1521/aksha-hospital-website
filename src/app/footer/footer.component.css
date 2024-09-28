@@ -366,7 +366,7 @@ text-align: center;
         right: 102px;
     }
     .footer-bottom p{
-        top: 6px;
+        top: 0px;
     }
 }
 @media only screen and (max-width:415px){
@@ -414,7 +414,7 @@ text-align: center;
         font-size: 15px;
     }
     .footer-bottom p{
-        top: 6px;
+        top: 0px;
     }
 
 }

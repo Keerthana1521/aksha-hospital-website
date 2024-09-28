@@ -1977,9 +1977,12 @@ color: #322875;
       display: none;
     }
     .doctor-image{
-      width: 177px;
+      width: 149px;
         height: 195px;
 
+    }
+    .doctor-profile{
+      padding-left: 0;
     }
     .doctor-profile-container{
       width: 100%;
@@ -1987,7 +1990,8 @@ color: #322875;
     }
     .doctor-card{
       width: 160px;
-      height: 150px;
+      height: 170px;
+      padding: 10px;
     }
     .doctor-card:after{
       right: 94.5%;
