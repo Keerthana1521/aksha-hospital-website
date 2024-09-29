@@ -309,7 +309,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - Radiology', 
       experience: '7', 
-      image: '../../assets/doctor-24s.jpg',
+      image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
       about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
       expertise: [
