@@ -40,6 +40,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FamilyComponent } from './family/family.component';
+import { PsychiatryComponent } from './psychiatry/psychiatry.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,7 +76,8 @@ import { FamilyComponent } from './family/family.component';
     BlogComponent,
     BlogPostComponent,
     GalleryComponent,
-    FamilyComponent
+    FamilyComponent,
+    PsychiatryComponent
 
   ],
   imports: [
