@@ -67,7 +67,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department: "Founder",
       qualification: " MBBS, MD",
       designation: 'Managing Director',
-      experience: '13',
+      experience: '40',
       image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
       about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
@@ -80,8 +80,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Smitha-Bhoopal',
       department: "Obstetrics & Gynecologists",
       qualification: "MBBS, DGO",
-      designation: 'Obstertrics & Gynaecologist',
-      experience: '13', image: '../../assets/scroll-doctor-2.png',
+      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
+      experience: '40', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
       about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
@@ -146,20 +146,20 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Preventive Health & Lifestyle Modification'
       ]
     },
-    {
-      name: "Dr. Kapil Wajapey", 
-      slug: 'Dr-Kapil-Wajapey',
-      department:'General Physician', 
-      qualification: "MBBS, DNB(Internal Medicine)", 
-      designation: 'Consultant- Internal Medicine', 
-      experience: '10', 
-      image: '../../assets/scroll-doctor-6.png', 
-      icon:'../../assets/male.svg',
-      about: '', 
-      expertise: [
+    // {
+    //   name: "Dr. Kapil Wajapey", 
+    //   slug: 'Dr-Kapil-Wajapey',
+    //   department:'General Physician', 
+    //   qualification: "MBBS, DNB(Internal Medicine)", 
+    //   designation: 'Consultant- Internal Medicine', 
+    //   experience: '10', 
+    //   image: '../../assets/scroll-doctor-6.png', 
+    //   icon:'../../assets/male.svg',
+    //   about: '', 
+    //   expertise: [
         
-      ]
-    },
+    //   ]
+    // },
     {
       name: "Dr. Sushal ShanthaKumar", 
       slug: 'Dr-Sushal-ShanthaKumar', 
@@ -181,34 +181,34 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Platelet-rich-plasma injections',
       ]
     },
-    {
-      name: "Dr. Anand Palakshachar", 
-      slug: 'Dr-Anand-Palakshachar', 
-      department:'Cardiology',
-      qualification: "MBBS, MD General Medicine", 
-      designation: 'Consultant- Cardiologist', 
-      experience: '8', 
-      image: '../../assets/scroll-doctor-8.png', 
-      icon:'../../assets/male.svg',
-      about: '', 
-      expertise: [
+    // {
+    //   name: "Dr. Anand Palakshachar", 
+    //   slug: 'Dr-Anand-Palakshachar', 
+    //   department:'Cardiology',
+    //   qualification: "MBBS, MD General Medicine", 
+    //   designation: 'Consultant- Cardiologist', 
+    //   experience: '8', 
+    //   image: '../../assets/scroll-doctor-8.png', 
+    //   icon:'../../assets/male.svg',
+    //   about: '', 
+    //   expertise: [
         
-      ]
-    },
-    {
-      name: "Dr. Prasad N A", 
-      slug: 'Dr-Prasad-N-A', 
-      department:'Pediatrician',
-      qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
-      designation: 'Consultant- Pediatrics & Neonatology', 
-      experience: '10', 
-      image: '../../assets/scroll-doctor-9.png', 
-      icon:'../../assets/male.svg',
-      about: '', 
-      expertise: [
+    //   ]
+    // },
+    // {
+    //   name: "Dr. Prasad N A", 
+    //   slug: 'Dr-Prasad-N-A', 
+    //   department:'Pediatrician',
+    //   qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
+    //   designation: 'Consultant- Pediatrics & Neonatology', 
+    //   experience: '10', 
+    //   image: '../../assets/scroll-doctor-9.png', 
+    //   icon:'../../assets/male.svg',
+    //   about: '', 
+    //   expertise: [
        
-      ]
-    },
+    //   ]
+    // },
     {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
@@ -218,7 +218,7 @@ export class HomeComponent implements OnInit, OnDestroy {
         experience: '8', 
         image: '../../assets/scroll-doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: '', 
+        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology...', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -309,7 +309,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, DNB, FRCR(UK)", 
       designation: 'Consultant - Radiology', 
       experience: '7', 
-      image: '../../assets/scroll-doctor-15.png',
+      image: '../../assets/doctor-24s.jpg',
       icon:'../../assets/female.svg', 
       about: 'Dr. Sayalee Gadgil is dedicated to providing precise and detailed imaging services. Her expertise in fetal medicine and abdominal imaging ensures that patients receive accurate diagnoses and top-quality care.', 
       expertise: [
@@ -323,7 +323,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MS(Ortho), DNB(Ortho)", 
       department:'Orthopaedic',
       designation: 'Consultant - Orthopaedics', 
-      experience: '', 
+      experience: '10', 
       image: '../../assets/scroll-doctor-16.png',
       icon:'../../assets/male.svg', 
       about: 'Dr. Sujayendra D. M did his MBBS and MS Orthopaedics from the prestigious Kasturba Medical College, Manipal. Being one of the few colleges with different units for Orthopaedic sub-specialities,', 
@@ -339,10 +339,10 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification: "MBBS, MD(General Medicine), DM(Nephrology)", 
       department:'Nephrology',
       designation: 'Consultant - Nephrologist', 
-      experience: '', 
+      experience: '15', 
       image: '../../assets/scroll-doctor-17.png',
       icon:'../../assets/male.svg', 
-      about: '', 
+      about: 'Embark on a journey of kidney care guided by the genuine expertise of Dr. Rajiv, our Lead Consultant in Nephrology and Kidney Transplantation. Dr. Rajiv isn\'t just a doctor; he is a partner...', 
       expertise: [
         'Nephrology',
         'Dialysis',
