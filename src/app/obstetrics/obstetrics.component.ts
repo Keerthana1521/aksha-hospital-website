@@ -16,7 +16,7 @@ export class ObstetricsComponent {
         designation: 'Obstertrics & Gynaecologist',
         experience: '13', image: '../../assets/doctor-2.png',
         icon:'../../assets/female.svg',
-        about: 'Dr Smitha Bhoopal is a well-known Gynaecologist in South Bangalore has been working in both government and private healthcare sectors for 40 years. It has always been her dream to start a Super Speciality Hospital, which caters to all the sections of the society...',
+        about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
         expertise: [
                
         ]

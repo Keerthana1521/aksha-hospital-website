@@ -229,6 +229,16 @@
     height: 389px;
 }
 
+@media (max-width : 1370px){
+
+    .con_3_con_text{
+        height: 84%;
+    }
+    .container_3_para{
+        line-height: 22px;
+    }
+}
+
 @media (max-width : 1200px){
 
     /* container 1 */

@@ -6,7 +6,7 @@
     background-image: url('../../assets/specialiti/pediatric_bg.png');
     background-size: cover;
     /* background-repeat: no-repeat; */
-    height: 120vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,19 +182,40 @@
     line-height: 24px; /* 162.5% */
 }
 
+.box_1_content{
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .box_2_para{
     margin-top: 20px;
 }
 
 .box_1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
     gap: 40px;
 }
 
+.box_1_img{
+    display: flex;
+    justify-content: right;
+}
+
+.box_2_img{
+    display: flex;
+    justify-content: left;
+}
+
+.box_1_list{
+    padding-left: 40px;
+}
+
 .box_1_img img{
-    width: 540px;
+    width: 400px;
     height: auto;
 }
 
@@ -369,11 +390,6 @@
         height: auto;
     }
 
-    .box_2{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     /* container 5 */
 
     .container_5{
@@ -421,5 +437,17 @@
     .container_2_image img{
         width: 290px;
         height: auto;
+    }
+
+    .box_1{
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+    }
+
+    .box_2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 }

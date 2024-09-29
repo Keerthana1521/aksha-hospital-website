@@ -9,9 +9,10 @@
 .family_members{
     width: 200px;
     text-align: center;
-    height: auto;
+    height: 350px;
     cursor: pointer;
     border-radius: 20px;
+    background-color: white;
 }
 
 .family_members a{

@@ -1,0 +1,21 @@
+<div class="root_container">
+<app-specialities-design
+  heading="Expert Psychiatry Care "
+  para_1="We provide expert psychiatric care for individuals across all age groups, addressing a wide range of mental health conditions. Our services are designed to offer personalized care in both outpatient and inpatient settings, ensuring that every patient receives the attention they need to improve their mental well-being. From anxiety and depression to complex psychiatric disorders, our experienced team of psychiatrists, psychologists and mental health professionals is dedicated to helping patients manage their mental health."
+  para_2="Our hospital offers specialized care in areas such as adult psychiatry, women’s mental health, child psychiatry, de-addiction medicine and geriatric mental health. We understand that mental health needs vary at different stages of life and our approach ensures holistic care that focuses on emotional, psychological and physical well-being. Using advanced treatment methods such as medication management, counseling and therapy, we create individualized care plans for every patient."
+  para_3="At Aksha Hospital, we believe in providing compassionate care in a supportive and confidential environment. Whether you’re dealing with a mental health crisis or looking for long-term treatment, our team is here to guide you every step of the way, offering services that not only address immediate concerns but also promote long-term mental health and recovery."
+  image="../../assets/specialiti/psychiatry.png"
+></app-specialities-design>
+<div class="team_heading">Meet Our Medical Specialists</div>
+<div class="doctor_details">
+    <app-doctor-structure *ngFor = 'let doctor of doctors'
+    image = {{doctor.image}}
+    name = {{doctor.name}} 
+    desgination = {{doctor.designation}}
+    qualification = {{doctor.qualification}}
+    about = {{doctor.about}}
+    description = ""
+    slug={{doctor.slug}}
+    ></app-doctor-structure>
+</div>
+</div>

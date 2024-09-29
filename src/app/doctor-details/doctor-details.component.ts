@@ -17,7 +17,7 @@ export class DoctorDetailsComponent {
       experience: '40',
       image: '../../assets/doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
+      about: 'Aksha Hospital is the brainchild of Dr. Bhoopal T S. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. Bhoopal T S, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
@@ -26,11 +26,11 @@ export class DoctorDetailsComponent {
       name: "Dr. Smitha Bhoopal ",
       slug: 'Dr-Smitha-Bhoopal',
       qualification: "MBBS, DGO",
-      designation: 'Obstertrics & Gynaecologist',
+      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
       experience: '35', 
       image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural child birth even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders, Dr Smitha\'s approach lies in understanding the anxieties that surround fertility, being pregnant, and final delivery. She believes in ethical practice and empowering women to achieve healthier lives.',
+      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her three- decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural childbirth, even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders. Her approach lies in understanding the anxieties that surround fertility, being pregnant and final delivery. She believes in ethical practices and empowers women to live healthier lives.',
       expertise: [
         
       ]
@@ -81,7 +81,7 @@ export class DoctorDetailsComponent {
       experience: '10', 
       image: '../../assets/doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government Medical College, Bellary (VIMS), she went on to specialize in family medicine from The Bangalore Hospital, Bangalore, and was awarded Diplomate in National Board, NBE, New Delhi. She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone echo-based training in dementia care for general practitioners by NIMHANS. Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients.', 
+      about: 'After obtaining her MBBS degree from Government Medical College, Bellary (VIMS), she went on to specialize in family medicine from The Bangalore Hospital, Bangalore and was awarded Diplomate in National Board, NBE, New Delhi. She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone echo-based training in dementia care for general practitioners by NIMHANS. Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients.', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -182,13 +182,11 @@ export class DoctorDetailsComponent {
       designation: 'Consultant - Paediatrics', 
       experience : "28",
       image : "../../assets/doctor-11.png",
-      about : "I am a professor in Paediatrics, having special interest in paediatric Nutrition and paediatric Allergy and Infectious Diseases. Member of many International and National Paediatric Associations.",
+      about : "I am a Professor in Paediatrics, having special interest in Paediatric Nutrition and Paediatric Allergy and Infectious Diseases. Member of many International and National Paediatric Associations.",
       expertise : [
-        'Endo-urology',
-        'Uro-oncology',
-        'Genito-urinary',
-        'reconstruction',
-        'kidney stones'
+        'Paediatric Nutrition',
+        'Paediatric Allergy',
+        'Paediatric Infection Disease',
       ]
     },
     {
@@ -468,25 +466,25 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Vascular Surgeon",
       experience : "18",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis",
+      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis.",
       expertise : [
       ]
     },
     {
-      name: "Dr Raveendra Reddy N",
+      name: "Dr. Raveendra Reddy N",
       slug : "Dr Raveendra Reddy N",
-      qualification : "MBBS, FcARCSI, FCCS,Fellow in Intensive Care(King's College Hospital, London)",
+      qualification : "MBBS, FcARCSI, FCCS, Fellow in Intensive Care(King's College Hospital, London)",
       department : "Anaesthesia and Intensive Care Medicine ",
       designation : "Consultant - Anaesthesia and Intensive Care Medicine ",
       experience : "19",
       image : "../../assets/doctor-15.png",
-      about : "Completed my undergraduate from Kasturba Medical College, Manipal.Then worked as a Resident in  the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then stared my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine .",
+      about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then I started my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one-year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine.",
       expertise : [
         "Critical care","Anaesthesia"
       ]
     },
     {
-      name: "Dt Asha Krishna",
+      name: "Dt. Asha Krishna",
       slug : "Dt Asha Krishna",
       qualification : "MSc, MPhil, DDHN, Diabetic Educator",
       department : "Dietitian",
@@ -496,6 +494,18 @@ export class DoctorDetailsComponent {
       about : "",
       expertise : [
         "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
+    },
+    {
+      name: "Dr. Pratheek R Reddy",
+      slug : "Dr-Pratheek-R-Reddy",
+      qualification : "MBBS , MD , DNB , IDCCM",
+      department : "anaesthesia and critical care medicine",
+      designation : "Consultant - Anaesthesia and Critical care medicine",
+      experience : "10",
+      image : "../../assets/doctor-15.png",
+      about : "MD anaesthesia from ramaiah medical College and fellowship in critical care medicine from Fortis hospital. ",
+      expertise : [
+        "Geriatric Anaesthesia","Haemodynamic Monitoring","Regional Anaesthesia"]
     },
     {
       name : "Reshma Bhoopal",
@@ -509,7 +519,7 @@ export class DoctorDetailsComponent {
         "Talent Acquisition & Employee Relations","HR Compliance & Training", "Business Operations & Financial Management", "HRMS & PeopleSoft HRMS Specialist"
       ]
 
-    }
+    },
 
   ]
 
