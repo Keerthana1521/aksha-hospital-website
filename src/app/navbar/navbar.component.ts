@@ -52,7 +52,8 @@ hoveredSpecialty: string | null = null;
     cardiology: '../../assets/Cardiology.png',
     ent: '../../assets/ENT.png',
     oncology: '../../assets/Oncology and Onco Surgery.png',
-    neurology: '../../assets/Neurology.png'
+    neurology: '../../assets/Neurology.png',
+    physciatry:'../../assets/Physciatry.png',
   };
 
   onHover(specialty: string) {

@@ -26,6 +26,7 @@ import { VascularSurgeryComponent } from './vascular-surgery/vascular-surgery.co
 import { BlogComponent } from './blog/blog.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { PsychiatryComponent } from './psychiatry/psychiatry.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -52,6 +53,7 @@ const routes: Routes = [
   {path:'surgery', component:SurgeryComponent},
   {path:'urology', component:UrologyComponent},
   {path:'vascular-surgery', component:VascularSurgeryComponent},
+  {path:'psychiatry', component: PsychiatryComponent},
   {path:'blog',component: BlogComponent},
   { path: 'blog/:slug', component: BlogPostComponent },
 
