@@ -10,7 +10,7 @@
     width: 200px;
     text-align: center;
     height: 350px;
-    cursor: pointer;
+    /* cursor:grab ; */
     border-radius: 20px;
     background-color: white;
 }
@@ -18,11 +18,11 @@
 .family_members a{
     text-decoration: none;
 }
-
+/* 
 .family_members:hover{
     filter: brightness(0.8);
     transition: 300ms;
-}
+} */
 
 .image img{
     width: 200px;
