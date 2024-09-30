@@ -41,7 +41,7 @@ export class FamilyComponent {
       name : "Reshma Bhoopal",
       // slug : "Reshma-Bhoopal",
       qualification : "BE and MBA(HR)",
-      designation : "HR Director"
+      designation : "HR Business Partner"
     }
   ]
 
