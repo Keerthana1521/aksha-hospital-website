@@ -27,7 +27,7 @@ export class DoctorComponent {
       designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
       experience: '40', image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
+      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
       expertise: [
         
       ]
@@ -37,6 +37,7 @@ export class DoctorComponent {
       slug: 'Dr-Sumanth-Bhoopal ', 
       qualification: "MBBS, MS, FSGE", 
       designation: 'Medical Director of Aksha Hospital', 
+      designation2: 'Sr. Consultant Gastroenterologist', 
       experience: '20', 
       image: '../../assets/doctor-3.png', 
       icon:'../../assets/male.svg',
@@ -78,7 +79,7 @@ export class DoctorComponent {
       experience: '10', 
       image: '../../assets/doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board, NBE, New Delhi. She has completed a Certificate... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bengaluru Hospital, Bengaluru, and awarded Diplomate in national board, NBE, New Delhi. She has completed a Certificate... ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -95,7 +96,7 @@ export class DoctorComponent {
     //   experience: '13', 
     //   image: '../../assets/doctor-6.png', 
     //   icon:'../../assets/male.svg',
-    //   about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bangalore and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bangalore. He completed MBBS from R G U H S in 2011 and DNB...', 
+    //   about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bengaluru and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bengaluru. He completed MBBS from R G U H S in 2011 and DNB...', 
     //   expertise: [
         
     //   ]
@@ -128,7 +129,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Cardiologist",
     //   experience : "7",
     //   image : "../../assets/doctor-8.png",
-    //   about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from RGUHS...",
+    //   about : "Dr. Anand P is a Cardiologist in Banashankari, Bengaluru and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bengaluru and Nano Hospital in Uttarahalli, Bengaluru. He completed MBBS from RGUHS...",
     //   expertise : [
     //   ]
     // },
@@ -149,7 +150,7 @@ export class DoctorComponent {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
        qualification: "MBBS, MD Pediatrics", 
-       designation: 'Consultant- Pediatrician',
+       designation: 'Consultant- Paediatrics',
         experience: '8', 
         image: '../../assets/doctor-10.png', 
         icon:'../../assets/female.svg',
@@ -232,7 +233,7 @@ export class DoctorComponent {
       experience: '23', 
       image: '../../assets/doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and...', 
+      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bengaluru University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and...', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -254,7 +255,7 @@ export class DoctorComponent {
       name: "Dr. Sayalee Gadgil", 
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - Radiology', 
+      designation: 'Consultant - Radiologist', 
       experience: '9', 
       image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
@@ -365,7 +366,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Plastic Surgeon",
     //   experience : "12",
     //   image : "../../assets/doctor-22.jpeg",
-    //   about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara...",
+    //   about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bengaluru and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara...",
     //   expertise : [
     //   ]
     // },
@@ -389,7 +390,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Urology/Genito-Urinary Surgery",
     //   experience : "18",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bangalore and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar....",
+    //   about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bengaluru and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar....",
     //   expertise : [
     //   ]
     // },
@@ -401,7 +402,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Urology/Genito-Urinary Surgery",
     //   experience : "17",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Dr. Manohar C S is a Urologist in Bangalore and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2003 and MS – Urology from Kempegowda...",
+    //   about : "Dr. Manohar C S is a Urologist in Bengaluru and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2003 and MS – Urology from Kempegowda...",
     //   expertise : [
     //   ]
     // },
@@ -450,7 +451,7 @@ export class DoctorComponent {
     //   designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
     //   experience : "25",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial...",
+    //   about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bengaluru. BGS Global Richmond Circle, Bengaluru; Rangadore Memorial...",
     //   expertise : [
     //   ]
     // },
@@ -463,7 +464,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Vascular Surgeon",
     //   experience : "18",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular...",
+    //   about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bengaluru. He has trained in India and abroad (Europe) and is passionate about dialysis vascular...",
     //   expertise : [
     //   ]
     // },
@@ -475,7 +476,7 @@ export class DoctorComponent {
     //   designation : "Consultant - Anaesthesia and Intensive Care",
     //   experience : "19",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB...",
+    //   about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB...",
     //   expertise : [
     //     "Critical care","Anaesthesia"
     //   ]

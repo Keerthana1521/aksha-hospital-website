@@ -30,7 +30,7 @@ export class DoctorDetailsComponent {
       experience: '35', 
       image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her three- decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural childbirth, even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders. Her approach lies in understanding the anxieties that surround fertility, being pregnant and final delivery. She believes in ethical practices and empowers women to live healthier lives.',
+      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her three- decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural childbirth, even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders. Her approach lies in understanding the anxieties that surround fertility, being pregnant and final delivery. She believes in ethical practices and empowers women to live healthier lives.',
       expertise: [
         
       ]
@@ -40,6 +40,7 @@ export class DoctorDetailsComponent {
       slug: 'Dr-Sumanth-Bhoopal ', 
       qualification: "MBBS, MS, FSGE", 
       designation: 'Medical Director of Aksha Hospital', 
+      designation2: 'Sr. Consultant Gastroenterologist', 
       experience: '20', 
       image: '../../assets/doctor-3.png', 
       icon:'../../assets/male.svg',
@@ -81,7 +82,7 @@ export class DoctorDetailsComponent {
       experience: '10', 
       image: '../../assets/doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government Medical College, Bellary (VIMS), she went on to specialize in family medicine from The Bangalore Hospital, Bangalore and was awarded Diplomate in National Board, NBE, New Delhi. She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone echo-based training in dementia care for general practitioners by NIMHANS. Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients.', 
+      about: 'After obtaining her MBBS degree from Government Medical College, Bellary (VIMS), she went on to specialize in family medicine from The Bengaluru Hospital, Bengaluru and was awarded Diplomate in National Board, NBE, New Delhi. She has completed a Certificate Course in Integrated Geriatric Care (CCIGC) and a Certificate Course in Evidence-Based Diabetes Mellitus (CCEBDM), both from PHFI. Additionally, she is a trained diabetic educator and has undergone echo-based training in dementia care for general practitioners by NIMHANS. Dr. Deepa Rao is a patient-centric family physician dedicated to serving individuals of all ages. Her mission is to bridge the gap between primary and tertiary care, ensuring holistic and comprehensive healthcare for all her patients.', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -98,7 +99,7 @@ export class DoctorDetailsComponent {
       experience: '13', 
       image: '../../assets/doctor-6.png', 
       icon:'../../assets/male.svg',
-      about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bangalore and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bangalore. He completed MBBS from R G U H S in 2011 and DNB...', 
+      about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bengaluru and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bengaluru. He completed MBBS from R G U H S in 2011 and DNB...', 
       expertise: [
         
       ]
@@ -131,7 +132,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Cardiologist",
       experience : "7",
       image : "../../assets/doctor-8.png",
-      about : "Dr. Anand P is a Cardiologist in Banashankari, Bangalore and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bangalore and Nano Hospital in Uttarahalli, Bangalore. He completed MBBS from RGUHS in 2009, MD - General Medicine from University College of Medical Sciences, Delhi University in 2013 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2017. Visiting Consultant in Cardiology  at Apollo Speciality  Hospital Jayanagar",
+      about : "Dr. Anand P is a Cardiologist in Banashankari, Bengaluru and has an experience of 7 years in this field. Dr. Anand P practices at Devagiri Hospital - Powered by Medisync in Banashankari, Bengaluru and Nano Hospital in Uttarahalli, Bengaluru. He completed MBBS from RGUHS in 2009, MD - General Medicine from University College of Medical Sciences, Delhi University in 2013 and DM - Cardiology from All India Institute of Medical Sciences, New Delhi in 2017. Visiting Consultant in Cardiology  at Apollo Speciality  Hospital Jayanagar",
       expertise : [
       ]
     },
@@ -152,11 +153,11 @@ export class DoctorDetailsComponent {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
        qualification: "MBBS, MD Pediatrics", 
-       designation: 'Consultant- Pediatrician',
+       designation: 'Consultant- Paediatrics',
         experience: '8', 
         image: '../../assets/doctor-10.png', 
         icon:'../../assets/female.svg',
-        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bangalore.     Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avani Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.     Dr. Avani Hegde has previously served as a faculty member at St. John\'s Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.', 
+        about: 'Dr. Avani Hegde completed her MD in Paediatrics from the Advanced Paediatric Centre, PGIMER, Chandigarh, where she was awarded the institutional bronze medal for her academic excellence. She pursued her sub-specialty training in paediatric and adolescent endocrinology at the Indira Gandhi Institute of Child Health, Bengaluru.     Her medical training has provided her with extensive exposure to a wide range of paediatric and adolescent hormonal issues. Dr. Avani Hegde is a faculty member at the Indian Society of Paediatric and Adolescent Endocrinology (ISPAE) and is involved in the IDEAL module for training diabetes educators.     Dr. Avani Hegde has previously served as a faculty member at St. John\'s Medical College. She is an active member of the Indian Academy of Paediatrics and the Indian Society for Paediatric and Adolescent Endocrinology, with numerous national and international publications to her credit. Known for her dedicated and meticulous clinical care, she is loved by both children and parents alike.', 
         expertise: [
         'Short height',
         'Poor growth',
@@ -233,7 +234,7 @@ export class DoctorDetailsComponent {
       experience: '23', 
       image: '../../assets/doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada. He is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes.', 
+      about: 'Dr. Santosh H S brings extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bengaluru University and earned his MRCP from the Royal College of Physicians in the UK. Dr. Santosh further honed his skills with specialist training and research in adult growth hormone deficiency and osteoporosis at the University of Liverpool. His professional journey also includes gaining experience in Islet Transplantation from Edmonton, Canada. He is recognized for his comprehensive approach to managing a wide range of endocrine disorders. His interests include complex diabetes management, insulin pump therapy and the care of pregnant women with diabetes.', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -255,7 +256,7 @@ export class DoctorDetailsComponent {
       name: "Dr. Sayalee Gadgil", 
       slug: 'Dr-Sayalee-Gadgil', 
       qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - Radiology', 
+      designation: 'Consultant - Radiologist', 
       experience: '9', 
       image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
@@ -280,7 +281,7 @@ export class DoctorDetailsComponent {
       experience: '10', 
       image: '../../assets/doctor-16.png',
       icon:'../../assets/male.svg', 
-      about: "Dr. Sujayendra D M is a Orthopaedic surgeon with higher training in musculoskeletal trauma and arthroplasty, 10 Years Experience Overall (7 years as specialist) Dr. Sujayendra D M practices at St. Philomena's Hospital, Bangalore. His qualification is MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery", 
+      about: "Dr. Sujayendra D M is a Orthopaedic surgeon with higher training in musculoskeletal trauma and arthroplasty, 10 Years Experience Overall (7 years as specialist) Dr. Sujayendra D M practices at St. Philomena's Hospital, Bengaluru. His qualification is MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery", 
       expertise: [
         'Fracture care',
         'Joint Replacement and Arthroscopy(keyhole) Surgeries',
@@ -367,7 +368,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Plastic Surgeon",
       experience : "12",
       image : "../../assets/doctor-22.jpeg",
-      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bangalore and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer foundation, Q-Medical Centre in Sivanchetti Gardens, Bangalore, Kanva sri sai Hospital in Nandini Layout, Bangalore and DHEE Hospitals in Kanakpura Road, Bangalore. He completed MBBS from BMCRI in 2012 and DNB - Plastic Surgery from National Board of Examination, India in 2018.",
+      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bengaluru and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara cancer foundation, Q-Medical Centre in Sivanchetti Gardens, Bengaluru, Kanva sri sai Hospital in Nandini Layout, Bengaluru and DHEE Hospitals in Kanakpura Road, Bengaluru. He completed MBBS from BMCRI in 2012 and DNB - Plastic Surgery from National Board of Examination, India in 2018.",
       expertise : [
 
       ]
@@ -392,7 +393,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Urology/Genito-Urinary Surgery",
       experience : "18",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bangalore and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar in Jayanagar, Bangalore, Apollo Hospital in Bannerghatta Road, Bangalore. He completed MBBS from Mysore Medical College in 2000, MS - General Surgery from Stanley Medical College & Hospital, Chennai in 2005 and MRCS (UK) from The Royal College of Surgeons (RCS), the UK in 2006. He Completed MCh - Urology/Genito-Urinary Surgery from Rajiv Gandhi University of Health Sciences RGUHS 2010 & DNB - Urology/Genito - Urinary Surgery from New Delhi.",
+      about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bengaluru and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar in Jayanagar, Bengaluru, Apollo Hospital in Bannerghatta Road, Bengaluru. He completed MBBS from Mysore Medical College in 2000, MS - General Surgery from Stanley Medical College & Hospital, Chennai in 2005 and MRCS (UK) from The Royal College of Surgeons (RCS), the UK in 2006. He Completed MCh - Urology/Genito-Urinary Surgery from Rajiv Gandhi University of Health Sciences RGUHS 2010 & DNB - Urology/Genito - Urinary Surgery from New Delhi.",
       expertise : [
       ]
     },
@@ -404,7 +405,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Urology/Genito-Urinary Surgery",
       experience : "17",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Manohar C S is a Urologist in Bangalore and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2003 and MS – Urology from Kempegowda Institute of Medical Sciences (KIMS), Bangalore in 2006.He is a member of Urological Society of India (USI) and American Urological Association (AUA). Some of the services provided by the doctor are: Laparoscopy, Andrology, Urinary Incontinence (Ui) Treatment, Pediatric Urology and Reconstructive Urology etc.",
+      about : "Dr. Manohar C S is a Urologist in Bengaluru and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2003 and MS – Urology from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2006.He is a member of Urological Society of India (USI) and American Urological Association (AUA). Some of the services provided by the doctor are: Laparoscopy, Andrology, Urinary Incontinence (Ui) Treatment, Pediatric Urology and Reconstructive Urology etc.",
       expertise : [
       ]
     },
@@ -416,7 +417,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - ENT Specialist",
       experience : "13",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr. Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr. Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and his DNB in ENT from St. Johns Medical College, Bangalore, in 2011. He has also participated in research work and various workshops under the ENT department and published many papers. Doctor Pai has also received many awards in his field.",
+      about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr. Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr. Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and his DNB in ENT from St. Johns Medical College, Bengaluru, in 2011. He has also participated in research work and various workshops under the ENT department and published many papers. Doctor Pai has also received many awards in his field.",
       expertise : [
 
       ]
@@ -453,7 +454,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
       experience : "25",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial Hospital, Bangalore. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy.",
+      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bengaluru. BGS Global Richmond Circle, Bengaluru; Rangadore Memorial Hospital, Bengaluru. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy.",
       expertise : [
       ]
     },
@@ -466,7 +467,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Vascular Surgeon",
       experience : "18",
       image : "../../assets/doctor-15.png",
-      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis.",
+      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bengaluru. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis.",
       expertise : [
       ]
     },
@@ -478,7 +479,7 @@ export class DoctorDetailsComponent {
       designation : "Consultant - Anaesthesia and Intensive Care Medicine ",
       experience : "19",
       image : "../../assets/doctor-15.png",
-      about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then I started my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one-year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine.",
+      about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then I started my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one-year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine.",
       expertise : [
         "Critical care","Anaesthesia"
       ]
@@ -510,7 +511,7 @@ export class DoctorDetailsComponent {
     // {
     //   name : "Reshma Bhoopal",
     //   slug : "Reshma-Bhoopal",
-    //   qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bangalore, SHRM-CP Certification – Certified, May 2024",
+    //   qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bengaluru, SHRM-CP Certification – Certified, May 2024",
     //   experience : "6",
     //   designation : "HR Professional | SHRM-CP Certified",
     //   image : "../../assets/ReshmaBhoopal.png",
