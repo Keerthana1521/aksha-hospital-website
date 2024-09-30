@@ -83,7 +83,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
       experience: '40', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
         
       ]
@@ -137,7 +137,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '10', 
       image: '../../assets/scroll-doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC)... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bengaluru Hospital, Bengaluru, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC)... ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -214,7 +214,7 @@ export class HomeComponent implements OnInit, OnDestroy {
        slug: 'Dr-Avani-Hegde', 
        qualification: "MBBS, MD Pediatrics", 
        department:'Pediatrician',
-       designation: 'Consultant- Pediatrician',
+       designation: 'Consultant- Paediatrics',
         experience: '8', 
         image: '../../assets/scroll-doctor-10.png', 
         icon:'../../assets/female.svg',
@@ -284,7 +284,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '23', 
       image: '../../assets/scroll-doctor-14.png',
       icon:'../../assets/male.svg',
-      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bangalore University and earned his MRCP from the Royal College of Physicians in the UK. ', 
+      about: 'Dr. Santosh HS brings over a decade of extensive training and experience in diabetes and endocrinology. He completed his MBBS from Bengaluru University and earned his MRCP from the Royal College of Physicians in the UK. ', 
       expertise: [
         'Diabetes Mellitus Management',
         'Thyroid Disorders',
@@ -307,7 +307,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Sayalee-Gadgil', 
       department:'Radiology',
       qualification: "MBBS, DNB, FRCR(UK)", 
-      designation: 'Consultant - Radiology', 
+      designation: 'Consultant - Radiologist', 
       experience: '7', 
       image: '../../assets/doctor-24.jpg',
       icon:'../../assets/female.svg', 
@@ -428,8 +428,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
   carouselItems = [
     {
-      heading: 'Hospital',
-      text: 'Aksha Hospital is committed to delivering exceptional healthcare with a focus on compassionate, patient-centered care. Our facility is equipped with the latest medical technology and staffed by highly skilled professionals. We provide a comprehensive range of services, ensuring quality treatment and a supportive environment for all our patients.      ',
+      heading: 'Aksha Hospital',
+      text: 'Aksha Hospital is committed towards delivering an exceptional healthcare experience focused on compassionate, patient-centered care. Our facility is equipped with the latest medical technology and staffed by highly skilled professionals. We provide a comprehensive range of services, ensuring quality treatment and a supportive environment for all our patients.',
       image: '../../assets/caro-1.png', // Replace with actual image path
       bgImage: '../../assets/caro-bg-1.png', // Replace with background image path
       nextImage:'../../assets/caro-sm-2.png',

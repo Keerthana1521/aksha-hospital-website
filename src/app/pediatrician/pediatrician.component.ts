@@ -24,7 +24,7 @@ export class PediatricianComponent {
         name: "Dr. Avani Hegde",
          slug: 'Dr-Avani-Hegde', 
          qualification: "MBBS, MD Pediatrics", 
-         designation: 'Consultant- Pediatrician',
+         designation: 'Consultant- Paediatrics',
           experience: '8', 
           image: '../../assets/doctor-10.png', 
           icon:'../../assets/female.svg',

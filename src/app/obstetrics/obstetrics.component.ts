@@ -13,10 +13,10 @@ export class ObstetricsComponent {
         name: "Dr. Smitha Bhoopal ",
         slug: 'Dr-Smitha-Bhoopal',
         qualification: "MBBS, DGO",
-        designation: 'Obstertrics & Gynaecologist',
+        designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
         experience: '13', image: '../../assets/doctor-2.png',
         icon:'../../assets/female.svg',
-        about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bangalore, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
+        about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
         expertise: [
                
         ]

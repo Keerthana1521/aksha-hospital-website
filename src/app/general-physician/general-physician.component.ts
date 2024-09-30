@@ -15,7 +15,7 @@ export class GeneralPhysicianComponent {
     //   experience: '13', 
     //   image: '../../assets/doctor-6.png', 
     //   icon:'../../assets/male.svg',
-    //   about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bangalore and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bangalore. He completed MBBS from R G U H S in 2011 and DNB...', 
+    //   about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bengaluru and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bengaluru. He completed MBBS from R G U H S in 2011 and DNB...', 
     //   expertise: [
         
     //   ]
@@ -28,7 +28,7 @@ export class GeneralPhysicianComponent {
       experience: '10', 
       image: '../../assets/doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bangalore Hospital, Bangalore, and awarded Diplomate in national board, NBE, New Delhi. She has completed a Certificate... ', 
+      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bengaluru Hospital, Bengaluru, and awarded Diplomate in national board, NBE, New Delhi. She has completed a Certificate... ', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',

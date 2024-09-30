@@ -9,6 +9,7 @@ export class DoctorStructureComponent {
   @Input() image: any;
   @Input() name:any;
   @Input() desgination:any;
+  @Input() desgination2:any;
   @Input() qualification:any;
   @Input() about:any;
   @Input() description:any;
