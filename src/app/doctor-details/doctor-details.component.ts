@@ -12,7 +12,7 @@ export class DoctorDetailsComponent {
     {
       name: "Dr. Bhoopal T.S",
       slug: 'Dr-Bhoopal-T-S',
-      qualification: " MBBS, MD",
+      qualification: "MBBS, MD",
       designation: 'Managing Director',
       experience: '40',
       image: '../../assets/doctor-1.png',
@@ -507,19 +507,19 @@ export class DoctorDetailsComponent {
       expertise : [
         "Geriatric Anaesthesia","Haemodynamic Monitoring","Regional Anaesthesia"]
     },
-    {
-      name : "Reshma Bhoopal",
-      slug : "Reshma-Bhoopal",
-      qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bangalore, SHRM-CP Certification – Certified, May 2024",
-      experience : "6",
-      designation : "HR Professional | SHRM-CP Certified",
-      image : "../../assets/ReshmaBhoopal.png",
-      about : "Reshma Bhoopal is an experienced HR professional with over 6 years of expertise in talent acquisition, employee engagement, and HR compliance. Holding an MBA in Human Resources and a Bachelor's in Computer Science, she blends her global HR knowledge with hands-on experience in HR technology, including PeopleSoft HRMS. She has worked with prominent organizations, including Aksha Hospital and Nous Infosystems, driving employee relations, compliance training, and recruitment strategies. Reshma’s entrepreneurial spirit also shines through her role as the owner of Arts from Glass, where she manages business operations and creative workshops.",
-      expertise : [
-        "Talent Acquisition & Employee Relations","HR Compliance & Training", "Business Operations & Financial Management", "HRMS & PeopleSoft HRMS Specialist"
-      ]
+    // {
+    //   name : "Reshma Bhoopal",
+    //   slug : "Reshma-Bhoopal",
+    //   qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bangalore, SHRM-CP Certification – Certified, May 2024",
+    //   experience : "6",
+    //   designation : "HR Professional | SHRM-CP Certified",
+    //   image : "../../assets/ReshmaBhoopal.png",
+    //   about : "Reshma Bhoopal is an experienced HR professional with over 6 years of expertise in talent acquisition, employee engagement, and HR compliance. Holding an MBA in Human Resources and a Bachelor's in Computer Science, she blends her global HR knowledge with hands-on experience in HR technology, including PeopleSoft HRMS. She has worked with prominent organizations, including Aksha Hospital and Nous Infosystems, driving employee relations, compliance training, and recruitment strategies. Reshma’s entrepreneurial spirit also shines through her role as the owner of Arts from Glass, where she manages business operations and creative workshops.",
+    //   expertise : [
+    //     "Talent Acquisition & Employee Relations","HR Compliance & Training", "Business Operations & Financial Management", "HRMS & PeopleSoft HRMS Specialist"
+    //   ]
 
-    },
+    // },
 
   ]
 
