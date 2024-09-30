@@ -10,13 +10,11 @@ export class GalleryComponent {
     '../../assets/Photo/ANESTHESIA WORKROOM.jpg',
     '../../assets/Photo/AUTOMATIC SENSOR DOOR.jpg',
     '../../assets/Photo/CANTEEN.jpg',
-    '../../assets/Photo/CHANGING ROOM.jpg',
     '../../assets/Photo/CSSD.jpg',
     '../../assets/Photo/DD.jpg',
     '../../assets/Photo/DELUXE BOARD.png',
     '../../assets/Photo/DF.png',
     '../../assets/Photo/EMERGENCY.jpg',
-    '../../assets/Photo/FSD.jpg',
     '../../assets/Photo/GYNOCOLOGY OPD.jpg',
     '../../assets/Photo/ICU DIALYSIS.jpg',
     '../../assets/Photo/INCUBATOR.jpg',
@@ -35,6 +33,7 @@ export class GalleryComponent {
     '../../assets/Photo/SPECIAL WARD.jpg',
     '../../assets/Photo/ULTRASOUND.png',
     '../../assets/Photo/X-RAY.jpg',
+    '../../assets/Photo/CHANGING ROOM.jpg',
     // Add more images as needed
   ];
 
