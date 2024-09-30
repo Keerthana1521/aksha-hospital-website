@@ -29,7 +29,7 @@ export class AnesthesiaComponent {
   //   designation : "Consultant - Anaesthesia and Intensive Care",
   //   experience : "19",
   //   image : "../../assets/doctor-15.png",
-  //   about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bangalore. Whilst working as resident at Mallya Hospital, passed my PLAB...",
+  //   about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB...",
   //   expertise : [
   //     "Critical care","Anaesthesia"
   //   ]

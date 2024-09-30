@@ -16,7 +16,7 @@ export class VascularSurgeryComponent {
     //   designation : "Consultant - Vascular Surgeon",
     //   experience : "18",
     //   image : "../../assets/doctor-15.png",
-    //   about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bangalore. He has trained in India and abroad (Europe) and is passionate about dialysis vascular...",
+    //   about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bengaluru. He has trained in India and abroad (Europe) and is passionate about dialysis vascular...",
     //   expertise : [
     //   ]
     // },

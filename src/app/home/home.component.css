@@ -707,11 +707,10 @@ height: 58px;
 }
 .caro-text-content h1 {
   font-family: Poppins;
-color: #fff;
-font-size: 64px;
+  color: #fff;
+  font-size: 56px;
   margin-bottom: 10px;
   font-weight: bold;
-
 }
 
 .caro-text-content p {

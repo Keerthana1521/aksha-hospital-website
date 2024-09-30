@@ -72,7 +72,7 @@ export class SurgeryComponent {
       //   designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
       //   experience : "25",
       //   image : "../../assets/doctor-15.png",
-      //   about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bangalore. BGS Global Richmond Circle, Bangalore; Rangadore Memorial...",
+      //   about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bengaluru. BGS Global Richmond Circle, Bengaluru; Rangadore Memorial...",
       //   expertise : [
       //   ]
       // },
