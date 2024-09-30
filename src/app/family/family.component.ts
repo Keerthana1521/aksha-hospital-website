@@ -26,8 +26,8 @@ export class FamilyComponent {
       image  : "./../assets/doctor-3.png",
       name : "Dr. Sumanth Bhoopal",
       // slug : "Dr-Sumanth-Bhoopal",
-      // qualification : "MBBS, MS, FSGE",
-      designation : "Medical Director of Aksha Hospital"
+      qualification : "Medical Director",
+      designation : "Sr. Consultant (Gastroenterologist)"
     },
     {
       image  : "./../assets/doctor-4.png",
