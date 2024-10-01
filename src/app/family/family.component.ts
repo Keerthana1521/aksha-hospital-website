@@ -10,31 +10,32 @@ export class FamilyComponent {
   family = [
     {
       image  : "../../assets/doctor-1.png",
-      name : "Dr. Bhoopal T.S",
+      name : "Dr. T S Bhoopal ",
       // slug : "Dr-Bhoopal-T-S",
       // qualification : "MBBS, MD",
-      designation : "Managing Director"
+      designation : "Managing Director",
+      designation2: 'Radio Diagnosis',
     },
     {
       image  : "./../assets/doctor-2.png",
       name : "Dr. Smitha Bhoopal",
       // slug : "Dr-Smitha-Bhoopal",
       // qualification : "MBBS, DGO",
-      designation : "Sr. Consultant (Obstetrics & Gynaecologist)"
+      designation : "Sr. Consultant (Obstetrician & Gynaecologist)"
     },
     {
       image  : "./../assets/doctor-3.png",
       name : "Dr. Sumanth Bhoopal",
       // slug : "Dr-Sumanth-Bhoopal",
-      qualification : "Medical Director",
-      designation : "Sr. Consultant (Gastroenterologist)"
+      designation: 'Medical Director',
+      designation2 : "Sr. Consultant (Gastroenterologist)"
     },
     {
       image  : "./../assets/doctor-4.png",
       name : "Dr. Madhuri Sumanth",
       // slug : "Dr-Madhuri-Sumanth",
       // qualification : "MBBS, MS (OBG & GYNAEC) & FMAS",
-      designation : "Sr. Consultant (Obstetrics & Gynaecologist)"
+      designation : "Sr. Consultant (Obstetrician & Gynaecologist)"
     },
     {
       image  : "../../assets/ReshmaBhoopal.png",

@@ -24,5 +24,21 @@ export class PsychiatryComponent {
         'Geriatric mental health',
       ]
     },
+    {
+      name: "Dr. Sowmya S",
+      slug : "Dr-Sowmya-S",
+      qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
+      department : "Clinical Psychology",
+      designation : "Clinical Psychology",
+      experience : "3",
+      image : "../../assets/doctor-21.jpg",
+      about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication.",
+      expertise : [
+          'Psycho-oncology',
+          'Behavioural endocrinology, Psycho-education',
+          'Providing Supportive Psychotherapy',
+          'Stress management counseling and treating a variety of clinical disorders using an integrative approach'
+      ]
+    },
   ]
 }
