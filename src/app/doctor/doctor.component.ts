@@ -8,14 +8,15 @@ import { Component } from '@angular/core';
 export class DoctorComponent {
   doctors = [
     {
-      name: "Dr. Bhoopal T. S",
+      name: "Dr. T S Bhoopal",
       slug: 'Dr-Bhoopal-T-S',
       qualification: " MBBS, MD",
       designation: 'Managing Director',
+      designation2 : "Radio Diagnosis",
       experience: '40',
       image: '../../assets/doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr. Bhoopal T S. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. Bhoopal T S, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology...',
+      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology...',
       expertise: [
         
       ]
@@ -24,7 +25,7 @@ export class DoctorComponent {
       name: "Dr. Smitha Bhoopal ",
       slug: 'Dr-Smitha-Bhoopal',
       qualification: "MBBS, DGO",
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)',
       experience: '40', image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
       about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
@@ -36,7 +37,7 @@ export class DoctorComponent {
       name: "Dr. Sumanth Bhoopal ", 
       slug: 'Dr-Sumanth-Bhoopal ', 
       qualification: "MBBS, MS, FSGE", 
-      designation: 'Medical Director of Aksha Hospital', 
+      designation: 'Medical Director', 
       designation2: 'Sr. Consultant Gastroenterologist', 
       experience: '20', 
       image: '../../assets/doctor-3.png', 
@@ -55,7 +56,7 @@ export class DoctorComponent {
       name: "Dr. Madhuri Sumanth", 
       slug: 'Dr-Madhuri-Sumanth', 
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)', 
       experience: '16', 
       image: '../../assets/doctor-4.png', 
       icon:'../../assets/female.svg',

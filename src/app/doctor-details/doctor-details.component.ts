@@ -10,14 +10,15 @@ export class DoctorDetailsComponent {
   doctor: any;
   doctors = [
     {
-      name: "Dr. Bhoopal T.S",
+      name: "Dr. T S Bhoopal ",
       slug: 'Dr-Bhoopal-T-S',
       qualification: "MBBS, MD",
       designation: 'Managing Director',
+      designation2 : "Radio Diagnosis",
       experience: '40',
       image: '../../assets/doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr. Bhoopal T S. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. Bhoopal T S, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
+      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
@@ -26,7 +27,7 @@ export class DoctorDetailsComponent {
       name: "Dr. Smitha Bhoopal ",
       slug: 'Dr-Smitha-Bhoopal',
       qualification: "MBBS, DGO",
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)',
       experience: '35', 
       image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
@@ -58,7 +59,7 @@ export class DoctorDetailsComponent {
       name: "Dr. Madhuri Sumanth", 
       slug: 'Dr-Madhuri-Sumanth', 
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)', 
       experience: '16', 
       image: '../../assets/doctor-4.png', 
       icon:'../../assets/female.svg',

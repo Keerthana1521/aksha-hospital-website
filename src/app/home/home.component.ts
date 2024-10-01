@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   docDepartments = [
     { name: 'Founder', selected: true }, // Pre-select Founder by default
-    { name: 'Obstetrics & Gynecologists', selected: false },
+    { name: 'Obstetrics & Gynaecology', selected: false },
     { name: 'Gastrosurgery', selected: false },
     { name: 'Pediatrician', selected: false },
     { name: 'Endocrinology', selected: false },
@@ -62,15 +62,16 @@ export class HomeComponent implements OnInit, OnDestroy {
   // List of doctors with names, titles, experience, and information
   doctors = [
     {
-      name: "Dr. Bhoopal T.S",
+      name: "Dr. T S Bhoopal ",
       slug: 'Dr-Bhoopal-T-S',
       department: "Founder",
       qualification: " MBBS, MD",
       designation: 'Managing Director',
+      designation2: 'Radio Diagnosis',
       experience: '40',
       image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
+      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology.',
       expertise: [
         
       ]
@@ -78,10 +79,10 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Smitha Bhoopal ",
       slug: 'Dr-Smitha-Bhoopal',
-      department: "Obstetrics & Gynecologists",
+      department: "Obstetrics & Gynaecology",
       qualification: "MBBS, DGO",
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
-      experience: '40', image: '../../assets/scroll-doctor-2.png',
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)',
+      experience: '35', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
       about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
@@ -93,7 +94,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Sumanth-Bhoopal ', 
       department: "Gastrosurgery",
       qualification: "MBBS, MS, FSGE", 
-      designation: 'Medical Director of Aksha Hospital', 
+      designation: 'Medical Director', 
       experience: '20', 
       image: '../../assets/scroll-doctor-3.png', 
       icon:'../../assets/male.svg',
@@ -110,9 +111,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Madhuri Sumanth", 
       slug: 'Dr-Madhuri-Sumanth', 
-      department: "Obstetrics & Gynecologists",
+      department: "Obstetrics & Gynaecology",
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)', 
       experience: '16', 
       image: '../../assets/scroll-doctor-4.png', 
       icon:'../../assets/female.svg',
@@ -137,7 +138,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '10', 
       image: '../../assets/scroll-doctor-5.png', 
       icon:'../../assets/female.svg',
-      about: 'After obtaining her MBBS degree from Government medical College, Bellary(VIMS) she went on to specialise in Family medicine from The Bengaluru Hospital, Bengaluru, and awarded Diplomate in national board,NBE, New Delhi.She has completed a Certificate Course in Integrated Geriatric Care (CCIGC)... ', 
+      about: 'After obtaining her MBBS degree from Government Medical College, Bellary (VIMS), she went on to specialize in family medicine from The Bengaluru Hospital, Bengaluru and was awarded...', 
       expertise: [
         'Geriatric Care',
         'Medical Problems in Pregnancy',
@@ -498,7 +499,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
   departments = [
     {
-      name: 'Obstetrics & Gynecologists',
+      name: 'Obstetrics & Gynaecology',
       description:
         'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
       image: 'assets/OG.png',

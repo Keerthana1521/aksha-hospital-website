@@ -12,6 +12,7 @@ export class SurgeryComponent {
         slug: 'Dr-Sumanth-Bhoopal ', 
         qualification: "MBBS, MS, FSGE", 
         designation: 'Medical Director of Aksha Hospital', 
+        designation2: 'Sr. Consultant Gastroenterologist',
         experience: '20', 
         image: '../../assets/doctor-3.png', 
         icon:'../../assets/male.svg',
