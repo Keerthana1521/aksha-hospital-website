@@ -39,7 +39,7 @@ export class FamilyComponent {
     },
     {
       image  : "../../assets/ReshmaBhoopal.png",
-      name : "Reshma Bhoopal",
+      name : "Ms. Reshma Bhoopal",
       // slug : "Reshma-Bhoopal",
       qualification : "BE and MBA(HR)",
       designation : "HR Business Partner"

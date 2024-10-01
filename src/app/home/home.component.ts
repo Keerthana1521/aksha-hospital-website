@@ -608,12 +608,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.router.navigate(['/doctor', slug]);
   }
 ngOnInit() {
-  this.selectDepartment(this.docDepartments[0]);
+  this.selectDepartment(this.departments[0]);
+  console.log('Selected department:', this.selectedDepartment);
   this.autoChangeInterval = setInterval(() => {
     // this.currentDepartmentIndex = (this.currentDepartmentIndex + 1) % this.departments.length;
     // this.selectedDepartment = this.departments[this.currentDepartmentIndex];
     this.changeDepartment((this.currentDepartmentIndex + 1) % this.departments.length, true);
-  }, 4000); // 20 seconds interval
+  }, 9000); // 20 seconds interval
   const options = {
     root: null, // Use the viewport as the root
     threshold: 0.5 // Trigger when 50% of the section is visible

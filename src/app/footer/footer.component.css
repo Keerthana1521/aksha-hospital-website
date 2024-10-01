@@ -179,6 +179,9 @@ text-align: center;
         width: 17%;
         left: 965px;
     }
+    .social-links{
+      bottom: 50px;
+    }
   }
   @media only screen and (max-width:1030px){
     .contact-info{

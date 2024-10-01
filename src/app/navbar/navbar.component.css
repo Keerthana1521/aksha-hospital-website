@@ -156,12 +156,12 @@
   display: none;
   position: absolute;
   top: 218%;
-  left: -215px;
+  left: -211px;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 1;
-    width: 1266px;
+    width: 1257px;
   height: 440px;
   display: flex;
   justify-content: center;
@@ -184,6 +184,7 @@
   display: flex;
   justify-content: space-between;
   width: 75%;
+  height: 452px;
 }
 
 .specialties-list ul {
@@ -242,9 +243,9 @@ z-index: 1;
 
 @media (max-width:1370px){
   .dropdown-content{
-    width: 1122px;
-    left: -142px;
-    top: 211%;
+    width: 1112px;
+        left: -137px;
+        top: 210%;
   }
   .social-media-section{
 left: 60rem;
@@ -466,13 +467,13 @@ z-index: 1;
     height: 18px;
 }
 .dropdown-content{
-  left: 80px;
-  width: 50%;
+  left: 50px;
+  width: 70%;
   border-radius: 20px;
   padding-left: 2rem;
 }
 .specialties-list{
-  margin-top: 522px;
+  margin-top: 116px;
 }
 .specialties-list li{
   font-size: 14px;
@@ -481,10 +482,11 @@ z-index: 1;
 }
 @media (max-width:380px){
   .specialties-list{
-    margin-top: 570px;
+    margin-top: 116px;
   }
   .dropdown-content{
-    left: 57px;
+    left: 50px;
+    
   }
 }
 

@@ -39,7 +39,7 @@ hoveredSpecialty: string | null = null;
     obstetrics: '../../assets/Obstetrics & Gynecologists.png',
     gastrosurgery: '../../assets/Gastrosurgery.png',
     pediatrician: '../../assets/Pediatrician.png',
-    endocrine: '../../assets/Endocrinology.png',
+    endocrine: '../../assets/Endocrine Surgeries.png',
     vascular: '../../assets/Vascular Surgeries.png',
     orthopedic: '../../assets/Orthopedic.png',
     general_physician: '../../assets/General Physician.png',
