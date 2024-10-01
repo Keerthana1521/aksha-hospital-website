@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BlogService{
-  private baseUrl = 'https://akshahospital.in//wp-json/wp/v2';
+  private baseUrl = 'http://blog.akshahospital.in/wp-json/wp/v2';
 
   constructor(private http: HttpClient) { }
 
