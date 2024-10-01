@@ -288,6 +288,10 @@
     }
 }
 
+.container_2_box_2{
+    margin-bottom: 30px;
+}
+
 @media (min-width : 1020px){
 
     .container_1_image img{

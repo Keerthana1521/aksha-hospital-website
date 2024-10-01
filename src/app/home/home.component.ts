@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   docDepartments = [
     { name: 'Founder', selected: true }, // Pre-select Founder by default
-    { name: 'Obstetrics & Gynecologists', selected: false },
+    { name: 'Obstetrics & Gynaecology', selected: false },
     { name: 'Gastrosurgery', selected: false },
     { name: 'Pediatrician', selected: false },
     { name: 'Endocrinology', selected: false },
@@ -79,12 +79,12 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Smitha Bhoopal ",
       slug: 'Dr-Smitha-Bhoopal',
-      department: "Obstetrics & Gynecologists",
+      department: "Obstetrics & Gynaecology",
       qualification: "MBBS, DGO",
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)',
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist)',
       experience: '40', image: '../../assets/scroll-doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
+      about: 'Dr Smitha Bhoopal is one of the senior most renowned, highly progressive and experienced Gynaecologist and Obstetrician in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and has delivered more than 9000+ babies in her three decade career. ',
       expertise: [
         
       ]
@@ -94,7 +94,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Sumanth-Bhoopal ', 
       department: "Gastrosurgery",
       qualification: "MBBS, MS, FSGE", 
-      designation: 'Medical Director of Aksha Hospital', 
+      designation: 'Medical Director ', 
       experience: '20', 
       image: '../../assets/scroll-doctor-3.png', 
       icon:'../../assets/male.svg',
@@ -111,9 +111,9 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Dr. Madhuri Sumanth", 
       slug: 'Dr-Madhuri-Sumanth', 
-      department: "Obstetrics & Gynecologists",
+      department: "Obstetrics & Gynaecology",
       qualification: "MBBS, MS (OBG & GYNAEC) & FMAS", 
-      designation: 'Sr. Consultant (Obstetrics & Gynaecologist)', 
+      designation: 'Sr. Consultant (Obstetrician & Gynaecologist', 
       experience: '16', 
       image: '../../assets/scroll-doctor-4.png', 
       icon:'../../assets/female.svg',
@@ -499,7 +499,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
   departments = [
     {
-      name: 'Obstetrics & Gynecologists',
+      name: 'Obstetrics & Gynaecology',
       description:
         'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
       image: 'assets/OG.png',

@@ -16,7 +16,7 @@ export class ObstetricsComponent {
         designation: 'Sr. Consultant (Obstetrician & Gynaecologist)',
         experience: '13', image: '../../assets/doctor-2.png',
         icon:'../../assets/female.svg',
-        about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
+        about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrician in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her...',
         expertise: [
                
         ]

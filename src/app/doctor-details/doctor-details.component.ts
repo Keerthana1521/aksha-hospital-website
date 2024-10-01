@@ -31,7 +31,7 @@ export class DoctorDetailsComponent {
       experience: '35', 
       image: '../../assets/doctor-2.png',
       icon:'../../assets/female.svg',
-      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrition in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her three- decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural childbirth, even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders. Her approach lies in understanding the anxieties that surround fertility, being pregnant and final delivery. She believes in ethical practices and empowers women to live healthier lives.',
+      about: 'Dr. Smitha Bhoopal is one of the most renowned, highly progressive and experienced Gynaecologist and Obstetrician in Bengaluru, practicing "Healthy Birthing" with a career spanning 35 years and having delivered more than 9000+ babies in her three- decade career. As a doctor who believed in normal deliveries, she has a high rate of success in natural childbirth, even in complicated pregnancies. She provides medical and surgical care to women and has particular expertise in pregnancy, childbirth and reproductive disorders. Her approach lies in understanding the anxieties that surround fertility, being pregnant and final delivery. She believes in ethical practices and empowers women to live healthier lives.',
       expertise: [
         
       ]
@@ -40,7 +40,7 @@ export class DoctorDetailsComponent {
       name: "Dr. Sumanth Bhoopal ", 
       slug: 'Dr-Sumanth-Bhoopal ', 
       qualification: "MBBS, MS, FSGE", 
-      designation: 'Medical Director of Aksha Hospital', 
+      designation: 'Medical Director ', 
       designation2: 'Sr. Consultant Gastroenterologist', 
       experience: '20', 
       image: '../../assets/doctor-3.png', 

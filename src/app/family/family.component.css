@@ -1,6 +1,6 @@
 .family_photo{
     display: flex;
-    gap: 34px;
+    gap: 56px;
     justify-content: center;
     padding: 100px 0 0 0;
     align-items: center;
@@ -43,7 +43,7 @@
 .designation{
     color: #332876;
     font-family: "Open Sans";
-    font-size: 12px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
