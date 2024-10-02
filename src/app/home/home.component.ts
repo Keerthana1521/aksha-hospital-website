@@ -68,10 +68,11 @@ export class HomeComponent implements OnInit, OnDestroy {
       department: "Founder",
       qualification: " MBBS, MD",
       designation: 'Managing Director',
+      designation2 : "Radio Diagnosis",
       experience: '40',
       image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
+      about: 'Aksha Hospital is the brainchild of Dr Bhoopal TS.It is the result of his dedication and hard work of his lifetime in the medical field. Dr Bhoopal TS, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology.',
       expertise: [
         
       ]

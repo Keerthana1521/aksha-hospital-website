@@ -27,8 +27,8 @@ export class FamilyComponent {
       image  : "./../assets/doctor-3.png",
       name : "Dr. Sumanth Bhoopal",
       // slug : "Dr-Sumanth-Bhoopal",
-      designation: 'Medical Director',
-      designation2 : "Sr. Consultant (Gastroenterologist)"
+      designation: 'Consultant & Medical Director ', 
+      designation2: 'Surgical Gastroenterologist',  
     },
     {
       image  : "./../assets/doctor-4.png",
