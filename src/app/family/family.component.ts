@@ -21,7 +21,7 @@ export class FamilyComponent {
       name : "Dr. Smitha Bhoopal",
       // slug : "Dr-Smitha-Bhoopal",
       // qualification : "MBBS, DGO",
-      designation : "Sr. Consultant (Obstetrician & Gynaecologist)"
+      designation: 'Consultant Obstetrician & Gynaecologist',
     },
     {
       image  : "./../assets/doctor-3.png",
@@ -35,7 +35,7 @@ export class FamilyComponent {
       name : "Dr. Madhuri Sumanth",
       // slug : "Dr-Madhuri-Sumanth",
       // qualification : "MBBS, MS (OBG & GYNAEC) & FMAS",
-      designation : "Sr. Consultant (Obstetrician & Gynaecologist)"
+      designation: 'Consultant Obstetrician & Gynaecologist',
     },
     {
       image  : "../../assets/ReshmaBhoopal.png",
