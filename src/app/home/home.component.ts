@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '40',
       image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of"Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field."Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology.',
+      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
       expertise: [
         
       ]
