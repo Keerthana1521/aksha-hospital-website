@@ -382,7 +382,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     {
       name: "Ms. Sowmya",
       slug : "Ms-Sowmya",
-      qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
+      qualification : "MSc in Clinical Psychology, BA in Psychology, English and Performing Arts.",
       department : "Psychology",
       designation : "Clinical Psychologist",
       experience : "3",

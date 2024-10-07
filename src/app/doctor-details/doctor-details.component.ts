@@ -336,7 +336,7 @@ export class DoctorDetailsComponent {
     {
       name: "Ms. Sowmya",
       slug : "Ms-Sowmya",
-      qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
+      qualification : "MSc in Clinical Psychology, BA in Psychology, English and Performing Arts.",
       department : "Clinical Psychology",
       designation : "Clinical Psychologist",
       experience : "3",
