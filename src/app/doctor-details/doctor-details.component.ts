@@ -334,11 +334,11 @@ export class DoctorDetailsComponent {
     },
 
     {
-      name: "Dr. Sowmya S",
-      slug : "Dr-Sowmya-S",
+      name: "Ms. Sowmya",
+      slug : "Ms-Sowmya",
       qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
       department : "Clinical Psychology",
-      designation : "Clinical Psychology",
+      designation : "Clinical Psychologist",
       experience : "3",
       image : "../../assets/doctor-21.jpg",
       about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",

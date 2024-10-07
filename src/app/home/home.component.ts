@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       experience: '40',
       image: '../../assets/scroll-doctor-1.png',
       icon:'../../assets/male.svg',
-      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology. He has very vast experience and vision in the medical field. He is known for his compassion and empathy towards patients.',
+      about: 'Aksha Hospital is the brainchild of Dr. T S Bhoopal. It is the result of his dedication and hard work of his lifetime in the medical field. Dr. T S Bhoopal, an eminent doctor, working since its inception in Sri Jayadeva Institute of Cardiology.',
       expertise: [
         
       ]
@@ -380,11 +380,11 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
 
     {
-      name: "Dr. Sowmya S",
-      slug : "Dr-Sowmya-S",
+      name: "Ms. Sowmya",
+      slug : "Ms-Sowmya",
       qualification : "MSc in Clinical Psychology, BA in Psychology, English, and Performing Arts.",
       department : "Psychology",
-      designation : "Consultant - Clinical Psychology",
+      designation : "Clinical Psychologist",
       experience : "3",
       image : "../../assets/doctor-21.jpg",
       about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. ",
