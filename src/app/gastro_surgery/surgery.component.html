@@ -12,6 +12,22 @@
         </div>
     </div>
 
+    <!-- doctor details container -->
+
+    <div class="team_heading">Meet Our Medical Specialists</div>
+    <div class="doctor_details">
+        <app-doctor-structure *ngFor = 'let doctor of doctors'
+        image = {{doctor.image}}
+        name = "{{doctor.name}}" 
+        desgination = {{doctor.designation}}
+        desgination2 = {{doctor.designation2}}
+        qualification = {{doctor.qualification}}
+        about = {{doctor.about}}
+        description = ""
+        slug="{{doctor.slug}}"
+        ></app-doctor-structure>
+    </div>
+
     <!-- container 2 -->
 
     <div class="container_2_heading">Common surgeries in Gastroenterology and General Surgery</div>
@@ -39,21 +55,6 @@
         <div class="container_3_img">
             <img src="../../assets/specialiti/surgery_container_3_image.png" alt="">
         </div>
-    </div>
-    
-
-    <div class="team_heading">Meet Our Medical Specialists</div>
-    <div class="doctor_details">
-        <app-doctor-structure *ngFor = 'let doctor of doctors'
-        image = {{doctor.image}}
-        name = "{{doctor.name}}" 
-        desgination = {{doctor.designation}}
-        desgination2 = {{doctor.designation2}}
-        qualification = {{doctor.qualification}}
-        about = {{doctor.about}}
-        description = ""
-        slug="{{doctor.slug}}"
-        ></app-doctor-structure>
     </div>
     <!-- <div class="doctor_details">
         <app-doctor-structure *ngFor = 'let doctor of doctor_2'

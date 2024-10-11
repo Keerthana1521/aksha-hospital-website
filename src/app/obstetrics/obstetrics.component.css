@@ -324,7 +324,7 @@
     /* container 1 */
 
     .container_1{
-        background-image: url(../../assets/specialiti/Obstetrics_bg_tab.png);
+        background-image: url('../../assets/specialiti/Obstetrics_bg_tab.png');
         background-size: cover;
     }
 
@@ -440,6 +440,8 @@
 
     .container_1{
         background-image: url('../../assets/specialiti/Obstetrics_bg_mobile.png');
+        background-size: cover;
+        background-position: top center;
     }
 
     .Obstetrics_heading{

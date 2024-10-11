@@ -356,7 +356,7 @@ export class DoctorDetailsComponent {
       department : "Gastroenterologist,GastroIntestinal Surgeon,Laparoscopic Surgeon",
       designation : "Consultant - Gastroenterologist",
       experience : "23",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Vinay B N has 10 years of working experience in GI surgery department at various capacities both in large public sector and in private sector hospitals.",
       expertise : [
       ]
@@ -381,7 +381,7 @@ export class DoctorDetailsComponent {
       department : " specialist in Radiology / Sonology / Ultrasound",
       designation : "Consultant - Radiology",
       experience : "",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "During my Radiology career I was exposed to all conventional and modern imaging modalities viz Conventional Radiography, Mammography, Ultrasonography including Colour Doppler and 4D, Helical CT, MRI, Digital Subtraction Angiography, Picture Archieving and Communication System (PACS) and Teleradiology.",
       expertise : [
       ]
@@ -393,7 +393,7 @@ export class DoctorDetailsComponent {
       department : "Urology/Genito-Urinary Surgery",
       designation : "Consultant - Urology/Genito-Urinary Surgery",
       experience : "18",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bengaluru and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar in Jayanagar, Bengaluru, Apollo Hospital in Bannerghatta Road, Bengaluru. He completed MBBS from Mysore Medical College in 2000, MS - General Surgery from Stanley Medical College & Hospital, Chennai in 2005 and MRCS (UK) from The Royal College of Surgeons (RCS), the UK in 2006. He Completed MCh - Urology/Genito-Urinary Surgery from Rajiv Gandhi University of Health Sciences RGUHS 2010 & DNB - Urology/Genito - Urinary Surgery from New Delhi.",
       expertise : [
       ]
@@ -405,7 +405,7 @@ export class DoctorDetailsComponent {
       department : "Urology/Genito-Urinary Surgery",
       designation : "Consultant - Urology/Genito-Urinary Surgery",
       experience : "17",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Manohar C S is a Urologist in Bengaluru and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2003 and MS – Urology from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2006.He is a member of Urological Society of India (USI) and American Urological Association (AUA). Some of the services provided by the doctor are: Laparoscopy, Andrology, Urinary Incontinence (Ui) Treatment, Pediatric Urology and Reconstructive Urology etc.",
       expertise : [
       ]
@@ -417,7 +417,7 @@ export class DoctorDetailsComponent {
       department : "ENT Specialist",
       designation : "Consultant - ENT Specialist",
       experience : "13",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr. Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr. Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and his DNB in ENT from St. Johns Medical College, Bengaluru, in 2011. He has also participated in research work and various workshops under the ENT department and published many papers. Doctor Pai has also received many awards in his field.",
       expertise : [
 
@@ -442,7 +442,7 @@ export class DoctorDetailsComponent {
       department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       designation : "Consultant - General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       experience : "25",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
       expertise : [
       ]
@@ -454,7 +454,7 @@ export class DoctorDetailsComponent {
       department : "General Surgeon, Laparoscopic Surgeon",
       designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
       experience : "25",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bengaluru. BGS Global Richmond Circle, Bengaluru; Rangadore Memorial Hospital, Bengaluru. He is an expert in performing general minimal access gastrointestinal colorectal surgeries including laparoscopic cholecystectomy, laparoscopic appendicectomy, laparoscopic hernioplasty, as well as upper GI endoscopy and sigmoidoscopy.",
       expertise : [
       ]
@@ -467,7 +467,7 @@ export class DoctorDetailsComponent {
       department : "Vascular Surgery",
       designation : "Consultant - Vascular Surgeon",
       experience : "18",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bengaluru. He has trained in India and abroad (Europe) and is passionate about dialysis vascular access which is the 'Achilles heel' of dialysis.",
       expertise : [
       ]
@@ -479,7 +479,7 @@ export class DoctorDetailsComponent {
       department : "Anaesthesia and Intensive Care Medicine ",
       designation : "Consultant - Anaesthesia and Intensive Care Medicine ",
       experience : "19",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then I started my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one-year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine.",
       expertise : [
         "Critical care","Anaesthesia"
@@ -492,7 +492,7 @@ export class DoctorDetailsComponent {
       department : "Dietitian",
       designation : "Consultant - Dietitian",
       experience : "12",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-100.png",
       about : "",
       expertise : [
         "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
@@ -504,25 +504,176 @@ export class DoctorDetailsComponent {
       department : "anaesthesia and critical care medicine",
       designation : "Consultant - Anaesthesia and Critical care medicine",
       experience : "10",
-      image : "../../assets/doctor-15.png",
+      image : "../../assets/doctor-101.png",
       about : "MD anaesthesia from ramaiah medical College and fellowship in critical care medicine from Fortis hospital. ",
       expertise : [
         "Geriatric Anaesthesia","Haemodynamic Monitoring","Regional Anaesthesia"]
     },
-    // {
-    //   name : "Reshma Bhoopal",
-    //   slug : "Reshma-Bhoopal",
-    //   qualification : "MBA in Human Resources – Indiana University of Pennsylvania, B.E. in Computer Science – PES University, Bengaluru, SHRM-CP Certification – Certified, May 2024",
-    //   experience : "6",
-    //   designation : "HR Professional | SHRM-CP Certified",
-    //   image : "../../assets/ReshmaBhoopal.png",
-    //   about : "Reshma Bhoopal is an experienced HR professional with over 6 years of expertise in talent acquisition, employee engagement, and HR compliance. Holding an MBA in Human Resources and a Bachelor's in Computer Science, she blends her global HR knowledge with hands-on experience in HR technology, including PeopleSoft HRMS. She has worked with prominent organizations, including Aksha Hospital and Nous Infosystems, driving employee relations, compliance training, and recruitment strategies. Reshma’s entrepreneurial spirit also shines through her role as the owner of Arts from Glass, where she manages business operations and creative workshops.",
-    //   expertise : [
-    //     "Talent Acquisition & Employee Relations","HR Compliance & Training", "Business Operations & Financial Management", "HRMS & PeopleSoft HRMS Specialist"
-    //   ]
-
-    // },
-
+    {
+      name : "Dr. Darsana Ganapathy",
+      slug : " Dr-Darsana-Ganapathy",
+      qualification : "MBBS, DNB - RESPIRATORY MEDICINE ",
+      department : "Pulmonologist ",
+      designation : "Consultant - Pulmonologist",
+      experience : "3",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Pragnya Coca",
+      slug : "Dr-Pragnya-Coca",
+      qualification : "DM - Oncology, MBBS",
+      department : "Medical Onco",
+      designation : "Consultant - Medical Onco",
+      experience : "20",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Swaroop",
+      slug : "Dr. Swaroop",
+      qualification : "MBBS, MD - Radiotherapy, MRCP (UK), DM - Medical Oncology",
+      department : "Medical Onco",
+      designation : "Consultant - Medical Onco",
+      experience : "15",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Bharat Kumar S",
+      slug : "Dr-Bharat-Kumar-S",
+      qualification : "MBBS, DNB - Neurosurgery",
+      department : "Neuro Surgery",
+      experience : "10",
+      designation : "Consultant - Neuro Surgery",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Praveen Kumar S",
+      slug : "Dr-Praveen-Kumar-S",
+      qualification : "DM - Neurology, MBBS Neurologist",
+      department : "Neurology",
+      designation : "Consultant - Neurologist",
+      experience : "20",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Shanthala Raj",
+      slug : "Dr-Shanthala-Raj",
+      qualification : "MBBA, DNB -OBG ",
+      department : "O B G",
+      designation : "Consultant - O B G",
+      experience : "26",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Rajeev L K",
+      slug : "",
+      qualification : "MBBS, MD - General Medicine, DM - Medical Oncology",
+      department : "Oncology",
+      designation : "Consultant - Oncologist",
+      experience : "32",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Kiran Rajappa",
+      slug : "Dr-Kiran-Rajappa",
+      qualification : "MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery, FNB - Spine Surgery",
+      department : "Ortho - Spine Surgeon",
+      designation : "Consultant - Ortho - Spine Surgeon",
+      experience : "18",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Shashi Kumar ",
+      slug : "Dr-Shashi-Kumar ",
+      qualification : "MBBS, MS - Orthopaedics",
+      department : "Orthopedic Surgeon ",
+      designation : "Consultant - Orthopedic Surgeon",
+      experience : "15",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Keshava Murthy M ",
+      slug : "../../assets/doctor-101.png",
+      qualification : "MBBS, MS, MRCS, M.Ch (Paediatric Surgery)",
+      department : "Paediatric Surgeon",
+      designation : "Consultant - Paediatric Surgeon",
+      experience : "22",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Prashantha Kesari N K",
+      slug : "Dr-Prashantha-Kesari-N-K",
+      qualification : "MBBS, MS - General Surgery, MRCS (UK), DNB - General Surgery, MCh - Plastic Surgery",
+      department : "Hair Transplant Surgeon, Plastic Surgeon",
+      designation : "Consultant - Hair Transplant Surgeon and Plastic Surgeon",
+      experience : "22",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Ravindra G ",
+      slug : "Dr-Ravindra-G ",
+      qualification : "MBBS, DMRT, DNB, BA",
+      department : "Radiation Oncology",
+      designation : "Consultant - Radiation Oncology",
+      experience : "11",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. A Nagaraj Rao",
+      slug : "Dr-A-Nagaraj-Rao",
+      qualification : "MBBS, MS - General Surgery, MCh - Urology/Genito-Urinary Surgery",
+      department : "Urology",
+      designation : "Consultant - Urologist",
+      experience : "26",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Rashmi Agarwal",
+      slug : "Dr-Rashmi-Agarwal",
+      qualification : "MBBS, MD(Dermatology, DNB, FRGUHS ( Pediatric Dermatology)",
+      department : "Pediatric Dermatology",
+      designation : "Consultant - Pediatric Dermatology",
+      experience : "12",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Pavithra ",
+      slug : "Dr-Pavithra",
+      qualification : "MBBS, DDVL",
+      department : "Dermatologist, Trichologist",
+      designation : "Consultant Dermatologist and Trichologist",
+      experience : "15",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
+    },
   ]
 
   constructor(private route: ActivatedRoute) { }

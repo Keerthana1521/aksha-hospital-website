@@ -7,19 +7,19 @@ import { Component } from '@angular/core';
 })
 export class PediatricianComponent {
   doctors =[
-      // {
-      //   name: "Dr. Prasad N A", 
-      //   slug: 'Dr-Prasad-N-A', 
-      //   qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
-      //   designation: 'Consultant- Pediatrics & Neonatology', 
-      //   experience: '10', 
-      //   image: '../../assets/doctor-9.png', 
-      //   icon:'../../assets/male.svg',
-      //   about: '', 
-      //   expertise: [
+      {
+        name: "Dr. Prasad N A", 
+        slug: 'Dr-Prasad-N-A', 
+        qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
+        designation: 'Consultant- Pediatrics & Neonatology', 
+        experience: '10', 
+        image: '../../assets/doctor-9.png', 
+        icon:'../../assets/male.svg',
+        about: '', 
+        expertise: [
          
-      //   ]
-      // },
+        ]
+      },
       {
         name: "Dr. Avani Hegde",
          slug: 'Dr-Avani-Hegde', 
