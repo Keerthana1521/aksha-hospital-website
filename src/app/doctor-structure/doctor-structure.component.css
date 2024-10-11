@@ -2,7 +2,7 @@
 .container {
     position: relative;
     width: 300px;
-    height: 420px;
+    height: 449px;
     overflow: hidden;
   }
   
@@ -46,7 +46,7 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    height: 340px;
+    height: 326px;
     object-fit: cover;
   }
   
@@ -60,7 +60,7 @@
     width: 100%;
     position: relative;
     background-color: #fff;
-    height: 80px;
+    height: 124px;
     display: flex;
     flex-direction: column;
     justify-content: center;
