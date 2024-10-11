@@ -26,18 +26,18 @@ export class ENTComponent {
           'Management of OSA (Obstructive Sleep Apnea)',
         ]
       },
-      // {
-      //   name: "Dr. Chetan Pai R",
-      //   slug : "Dr. Chetan Pai R",
-      //   qualification : "MBBS, DNB ENT",
-      //   department : "ENT Specialist",
-      //   designation : "Consultant - ENT Specialist",
-      //   experience : "13",
-      //   image : "../../assets/doctor-15.png",
-      //   about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
-      //   expertise : [
+      {
+        name: "Dr. Chetan Pai R",
+        slug : "Dr. Chetan Pai R",
+        qualification : "MBBS, DNB ENT",
+        department : "ENT Specialist",
+        designation : "Consultant - ENT Specialist",
+        experience : "13",
+        image : "../../assets/doctor-101.png",
+        about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
+        expertise : [
   
-      //   ]
-      // },
+        ]
+      },
     ]
 }

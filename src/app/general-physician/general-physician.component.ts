@@ -7,19 +7,19 @@ import { Component } from '@angular/core';
 })
 export class GeneralPhysicianComponent {
   doctors = [
-    // {
-    //   name: "Dr. Kapil Wajapey", 
-    //   slug: 'Dr-Kapil-Wajapey', 
-    //   qualification: "MBBS, DNB - General Medicine,MRCP(UK). CCEBDM Certification in Diabetes", 
-    //   designation: 'Consultant- Internal Medicine', 
-    //   experience: '13', 
-    //   image: '../../assets/doctor-6.png', 
-    //   icon:'../../assets/male.svg',
-    //   about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bengaluru and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bengaluru. He completed MBBS from R G U H S in 2011 and DNB...', 
-    //   expertise: [
+    {
+      name: "Dr. Kapil Wajapey", 
+      slug: 'Dr-Kapil-Wajapey', 
+      qualification: "MBBS, DNB - General Medicine,MRCP(UK). CCEBDM Certification in Diabetes", 
+      designation: 'Consultant- Internal Medicine', 
+      experience: '13', 
+      image: '../../assets/doctor-6.png', 
+      icon:'../../assets/male.svg',
+      about: 'Dr. Kapil Wajapey is a Internal Medicine in Jayanagar 7 Block, Bengaluru and has an experience of 13 years in this field. Dr. Kapil Wajapey practices at Aksha Hospital in Jayanagar 7 Block, Bengaluru. He completed MBBS from R G U H S in 2011 and DNB...', 
+      expertise: [
         
-    //   ]
-    // },
+      ]
+    },
     {
       name: "Dr. Deepa Rao", 
       slug: 'Dr-Deepa-Rao', 

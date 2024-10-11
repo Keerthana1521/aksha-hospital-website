@@ -5,6 +5,17 @@ para_1="Neurology treats all the neurological diseases, including stroke, headac
 para_2="Neurosurgery, a branch of surgery involved with the brain, spine, and nerves, is a key specialty at Aksha Hospital. Our neurosurgeons treat neurological diseases such as head injury, spinal injury, brain tumors, spinal tumors, brain hemorrhage, hydrocephalus, nerve injuries, tumors, disc prolapse or herniation, spinal dislocation, unstable spine, congenital malformations like atlanto-axial dislocation, spinal dysraphism, etc. Treatment of seizures or epilepsy as well as modern treatments for movement disorders like Parkinson’s disease are further specializations."
 image="../../assets/specialiti/Neurology.png"
 ></app-specialities-design>
-<!-- <div class="team_heading">Meet Our Medical Specialists</div> -->
 
+<div class="team_heading">Meet Our Medical Specialists</div>
+<div class="doctor_details">
+    <app-doctor-structure *ngFor = 'let doctor of doctors'
+    image = {{doctor.image}}
+    name = "{{doctor.name}}" 
+    desgination = {{doctor.designation}}
+    qualification = {{doctor.qualification}}
+    about = {{doctor.about}}
+    description = ""
+    slug={{doctor.slug}}
+    ></app-doctor-structure>
+</div>
 </div>

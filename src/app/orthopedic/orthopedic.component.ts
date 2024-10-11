@@ -43,5 +43,30 @@ export class OrthopedicComponent {
           'Hand surgeries'
         ]
       },
+      {
+        name : " Dr. Kiran Rajappa",
+        slug : "Dr-Kiran-Rajappa",
+        qualification : "MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery, FNB - Spine Surgery",
+        department : "Orthopaedic",
+        designation : "Consultant - Ortho - Spine Surgeon",
+        experience : "18",
+        image : "../../assets/doctor-101.png",
+        about : "",
+        expertise : []
+      },
     ]
+    doctors2 = [
+      {
+        name : "Dr. Shashi Kumar ",
+        slug : "Dr-Shashi-Kumar ",
+        qualification : "MBBS, MS - Orthopaedics",
+        department : "Orthopaedic",
+        designation : "Consultant - Orthopedic Surgeon",
+        experience : "15",
+        image : "../../assets/doctor-101.png",
+        about : "",
+        expertise : []
+      },
+    ]
+
 }

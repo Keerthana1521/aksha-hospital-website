@@ -95,7 +95,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       slug: 'Dr-Sumanth-Bhoopal ', 
       department: "Gastrosurgery",
       qualification: "MBBS, MS, FSGE", 
-      designation: 'Consultant & Medical Director ', 
+      designation: 'Consultant & Medical Director', 
       designation2: 'Surgical Gastroenterologist',   
       experience: '20', 
       image: '../../assets/scroll-doctor-3.png', 
@@ -149,20 +149,20 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Preventive Health & Lifestyle Modification'
       ]
     },
-    // {
-    //   name: "Dr. Kapil Wajapey", 
-    //   slug: 'Dr-Kapil-Wajapey',
-    //   department:'General Physician', 
-    //   qualification: "MBBS, DNB(Internal Medicine)", 
-    //   designation: 'Consultant- Internal Medicine', 
-    //   experience: '10', 
-    //   image: '../../assets/scroll-doctor-6.png', 
-    //   icon:'../../assets/male.svg',
-    //   about: '', 
-    //   expertise: [
+    {
+      name: "Dr. Kapil Wajapey", 
+      slug: 'Dr-Kapil-Wajapey',
+      department:'General Physician', 
+      qualification: "MBBS, DNB(Internal Medicine)", 
+      designation: 'Consultant- Internal Medicine', 
+      experience: '10', 
+      image: '../../assets/scroll-doctor-6.png', 
+      icon:'../../assets/male.svg',
+      about: '', 
+      expertise: [
         
-    //   ]
-    // },
+      ]
+    },
     {
       name: "Dr. Sushal ShanthaKumar", 
       slug: 'Dr-Sushal-ShanthaKumar', 
@@ -184,34 +184,34 @@ export class HomeComponent implements OnInit, OnDestroy {
         'Platelet-rich-plasma injections',
       ]
     },
-    // {
-    //   name: "Dr. Anand Palakshachar", 
-    //   slug: 'Dr-Anand-Palakshachar', 
-    //   department:'Cardiology',
-    //   qualification: "MBBS, MD General Medicine", 
-    //   designation: 'Consultant- Cardiologist', 
-    //   experience: '8', 
-    //   image: '../../assets/scroll-doctor-8.png', 
-    //   icon:'../../assets/male.svg',
-    //   about: '', 
-    //   expertise: [
+    {
+      name: "Dr. Anand Palakshachar", 
+      slug: 'Dr-Anand-Palakshachar', 
+      department:'Cardiology',
+      qualification: "MBBS, MD General Medicine", 
+      designation: 'Consultant- Cardiologist', 
+      experience: '8', 
+      image: '../../assets/scroll-doctor-8.png', 
+      icon:'../../assets/male.svg',
+      about: '', 
+      expertise: [
         
-    //   ]
-    // },
-    // {
-    //   name: "Dr. Prasad N A", 
-    //   slug: 'Dr-Prasad-N-A', 
-    //   department:'Pediatrician',
-    //   qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
-    //   designation: 'Consultant- Pediatrics & Neonatology', 
-    //   experience: '10', 
-    //   image: '../../assets/scroll-doctor-9.png', 
-    //   icon:'../../assets/male.svg',
-    //   about: '', 
-    //   expertise: [
+      ]
+    },
+    {
+      name: "Dr. Prasad N A", 
+      slug: 'Dr-Prasad-N-A', 
+      department:'Pediatrician',
+      qualification: "MBBS, MD(Pediatrics), FIAP(Neonatology)", 
+      designation: 'Consultant- Pediatrics & Neonatology', 
+      experience: '10', 
+      image: '../../assets/scroll-doctor-9.png', 
+      icon:'../../assets/male.svg',
+      about: '', 
+      expertise: [
        
-    //   ]
-    // },
+      ]
+    },
     {
       name: "Dr. Avani Hegde",
        slug: 'Dr-Avani-Hegde', 
@@ -411,6 +411,330 @@ export class HomeComponent implements OnInit, OnDestroy {
         'reconstruction',
         'kidney stones'
       ]
+    },
+    {
+      name: "Dr. Vinay B N",
+      slug : "Dr. Vinay B. N",
+      qualification : "MBBS, MS - General Surgery, Fellowship in Gastroenterology, MCh",
+      department : "Gastrosurgery",
+      designation : "Consultant - Gastroenterologist",
+      experience : "23",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Vinay B N has 10 years of working experience in GI surgery department at various capacities both in large public sector and in private sector hospitals.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Pradeep Kumar N",
+      slug : "Dr. Pradeep Kumar N",
+      qualification : "MBBS, DNB - Plastic Surgery",
+      department : "Plastic Surgeon",
+      designation : "Consultant - Plastic Surgeon",
+      experience : "12",
+      image : "../../assets/doctor-22.jpeg",
+      about : "Dr. Pradeep Kumar N is a Plastic Surgeon in NYPUNYA PLASTIC SURGERY TEAM, Bengaluru and has an experience of 12 years in this field. Dr. Pradeep Kumar N practices at Rangadore Memorial Hospital,  Sri Shankara...",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Bharath Kumar V. K",
+      slug : "Dr. Bharath Kumar V. K",
+      qualification : "MBBS, DMRD",
+      department : "Radiology",
+      designation : "Consultant - Radiology",
+      experience : "",
+      image : "../../assets/doctor-101.png",
+      about : "During my Radiology career I was exposed to all conventional and modern imaging modalities viz Conventional Radiography, Mammography, Ultrasonography including Colour Doppler and 4D, Helical CT, MRI, Digital...",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Pramod. B. R",
+      slug : "Dr. Pramod. B. R",
+      qualification : "MBBS, MS - General Surgery, MRCS (UK), MCh - U, DNB - Urology/Genito",
+      department : "Urology",
+      designation : "Consultant - Urology/Genito-Urinary Surgery",
+      experience : "18",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Pramod B R is a Senior Consultant Urologist, Andrologist and Urogynecologist in Jayanagar, Bengaluru and has an experience of 18 years in these fields. Dr. Pramod B R practices at Apollo Hospital - Jayanagar....",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Manohar C S",
+      slug : "Dr. Manohar C S",
+      qualification : "MBBS, MS – Urology",
+      department : "Urology",
+      designation : "Consultant - Urology/Genito-Urinary Surgery",
+      experience : "17",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Manohar C S is a Urologist in Bengaluru and has an experience of 11 years in this field. He has done MBBS from Kempegowda Institute of Medical Sciences (KIMS), Bengaluru in 2003 and MS – Urology from Kempegowda...",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Chetan Pai R",
+      slug : "Dr. Chetan Pai R",
+      qualification : "MBBS, DNB ENT",
+      department : "ENT",
+      designation : "Consultant - ENT Specialist",
+      experience : "13",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
+      expertise : [
+        'laryngology'
+      ]
+    },
+    {
+      name: "Dr. Bangarswamy V",
+      slug : "Dr Bangarswamy V",
+      qualification : "MBBS, MS (General Surgery)",
+      department : "Gastrosurgery",
+      designation : "Consultant - General Surgeon",
+      experience : "66",
+      image : "../../assets/doctor-23.jpeg",
+      about : "I worked in government service in the Karnataka State Joint Service during 1958 and retired from government service as a district surgeon in 1996. After retirement, I worked in a PVT hospital as a general consultant...",
+      expertise : [
+      ]
+    },
+    {  
+      name: "Dr. Subhash R C",
+      slug : "Dr. Subhash R C",
+      qualification : "MBBS, MS - General Surgery",
+      department : "Gastrosurgery",
+      designation : "Consultant - General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
+      experience : "25",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Sachin Digamber Nale",
+      slug : "Dr. Sachin Digamber Nale",
+      qualification : "MBBS, MS - General Surgery",
+      department : "Gastrosurgery",
+      designation : "Consultant - General Surgeon, Laparoscopic Surgeon",
+      experience : "25",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Sachin Digamber Nale is a Consultant Colorectal Laparoscopic Surgeon currently practicing at Sagar Hospitals, Jayanagar, Bengaluru. BGS Global Richmond Circle, Bengaluru; Rangadore Memorial...",
+      expertise : [
+      ]
+    },
+
+    {
+      name: "Dr. Muralikrishna N",
+      slug : "Dr. Muralikrishna N",
+      qualification : "MBBS, DNB - Peripheral Vascular Surgery",
+      department : "Vascular Surgeries",
+      designation : "Consultant - Vascular Surgeon",
+      experience : "18",
+      image : "../../assets/doctor-101.png",
+      about : "Dr. Muralikrishna is a renowned Vascular Surgeon and is an Associate Professor at the Jayadeva Institute of Cardiology, Bengaluru. He has trained in India and abroad (Europe) and is passionate about dialysis vascular...",
+      expertise : [
+      ]
+    },
+    {
+      name: "Dr. Raveendra Reddy N",
+      slug : "Dr Raveendra Reddy N",
+      qualification : "MBBS, FcARCSI, FCCS, Fellow in Intensive Care(King's College Hospital, London)",
+      department : "Anesthesia",
+      designation : "Consultant - Anaesthesia and Intensive Care",
+      experience : "19",
+      image : "../../assets/doctor-101.png",
+      about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB...",
+      expertise : [
+        "Critical care","Anaesthesia"
+      ]
+    },
+    {
+      name: "Dt. Asha Krishna",
+      slug : "Dt Asha Krishna",
+      qualification : "MSc, MPhil, DDHN, Diabetic Educator",
+      department : "Dietitian",
+      designation : "Consultant - Dietitian",
+      experience : "12",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : [
+        "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
+    },
+    {
+      name: "Dr. Pratheek R Reddy",
+      slug : "Dr-Pratheek-R-Reddy",
+      qualification : "MBBS , MD , DNB , IDCCM",
+      department : "Anesthesia",
+      designation : "consultant - anaesthesia and critical care medicine",
+      experience : "10",
+      image : "../../assets/doctor-101.png",
+      about : "MD anaesthesia from ramaiah medical College and fellowship in critical care medicine from Fortis hospital. ",
+      expertise : [
+        "geriatric anaesthesia","haemodynamic monitoring","regional anaesthesia"]
+    },
+    {
+      name : "Dr. Darsana Ganapathy",
+      slug : " Dr-Darsana-Ganapathy",
+      qualification : "MBBS, DNB - RESPIRATORY MEDICINE ",
+      department : "Pulmonology",
+      designation : "Consultant - Pulmonologist",
+      experience : "3",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Pragnya Coca",
+      slug : "Dr-Pragnya-Coca",
+      qualification : "DM - Oncology, MBBS",
+      department : "Oncology and Onco Surgery",
+      designation : "Consultant - Medical Onco",
+      experience : "20",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Swaroop",
+      slug : "Dr. Swaroop",
+      qualification : "MBBS, MD - Radiotherapy, MRCP (UK), DM - Medical Oncology",
+      department : "Oncology and Onco Surgery",
+      designation : "Consultant - Medical Onco",
+      experience : "15",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Bharat Kumar S",
+      slug : "Dr-Bharat-Kumar-S",
+      qualification : "MBBS, DNB - Neurosurgery",
+      department : "Neurology",
+      experience : "10",
+      designation : "Consultant - Neuro Surgery",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Praveen Kumar S",
+      slug : "Dr-Praveen-Kumar-S",
+      qualification : "DM - Neurology, MBBS Neurologist",
+      department : "Neurology",
+      designation : "Consultant - Neurologist",
+      experience : "20",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Shanthala Raj",
+      slug : "Dr-Shanthala-Raj",
+      qualification : "MBBA, DNB -OBG ",
+      department : "O B G",
+      designation : "Consultant - O B G",
+      experience : "26",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Rajeev L K",
+      slug : "",
+      qualification : "MBBS, MD - General Medicine, DM - Medical Oncology",
+      department : "Oncology and Onco Surgery",
+      designation : "Consultant - Oncologist",
+      experience : "32",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Kiran Rajappa",
+      slug : "Dr-Kiran-Rajappa",
+      qualification : "MBBS, MS - Orthopaedics, DNB - Orthopedics/Orthopedic Surgery, FNB - Spine Surgery",
+      department : "Orthopaedic",
+      designation : "Consultant - Ortho - Spine Surgeon",
+      experience : "18",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Shashi Kumar ",
+      slug : "Dr-Shashi-Kumar ",
+      qualification : "MBBS, MS - Orthopaedics",
+      department : "Orthopaedic",
+      designation : "Consultant - Orthopedic Surgeon",
+      experience : "15",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : " Dr. Keshava Murthy M ",
+      slug : "../../assets/doctor-101.png",
+      qualification : "MBBS, MS, MRCS, M.Ch (Paediatric Surgery)",
+      department : "Pediatrician",
+      designation : "Consultant - Paediatric Surgeon",
+      experience : "22",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Prashantha Kesari N K",
+      slug : "Dr-Prashantha-Kesari-N-K",
+      qualification : "MBBS, MS - General Surgery, MRCS (UK), DNB - General Surgery, MCh - Plastic Surgery",
+      department : "Hair Transplant Surgeon, Plastic Surgeon",
+      designation : "Consultant - Hair Transplant Surgeon and Plastic Surgeon",
+      experience : "22",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Ravindra G ",
+      slug : "Dr-Ravindra-G ",
+      qualification : "MBBS, DMRT, DNB, BA",
+      department : "Oncology and Onco Surgery",
+      designation : "Consultant - Radiation Oncology",
+      experience : "11",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. A Nagaraj Rao",
+      slug : "Dr-A-Nagaraj-Rao",
+      qualification : "MBBS, MS - General Surgery, MCh - Urology/Genito-Urinary Surgery",
+      department : "Urology",
+      designation : "Consultant - Urologist",
+      experience : "26",
+      image : "../../assets/doctor-101.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Rashmi Agarwal",
+      slug : "Dr-Rashmi-Agarwal",
+      qualification : "MBBS, MD(Dermatology, DNB, FRGUHS ( Pediatric Dermatology)",
+      department : "Dermatology",
+      designation : "Consultant - Pediatric Dermatology",
+      experience : "12",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
+    },
+    {
+      name : "Dr. Pavithra ",
+      slug : "Dr-Pavithra",
+      qualification : "MBBS, DDVL",
+      department : "Dermatology",
+      designation : "Consultant - Dermatologist and Trichologist",
+      experience : "15",
+      image : "../../assets/doctor-100.png",
+      about : "",
+      expertise : []
     },
   ]
 
