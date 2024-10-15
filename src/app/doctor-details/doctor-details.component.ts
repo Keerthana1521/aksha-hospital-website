@@ -381,7 +381,7 @@ export class DoctorDetailsComponent {
       department : " specialist in Radiology / Sonology / Ultrasound",
       designation : "Consultant - Radiology",
       experience : "",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-25.jpeg",
       about : "During my Radiology career I was exposed to all conventional and modern imaging modalities viz Conventional Radiography, Mammography, Ultrasonography including Colour Doppler and 4D, Helical CT, MRI, Digital Subtraction Angiography, Picture Archieving and Communication System (PACS) and Teleradiology.",
       expertise : [
       ]
