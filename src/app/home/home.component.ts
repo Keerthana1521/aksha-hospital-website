@@ -442,7 +442,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification : "MBBS, DMRD",
       department : "Radiology",
       designation : "Consultant - Radiology",
-      experience : "",
+      experience : "24",
       image : "../../assets/doctor-25.jpeg",
       about : "During my Radiology career I was exposed to all conventional and modern imaging modalities viz Conventional Radiography, Mammography, Ultrasonography including Colour Doppler and 4D, Helical CT, MRI, Digital...",
       expertise : [
