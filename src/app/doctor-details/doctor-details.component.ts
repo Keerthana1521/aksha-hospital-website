@@ -417,7 +417,7 @@ export class DoctorDetailsComponent {
       department : "ENT Specialist",
       designation : "Consultant - ENT Specialist",
       experience : "13",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-27.jpeg",
       about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has worked in many reputed hospitals. Doctor Chetan has contributed to handling many complex medical cases in several hospitals. He is known for his attention to accurate diagnosis and for treating patients with empathy. The speciality interests of Dr. Chetan are rhinological, laryngological procedures and skull base surgeries. He is an active member of various associations and organizations. Dr. Pai did his MBBS from Sri Devaraj Urs Medical College, Kolar and his DNB in ENT from St. Johns Medical College, Bengaluru, in 2011. He has also participated in research work and various workshops under the ENT department and published many papers. Doctor Pai has also received many awards in his field.",
       expertise : [
 
@@ -442,7 +442,7 @@ export class DoctorDetailsComponent {
       department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       designation : "Consultant - General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
       experience : "25",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-26.jpeg",
       about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
       expertise : [
       ]
