@@ -326,7 +326,7 @@ export class DoctorDetailsComponent {
       designation: 'Physiotherapist', 
       department : "Physiotheraphy",
       experience : "20",
-      image : "../../assets/doctor-19.jpg",
+      image : "../../assets/doctor-28.jpeg",
       about : "Ortho, stroke, cardiac Rehabilitation.",
       expertise : [
         'Cardiac & Neuro Rehabilitation'

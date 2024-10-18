@@ -372,7 +372,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       qualification : "BPT, MSc(Y&N), FCR.",
       department : "Physiotherapy",
       experience : "20",
-      image : "../../assets/doctor-19.jpg",
+      image : "../../assets/doctor-28.jpeg",
       about : "Ortho, stroke, cardiac Rehabilitation",
       expertise : [
         'Cardiac & Neuro Rehabilitation'
