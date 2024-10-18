@@ -33,7 +33,7 @@ export class ENTComponent {
         department : "ENT Specialist",
         designation : "Consultant - ENT Specialist",
         experience : "13",
-        image : "../../assets/doctor-101.png",
+        image : "../../assets/doctor-27.jpeg",
         about : "Dr. Chetan Pai R is a well-known ENT surgeon currently associated with SRV Agadi Hospital, Wilson Garden. He has 13 years of experience in ENT Surgery and has worked as an expert in different cities of India. He has...",
         expertise : [
   

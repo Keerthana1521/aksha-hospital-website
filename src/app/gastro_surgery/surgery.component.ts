@@ -45,7 +45,7 @@ export class SurgeryComponent {
         department : "General Surgeon, Bariatric Surgeon, Laparoscopic Surgeon",
         designation : "Consultant - General Surgeon,Bariatric Surgeon,Laparoscopic Surgeon",
         experience : "25",
-        image : "../../assets/doctor-101.png",
+        image : "../../assets/doctor-26.jpeg",
         about : "Dr. Subhash has over 20 years of experience conducting surgical procedures in many of the top hospitals in the city. Specialised in minimally invasive surgeries and laser surgeries  and Practology.",
         expertise : [
         ]
