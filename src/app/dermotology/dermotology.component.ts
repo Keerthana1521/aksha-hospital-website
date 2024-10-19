@@ -14,7 +14,7 @@ export class DermotologyComponent {
       department : "Pediatric Dermatology",
       designation : "Consultant - Pediatric Dermatology",
       experience : "12",
-      image : "../../assets/doctor-100.png",
+      image : "../../assets/doctor-29.jpeg",
       about : "",
       expertise : []
     },
