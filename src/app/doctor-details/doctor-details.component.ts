@@ -479,7 +479,7 @@ export class DoctorDetailsComponent {
       department : "Anaesthesia and Intensive Care Medicine ",
       designation : "Consultant - Anaesthesia and Intensive Care Medicine ",
       experience : "19",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-30.jpeg",
       about : "Completed my undergraduate from Kasturba Medical College, Manipal. Then worked as a Resident in the department of Medicine at Mallya Hospital, Bengaluru. Whilst working as resident at Mallya Hospital, passed my PLAB exam to pursue a career in the UK. Even in the UK, worked as a senior resident in the department of Medicine to gain and consolidate medicine knowledge. Then I started my career in Anaesthesia, cleared my Fellowship exams and worked in different hospitals in the UK. Before relocating to India, I completed one-year fellowship program in Intensive Care Medicine at King's College Hospital, London, where I gained immense experience in Critical Care Medicine.",
       expertise : [
         "Critical care","Anaesthesia"
