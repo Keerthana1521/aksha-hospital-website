@@ -554,7 +554,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department : "Dietitian",
       designation : "Consultant - Dietitian",
       experience : "12",
-      image : "../../assets/doctor-100.png",
+      image : "../../assets/doctor-31.jpeg",
       about : "",
       expertise : [
         "Weight loss / Weight gain diet"," Diet for PCOD","Thyroid","Diabetes","Hypertension","Cancer","Arthritis","Digestive Disorder","Coronary Artery Disorder","Pediatric nutrition"]
