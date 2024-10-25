@@ -571,7 +571,7 @@ export class DoctorDetailsComponent {
       department : "O B G",
       designation : "Consultant - O B G",
       experience : "26",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-32.jpeg",
       about : "",
       expertise : []
     },
