@@ -340,7 +340,7 @@ export class DoctorDetailsComponent {
       department : "Clinical Psychology",
       designation : "Clinical Psychologist",
       experience : "3",
-      image : "../../assets/doctor-21.jpg",
+      image : "../../assets/doctor-21.jpeg",
       about : "Sowmya is a committed Psychologist specialised in Clinical Psychology with genuine compassion, empathy and dedication. Her exceptional communication skills and profound grasp of psychological theories and therapies enable her to offer insightful and effective support to her patients. ",
       expertise : [
           'Psycho-oncology',
