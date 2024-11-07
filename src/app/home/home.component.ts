@@ -578,7 +578,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department : "Pulmonology",
       designation : "Consultant - Pulmonologist",
       experience : "3",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-33.jpeg",
       about : "",
       expertise : []
     },
@@ -699,7 +699,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       department : "Oncology and Onco Surgery",
       designation : "Consultant - Radiation Oncology",
       experience : "11",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-34.jpeg",
       about : "",
       expertise : []
     },

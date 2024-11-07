@@ -51,7 +51,7 @@ export class OncologyComponent {
       department : "Radiation Oncology",
       designation : "Consultant - Radiation Oncology",
       experience : "11",
-      image : "../../assets/doctor-101.png",
+      image : "../../assets/doctor-34.jpeg",
       about : "",
       expertise : []
     },
