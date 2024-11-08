@@ -1,0 +1,107 @@
+.nabh_container{
+    background: #FFF;
+    background-image: url('../../assets/nabh_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nabh_contents{
+    padding: 4% 10%;
+}
+
+.nabh_heading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.nabh_para{
+    color: #332876;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2%;
+}
+
+.ul_heading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2%;
+}
+
+.nabh_list{
+    padding: 2%;
+}
+
+.nabh_list_item{
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 1.5%;
+    line-height: normal;
+}
+
+.nabh_description{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3%;
+}
+
+@media (max-width : 800px){
+
+    .nabh_heading{
+        font-size: 24px;
+    }
+
+    .nabh_para, .nabh_list_item, .nabh_description{
+        font-size: 16px;
+    }
+
+    .nabh_description{
+        margin-top: 55px;
+    }
+
+    .ul_heading{
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 500px){
+
+    .nabh_heading{
+        font-size: 20px;
+    }
+
+    .nabh_para, .nabh_description{
+        margin: 15px 0;
+        text-align: justify;
+    }
+
+    .nabh_para, .nabh_list_item, .nabh_description{
+        font-size: 12px;
+    }
+
+    .ul_heading{
+        font-size: 16px;
+    }
+
+}
