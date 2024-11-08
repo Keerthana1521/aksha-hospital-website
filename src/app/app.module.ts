@@ -41,6 +41,7 @@ import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FamilyComponent } from './family/family.component';
 import { PsychiatryComponent } from './psychiatry/psychiatry.component';
+import { NabhComponent } from './nabh/nabh.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -77,7 +78,8 @@ import { PsychiatryComponent } from './psychiatry/psychiatry.component';
     BlogPostComponent,
     GalleryComponent,
     FamilyComponent,
-    PsychiatryComponent
+    PsychiatryComponent,
+    NabhComponent
 
   ],
   imports: [
