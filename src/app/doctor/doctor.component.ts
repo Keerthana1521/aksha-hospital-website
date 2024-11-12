@@ -104,7 +104,7 @@ export class DoctorComponent {
     },  
     {
       name: "Dr. Sushal Shantha Kumar", 
-      slug: 'Dr-Sushal-Shantha-Kumar', 
+      slug: 'Dr-Sushal-ShanthaKumar', 
       qualification: "MBBS, MS (ORTHOPAEDICS)", 
       experience: '15', 
       designation: 'Consultant - Arthroscopy & Shoulder Surgeon', 
