@@ -2,41 +2,32 @@
   <!-- Left Side: Content -->
   <div class="carousel-content">
     <div class="caro-text-content">
-      <h1 [ngClass]="{
+      <div [ngClass]="{
         'slide-up': animateOutgoing,
         'slide-down': animateIncoming
-      }">{{ carouselItems[currentIndex].heading }}</h1>
+      }"
+      class="heads"
+      >{{ carouselItems[currentIndex].heading }}</div>
       <p>{{ carouselItems[currentIndex].text }}</p>
-      <button class="explore-btn"[ngStyle]="{'background-color': carouselItems[currentIndex].buttonColor}" (click)="navigateToPage()" >Explore Now</button>
+      <button class="explore-btn" [ngStyle]="{'background-color': carouselItems[currentIndex].buttonColor}"
+        (click)="navigateToPage()">Explore Now</button>
     </div>
   </div>
 
   <!-- Right Side: Images -->
   <div class="caro-image-container">
     <!-- Active Big Image -->
-    <img 
-    [src]="carouselItems[currentIndex].image" 
-    alt="Active Image" 
-    class="active-image" 
-    [ngClass]="{'slide-left': animateImageOut  }"
-  />
-  <!-- Small Upcoming Image -->
-  <img 
-    [src]="carouselItems[currentIndex].nextImage" 
-    alt="Next Image" 
-    class="next-image" 
-    [ngClass]="{ 'slide-in-right': animateImageIn}"
-    (click)="nextSlide()"
-  />
+    <img [src]="carouselItems[currentIndex].image" alt="Best multi speciality hospital in Jayanagar Bangalore | Aksha Hospital"
+      class="active-image" [ngClass]="{'slide-left': animateImageOut  }" />
+    <!-- Small Upcoming Image -->
+    <img [src]="carouselItems[currentIndex].nextImage" alt="Best Multispeciality hospitals near me" class="next-image"
+      [ngClass]="{ 'slide-in-right': animateImageIn}" (click)="nextSlide()" />
   </div>
 
   <!-- Pagination Dots -->
   <div class="carousel-pagination">
-    <span
-      *ngFor="let item of carouselItems; let i = index"
-      [class.active]="i === currentIndex"
-      (click)="goToSlide(i)"
-    ></span>
+    <span *ngFor="let item of carouselItems; let i = index" [class.active]="i === currentIndex"
+      (click)="goToSlide(i)"></span>
   </div>
 </div>
 
@@ -46,12 +37,12 @@
   <div class="card-container" *ngFor="let card of cards">
     <div class="card card-blue">
       <div class="card-content">
-        <img [src]="card.icon" alt="Doctor Icon" class="card-icon">
+        <img [src]="card.icon" [alt]="card.icon_alt" class="card-icon">
         <p class="card-text">{{card.title}}<br><span>{{card.title_1}}</span></p>
       </div>
     </div>
     <div class="card-background">
-      <img [src]="card.image" alt="Ambulance" class="background-image">
+      <img [src]="card.image" [alt]="card.alt" class="background-image">
     </div>
   </div>
 </div>
@@ -60,18 +51,13 @@
   <!-- Left Side - Text Content -->
   <div class="text-content">
     <h4 class="section-title">An overview</h4>
-    <h1 class="hospital-title">Aksha Hospital Bengaluru</h1>
+    <h1 class="hospital-title">Best Multispeciality Hospital in Jayanagar, Bengaluru</h1>
     <p class="description">
-      Aksha Hospital is located in Jayanagar, Bengaluru. The hospital was set up with a vision of
-      providing compassionate, ethical, innovative, and affordable global healthcare services. We
-      hope to achieve this by making the best use of their resources and bringing about innovation
-      in the field of medicine.
+      Located in the heart of Jayanagar, Bengaluru, Aksha Hospital is known for providing compassionate and affordable healthcare services in Jayanagar. Established with a vision to deliver ethical, innovative, and patient-centered care, we take pride in being recognized as the Best Multispeciality Hospital in Jayanagar and a trusted name for healthcare services in Bangalore.
       <br /><br />
-      Our team wants to bring an holistic, accessible, and integrated healthcare to the doorstep of
-      every patient and strongly believes in the idea of providing care with compassion. Every
-      professional at the hospital is committed to providing world-class healthcare by encouraging
-      their highly qualified professionals to deliver quality service. The hospital hopes to provide
-      innovative healthcare services, comprehensive and safe facilities, and a responsive environment.
+      Our goal is to bring holistic, accessible, and integrated healthcare to every patient’s doorstep. With a dedication to offering quality medical treatment in Bangalore, our team of highly qualified professionals is equipped with advanced medical equipment in Bangalore and state-of-the-art operation theaters in Jayanagar. From 24/7 emergency services in Jayanagar to specialized care by experienced doctors in Jayanagar Bangalore, we provide comprehensive and reliable medical services.
+      <br /><br />
+      Recognized as the Best Hospital in Jayanagar, we continually innovate to advance medical care while maintaining a responsive and patient-friendly environment. As the Best hospital in South Bangalore, we aim to enhance healthcare services and deliver exceptional care with the help of our specialized surgeons in Bangalore. Choose Aksha Hospital for your healthcare needs and experience the assurance of world-class treatment.
     </p>
     <!-- Special Features -->
     <div class="special-features">
@@ -79,107 +65,101 @@
       <div class="list">
         <div>
           <ul>
-            <li><img class="icon" src="../../assets/about-arrow.svg">Trauma Care and Obstetric Care</li>
-            <li> <img class="icon" src="../../assets/about-arrow.svg"> ICU with Ventilator</li>
-            <li> <img class="icon" src="../../assets/about-arrow.svg"> Dialysis</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Top-rated hospital near BTM Layout | Aksha Hospital | Jayanagar Bangalore">Trauma Care and Obstetric Care</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Best Multispeciality hospital in Jayanagar | Aksha Hospital | Jayanagar Bangalore"> ICU with Ventilator</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Best Multi Speciality Hospitals Near Me | Aksha Hospital | Jayanagar Bangalore"> Dialysis</li>
           </ul>
         </div>
         <div class="list-2">
           <ul>
-            <li> <img class="icon" src="../../assets/about-arrow.svg"> Deluxe Room</li>
-            <li> <img class="icon" src="../../assets/about-arrow.svg"> At Affordable Cost</li>
-            <li> <img class="icon" src="../../assets/about-arrow.svg"> Insurance is under Process</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Multispeciality hospital in Jayanagar | Aksha Hospital | Jayanagar Bangalore"> Deluxe Room</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Best hospital in Jayanagar | Aksha Hospital | Jayanagar Bangalore"> At Affordable Cost</li>
+            <li> <img class="icon" src="../../assets/top-rated-hospital-near-btm-layout.svg" alt="Affordable hospitals services in Jayanagar | Aksha Hospital | Jayanagar Bangalore"> Insurance is under Process</li>
           </ul>
         </div>
       </div>
     </div>
     <div class="button">
       <button class="about-us-btn btn" (click)="about()"> <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>About Us &#xbb;</button>
+          <rect x="0" y="0" fill="none" width="100%" height="100%" />
+        </svg>About Us &#xbb;</button>
     </div>
     <!-- About Us Button -->
   </div>
 
   <!-- Right Side - Images and Statistics -->
   <div class="right-content">
-    <img class="right-image" src="../../assets/about.png">
-
+    <img class="right-image" src="../../assets/quality-medical-treatment-in-bangalore.png" alt="Quality Medical Treatment in Jayanagar Bangalore | Aksha Hospital">
   </div>
 </div>
 
 
 <div class="doctor-container">
-  <h1 class="doc-con-heading">Meet Our Professionals</h1>
+  <h1 class="doc-con-heading">Meet the Experts at the Best Multispeciality Hospital in Jayanagar</h1>
   <p class="doc-con-subheading">
-    We offer extensive medical procedures to outbound and inbound patients, and we are very proud of the achievements of our staff. We are all working together to help our patients for recovery.
+    We take pride in our team of experienced doctors in Jayanagar Bangalore who deliver exceptional care to every patient. As the Best Multispeciality Hospital in Jayanagar, we are committed to offering quality medical treatment in Bangalore for both inbound and outbound patients.
   </p>
   <div class="main-content">
     <!-- Left Scrollable List for Departments -->
     <div class="department-container">
       <div class="department-list">
-        <div class="department-item" 
-          *ngFor="let department of docDepartments" 
-          (click)="selectDepartment(department)"
+        <div class="department-item" *ngFor="let department of docDepartments" (click)="selectDepartment(department)"
           [class.selected]="department.selected">
           <p>{{ department.name }}</p>
         </div>
       </div>
     </div>
-  
+
     <div class="doctor-profile-container">
       <div class="doctor-profile" *ngFor="let doctor of filteredDoctors">
         <div class="doctor-image-wrapper">
-          <img [src]="doctor.image" [alt]="doctor.name" class="doctor-image"/>
+          <img [src]="doctor.image" [alt]="doctor.name" class="doctor-image" />
         </div>
-    
+
         <div class="doctor-card">
           <h2 class="doctor-name">
             {{ doctor.name }} <br><span class="doctor-title">{{ doctor.qualification }}</span>
           </h2>
-    
+
           <!-- Specialization and Experience -->
           <p class="specialization">{{ doctor.designation }}</p>
           <p class="specialization">{{ doctor.designation2 }}</p>
           <p class="experience">Years of Experience: <strong>{{ doctor.experience }}+</strong></p>
-    
+
           <!-- Description -->
           <p class="doctor-description">
             {{ doctor.about }}
           </p>
-    
+
           <!-- Button -->
           <div class="see-more">
-            <button class="see-more-btn"(click)="navigateToDoctor(doctor.slug)"><svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-            </svg>See More &raquo;</button>
+            <button class="see-more-btn" (click)="navigateToDoctor(doctor.slug)"><svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+              </svg>See More &raquo;</button>
           </div>
-          
+
         </div>
       </div>
     </div>
-    
+
   </div>
-  
+
 </div>
 
 <div class="departments-section">
   <h2 class="section-heading">We Are The</h2>
-  <h1 class="section-subheading">Best Our Departments Centers</h1>
-  <div class="icon-carousel-container" >
+  <h2 class="section-subheading">Best Our Departments Centers</h2>
+  <div class="icon-carousel-container">
     <div class="arrow left-arrow" (click)="scrollLeft()" *ngIf="isMobile">&#9664;</div>
 
-  <div class="icon-carousel" #carousel>
-    <div class="icon-item" 
-    *ngFor="let department of departments; let i = index"
-    (mouseenter)="onHover(i)"
-    (mouseleave)="onHover(-1)"
-    [ngStyle]="{ backgroundColor: currentDepartmentIndex === i ? '#ffffff' : '#ffe4e6' }"
->
-      <img [src]="department.icon" [alt]="department.name" class="icon-image"  />
+    <div class="icon-carousel" #carousel>
+      <div class="icon-item" *ngFor="let department of departments; let i = index" (mouseenter)="onHover(i)"
+        (mouseleave)="onHover(-1)"
+        [ngStyle]="{ backgroundColor: currentDepartmentIndex === i ? '#ffffff' : '#ffe4e6' }">
+        <img [src]="department.icon" [alt]="department.icon_alt" class="icon-image" />
+      </div>
     </div>
-  </div>
-  <div class="arrow right-arrow" (click)="scrollRight()" *ngIf="isMobile">&#9654;</div>
+    <div class="arrow right-arrow" (click)="scrollRight()" *ngIf="isMobile">&#9654;</div>
   </div>
 
   <div class="department-content">
@@ -188,19 +168,19 @@
       <p>
         {{ selectedDepartment.description }}
       </p>
-      
+
     </div>
     <div class="content-right">
-      <img [src]="selectedDepartment.image" [alt]="selectedDepartment.name" class="department-image" />
+      <img [src]="selectedDepartment.image" [alt]="selectedDepartment.alt" class="department-image" />
     </div>
-  
+
   </div>
   <div class="button">
-    <button class="view-more-btn btn"(click)="viewMore(selectedDepartment)"><svg>
-      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-    </svg>View More <img style="padding-left: 20px;width: 11px;height: 9px;" src="../../assets/arrow.png"></button>
+    <button class="view-more-btn btn" (click)="viewMore(selectedDepartment)"><svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+      </svg>View More <img style="padding-left: 20px;width: 11px;height: 9px;" src="../../assets/best-hospital-in-jayanagar-7th-block.png" alt="Best Hospital in Jayanagar 7th Block Bengaluru | Aksha Hospital"></button>
   </div>
-  
+
 </div>
 
 
@@ -208,7 +188,8 @@
   <div class="number-1">
     <div class="text">
       <div class="num-text-container"> Powered By Over <strong>5,000+ </strong>Patients Trust Us With Their
-        <strong>Sweet Love.</strong></div>
+        <strong>Sweet Love.</strong>
+      </div>
     </div>
     <div class="numbers">
       <div class="parent" *ngFor="let item of numbers.slice(0, 3); let i = index">
@@ -240,7 +221,7 @@
 
 
 <div class="why-choose-us-container">
-  <h1 class="title-1">Aksha Hospital Bengaluru</h1>
+  <h1 class="title-1">Best Multispeciality Hospital in Jayanagar</h1>
   <h2 class="title-1">Why Choose Us?</h2>
   <!-- Section 1 - Left Content, Right Image -->
   <div class="container">
@@ -249,41 +230,38 @@
         <div class="why-item left-text">
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-1.png" alt="Icon 1" class="item-icon" />
-              <h3>Quality Control</h3>
+              <img src="../../assets/best-multispeciality-hospital-in-jayanagar-7th-block.png" alt="Best Multispeciality Hospital in Jaya Nagar 7th block Bangalore | Aksha" class="item-icon" />
+              <h3>Quality Care</h3>
             </div>
-            <p class="description">
-              The hospital does not compromise on the quality of care it provides to the patients. To ensure that quality is maintained, the hospital conducts audits to monitor quality control.
-            </p>
+            <p class="description">At Aksha Hospital Bengaluru, we are committed to being the Best Multispeciality Hospital in Jayanagar by delivering uncompromising quality in every aspect of patient care. Recognized for our quality medical treatment in Bangalore, we maintain strict quality control through regular audits to ensure the highest standards are upheld.</p>
+            <p class="description">With a focus on excellence, we utilize advanced medical equipment in Bangalore and offer inpatient and outpatient services in Bangalore that are both comprehensive and reliable. As a top medical facility in Bangalore, we aim to provide exceptional care while being accessible to all.</p>
           </div>
         </div>
 
         <div class="why-item left-text">
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-2.png" alt="Icon 2" class="item-icon" />
+              <img src="../../assets/experienced-doctors-in-jayanagar-7th-block-bangalore.png" alt="Experienced doctors in Jayanagar Bangalore | " class="item-icon" />
               <h3>Technology</h3>
             </div>
-            <p class="description">
-              The hospital has state-of-the-art technology in every department dedicated to the treatment, research and medical innovation. This technology is handled by expert technicians who have received the best training. The technology plays a role in providing efficient treatment.
-            </p>
+            <p class="description">Our state-of-the-art technology is managed by expert technicians who have undergone specialized training to ensure precision and efficiency in care delivery.</p>
+            <p class="description">This commitment to technological excellence enhances our ability to provide quality healthcare services in Bangalore, including inpatient and outpatient services in Bangalore, and supports our standing as the Best Hospital in Jayanagar. With resources like our state-of-the-art operation theater in Jayanagar, we ensure efficient treatment for a wide range of medical needs</p>
           </div>
         </div>
 
         <div class="why-item left-text">
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-3.png" alt="Icon 3" class="item-icon" />
-              <h3>Personalised Treatment Regimen</h3>
+              <img src="../../assets/multispeciality-hospital-near-lalbagh.png" alt="Multispeciality Hospital near Lalbagh | Aksha Hospital | Jaya Nagar 7th Block Bengaluru" class="item-icon" />
+              <h3>Personalised Treatment </h3>
             </div>
-            <p class="description">
-              At the Aksha Hospital center, our experts provide a comprehensive approach in diagnosing and treating adults with diabetes and other endocrine disorders. We also believe in educating people to guide those who have diabetes to have a better quality of life.
-            </p>
+            <p class="description">We offer a thorough and compassionate approach to diagnosing and treating diabetes and other endocrine disorders. Our experts utilize advanced medical equipment in Bangalore and the latest techniques to provide tailored treatment plans that cater to individual needs.</p>
+            <p class="description">We go beyond treatment by emphasizing education, empowering individuals with diabetes to manage their condition effectively and improve their quality of life. As a leading top medical facility in Bangalore, we are dedicated to delivering exceptional care through our specialized programs, ensuring our patients receive the best healthcare services in Bangalore.</p>
           </div>
         </div>
       </div>
       <div class="image-container">
-        <img class="left-image-1" src="../../assets/choose-1.png">
+        <img class="left-image-1" src="../../assets/best-hospital-near-banashankari.png" alt="Best Hospital Near Banashankari | Aksha Hospital | Jayanagar Bangalore">
       </div>
     </div>
 
@@ -292,14 +270,13 @@
     <div class="right">
       <div class="text-container">
         <div class="why-item right-text">
-
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-4.png" alt="Icon 4" class="item-icon" />
+              <img src="../../assets/best-multispeciality-hoaspital-near-southend-circle.png" alt="Best Multispeciality Hospitals near South End circle | Aksha Hospital" class="item-icon" />
               <h3>Round-the-Clock Treatment</h3>
             </div>
             <p class="description">
-              The hospital has a high number of specialists, well-trained physicians and other staff who are kept on a rotational schedule, ensuring that patients receive care 24×7.
+              At Aksha Hospital, the Best Multispeciality Hospital in Jayanagar, we ensure patients receive continuous and reliable care through our 24/7 emergency services in Jayanagar. Our dedicated team of specialists, highly trained physicians and support staff work on a rotational schedule to provide uninterrupted medical attention around the clock. 
             </p>
           </div>
         </div>
@@ -308,11 +285,11 @@
 
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-5.png" alt="Icon 5" class="item-icon" />
+              <img src="../../assets/best-maternity-hospital-in-jayanagar-bangalore.png" alt="Best Maternity Hospital in Jayanagar Bangalore | Aksha Hsopital" class="item-icon" />
               <h3>Compassionate Care</h3>
             </div>
             <p class="description">
-              Physicians, nurses and other staff treat the patients by providing them with proper individualised care. They are dedicated to catering to every need of their patients. They hope to make the recovery process easier for the patient.
+              At Aksha Hospital, renowned as the Best Multispeciality Hospital in Jayanagar, our team of physicians, nurses, and staff is dedicated to providing healthcare services in Bangalore that are compassionate and patient-focused. We believe in offering personalized care to address the unique needs of each individual, ensuring a comfortable and supportive environment.
             </p>
           </div>
         </div>
@@ -320,11 +297,11 @@
         <div class="why-item right-text">
           <div class="text-content">
             <div class="icon-title">
-              <img src="../../assets/choose-icon-6.png" alt="Icon 6" class="item-icon" />
+              <img src="../../assets/best-gastrology-hospital-jayanagar-bangalore.png" alt="Best Gastrology Hospital Jayanagar Bangalore | Aksha Hospital" class="item-icon" />
               <h3>A Super Speciality Center</h3>
             </div>
             <p class="description">
-              Being a super speciality centre, we encounter different disorders and diseases, and we are committed to the care of each illness equally. We also offer the best dental services in the town.
+              At Aksha Hospital, the Best Multispeciality Hospital in Jayanagar, we are dedicated to addressing a wide range of disorders and diseases with equal commitment and care. As a trusted top medical facility in Bangalore, our specialized services cater to diverse medical needs, ensuring every patient receives high-quality and compassionate treatment.
             </p>
           </div>
         </div>
@@ -338,10 +315,10 @@
 
 <div class="testimonials">
   <h2 class="doc-con-heading">Testimonials</h2>
-  <iframe src="https://6919edbf6e5a489885f7da77a013a5f4.elf.site" frameborder="0" class = "google_reviews"></iframe>
+  <iframe src="https://6919edbf6e5a489885f7da77a013a5f4.elf.site" frameborder="0" class="google_reviews"></iframe>
 </div>
 
 <div class="testimonials">
   <h2 class="doc-con-heading">Our Latest Posts</h2>
-  <iframe src="https://018221efbc6a446296861bd13a90c9c8.elf.site" frameborder="0" class = "insta_feed"></iframe>
+  <iframe src="https://018221efbc6a446296861bd13a90c9c8.elf.site" frameborder="0" class="insta_feed"></iframe>
 </div>
