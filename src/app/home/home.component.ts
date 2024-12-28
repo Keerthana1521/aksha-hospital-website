@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild,OnDestroy, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
+import { Title, Meta, DomSanitizer, SafeHtml } from '@angular/platform-browser'; 
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,15 @@ import { Router } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit, OnDestroy {
+
+  constructor(private router: Router,private titleService: Title, private metaService: Meta) {
+    this.titleService.setTitle("Best Multi-Specialty Hospital in Jayanagar | Aksha Hospital");  
+
+    this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital offers top-notch healthcare services in Jayanagar. Compassionate care, advanced treatments, and experienced doctors.' });
+  
+    this.metaService.updateTag({ name: 'keywords', content: 'multi-specialty hospital Jayanagar, best hospital Bangalore, Aksha Hospital, healthcare Jayanagar' });
+  }
+
   @ViewChild('counterSection', { static: true }) counterSection!: ElementRef;
   @ViewChild('carousel') carousel!: ElementRef;  // Reference to the icon carousel
 
@@ -756,17 +766,17 @@ export class HomeComponent implements OnInit, OnDestroy {
   carouselItems = [
     {
       heading: 'Aksha Hospital',
-      text: 'Aksha Hospital is committed towards delivering an exceptional healthcare experience focused on compassionate, patient-centered care. Our facility is equipped with the latest medical technology and staffed by highly skilled professionals. We provide a comprehensive range of services, ensuring quality treatment and a supportive environment for all our patients.',
-      image: '../../assets/caro-1.png', // Replace with actual image path
-      bgImage: '../../assets/caro-bg-1.png', // Replace with background image path
-      nextImage:'../../assets/caro-sm-2.png',
+      text: "Aksha Hospital is committed to delivering an exceptional healthcare experience, focused on compassionate, patient-centered care. As the Best Multispeciality Hospital in Jayanagar, we are equipped with state-of-the-art operation theaters in Jayanagar and advanced medical equipment in Bangalore. Our highly skilled professionals ensure quality medical treatment in Bangalore through a comprehensive range of services. Whether you're seeking inpatient and outpatient services in Bangalore or require 24/7 emergency services in Jayanagar, Aksha Hospital offers a supportive environment and the best care for all our patients.",
+      image: '../../assets/Best-multispeciality-hospital-in-jayanagar.png', // Replace with actual image path
+      bgImage: '../../assets/Best-multi-speciality-hospital-in-Jayanagar-Bangalore.png', // Replace with background image path
+      nextImage:'../../assets/Best-hospials-near-me.png',
       buttonColor:'#9B9F9B',
       route: '/about-us' // Add a route property for each item
     },
     {
       heading: 'NICU',
-      text: 'Our Neonatal Intensive Care Unit (NICU) at Aksha Hospital provides specialized care for premature and critically ill newborns. Equipped with cutting-edge technology and a dedicated team of experts, we focus on the delicate needs of newborns to ensure the best possible outcomes. Compassionate care and advanced treatment are at the heart of our NICU services.',
-      image: '../../assets/caro-2.png',
+      text: 'Our Neonatal Intensive Care Unit (NICU) at Aksha Hospital provides specialized care for premature and critically ill newborns. As part of the Best Multispeciality Hospital in Jayanagar, we are equipped with advanced medical equipment in Bangalore and supported by experienced doctors in Jayanagar Bangalore. Our NICU reflects our commitment to offering quality medical treatment in Bangalore, focusing on the delicate needs of newborns to ensure the best possible outcomes. With compassionate care and advanced treatment, we are proud to be recognized as the Best Hospital near JP Nagar and a leader in healthcare services in Bangalore.',
+      image: '../../assets/Best-hospials-near-me.png',
       bgImage: '../../assets/caro-bg-2.png',
       nextImage:'../../assets/caro-sm-3.png',
       buttonColor:'#7E729F',
@@ -774,7 +784,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
     {
       heading: 'ICU',
-      text: 'Our Intensive Care Unit (ICU) at Aksha Hospital offers critical care with advanced monitoring and life-support systems. Our expert team provides round-the-clock care for patients with severe and life-threatening conditions. We are dedicated to delivering personalized, high-quality care to support recovery and improve patient outcomes.',
+      text: 'Our Intensive Care Unit (ICU) at Aksha Hospital offers critical care with advanced medical equipment in Bangalore and state-of-the-art operation theaters in Jayanagar. As a leading Multispeciality Hospital in Jayanagar, we provide 24/7 emergency services in Jayanagar and critical care for patients with severe and life-threatening conditions. With a dedicated team of experienced doctors in Jayanagar Bangalore, we are proud to be recognized as the Best Hospital in Jayanagar and a trusted provider of quality medical treatment in Bangalore. Our personalized, high-quality care supports recovery and ensures the best patient outcomes.',
       image: '../../assets/caro-3.png',
       bgImage: '../../assets/caro-bg-3.png',
       nextImage:'../../assets/caro-sm-4.png',
@@ -784,7 +794,7 @@ export class HomeComponent implements OnInit, OnDestroy {
     },
     {
       heading: 'LAB',
-      text: 'At Aksha Hospital, our state-of-the-art lab services offer accurate and timely diagnostic results. We utilize advanced technology and follow rigorous quality standards to ensure reliable outcomes. Our skilled team is dedicated to providing comprehensive tests and prompt reports. Trust us for precise diagnostics that support effective treatment plans.',
+      text: 'At Aksha Hospital, our state-of-the-art lab services in Jayanagar offer accurate and timely diagnostic results, making us a top medical facility in Bangalore. We utilize advanced medical equipment in Bangalore and follow rigorous quality standards to ensure reliable outcomes. As the Best Multispeciality Hospital in Jayanagar, we provide a range of healthcare services in Bangalore, including comprehensive tests and prompt reports. Trust Aksha Hospital, recognized as the Best Hospital near JP Nagar, for precise diagnostics that support quality medical treatment in Bangalore and effective treatment plans.',
       image: '../../assets/caro-4.png',
       bgImage: '../../assets/caro-bg-4.png',
       nextImage:'../../assets/caro-sm-1.png',
@@ -794,105 +804,130 @@ export class HomeComponent implements OnInit, OnDestroy {
   ];
   cards = [
     {
-      icon: '../../assets/emergency.svg',
+      icon: '../../assets/Best-emergency-service-in-bengaluru.svg',
       title: '24 hours ',
       title_1:'Emergency',
-      image:'../../assets/ambulance.png'
+      image:'../../assets/best-hospitals-in-jayanagar-bangalore.png',   
+      alt : "Best Hospitals in Jayanagar Bangalore | Aksha Hospital",
+      icon_alt : "Best Emergency Service in Bengaluru | Aksha Hospital"   
     },
     {
-      icon: '../../assets/icu.svg',
+      icon: '../../assets/healthcare-services-in-bangalore.svg',
       title: '24x7 Fully ',
       title_1:'Equipped ICU',
-      image:'../../assets/icu.png'
+      image:'../../assets/top-medical-facility-in-bangalore.png',
+      alt : "Advanced medical equipment Jaya nagar Bangalore | Aksha Hospital",
+      icon_alt : "Top medical facility in Jayanagar Bangalore | Aksha Hospital" 
     },
     {
-      icon: '../../assets/lab.svg',
+      icon: '../../assets/24x7-emergency-services-in-jayanagar.svg',
       title: '24x7 ',
       title_1:'Laboratory',
-      image:'../../assets/lab.png'
+      image:'../../assets/inpatient-and-outpatient-services-in-Bangalore.png',
+      alt : "Inpatient and Outpatient Services in Bangalore",
+      icon_alt : "Healthcare services Jayanagar | Aksha Hospital" 
     },
     {
-      icon: '../../assets/pharmacy.svg',
+      icon: '../../assets/best-hospital-near-jp-nagar.svg',
       title: '24x7 ',
       title_1:'Pharmacy',
-      image:'../../assets/pharmacy.png'
+      image:'../../assets/best-medical-services-near-btm-layout.png',
+      alt : "24-hour emergency services in Jayanagar Bangalore | Aksha Hospital",
+      icon_alt : "Best Hospital near JP Nagar | Jaya Nagar Bangalore | Aksha Hospital" 
     },
     {
-      icon:'../../assets/nicu.svg',
+      icon:'../../assets/best-healthcare-near-banashankari.svg',
       title:'NICU',
-      image:'../../assets/nicu.png'
+      image:'../../assets/affordable-healthcare-services-in-jayanagar.png',
+      alt : "Best Healthcare near Banashankari",
+      icon_alt : "Affordable healthcare services in Jayanagar" 
     }
   ];
   departments = [
     {
       name: 'Obstetrics & Gynaecology',
-      description:
-        'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
-      image: 'assets/OG.png',
-      icon: 'assets/dept-icon-1.png',
-      route:'obsterics-and-gynecology'
+      description:'Maternal Care/Checkup is a comprehensive program for healthcare professionals, mainly gynecologists and obstetricians, covering all the common and important problems that occur during pregnancy, labor, delivery, and the postpartum period. While motherhood is often a positive and fulfilling experience, for many women, it is associated with suffering, ill health, and even death. The risks or conditions that were pre-existing or that had developed during the pregnancy highly influence the health of a mother.',
+      image: 'assets/best-gynaecology-hospital-in-jayanagar-bangalore.png',
+      icon: 'assets/best-gynaecology-treatment-in-jayanagar-bangalore.png',
+      route:'obsterics-and-gynecology',
+      alt : 'Best Gynaecology Hospital in Jayanagar Bangalore',
+      icon_alt : 'Best Gynaecology Treatment in Jayanagar Bangalore'
     },
     {
       name: 'High-Risk Pregnancy Care',
-      description:
-        'High-risk pregnancies are pregnancies that have the chance of developing complications for both mother and child. People who are underweight or overweight, younger than 18 or older than 35, anemic, into their 5th pregnancy or more; have had previous preterm births, had given births to a large or small baby, had a previous pregnancy loss, history of genetic disease, substance abuse, previous cases of twins or triplets, taken infertility medications, or have medical conditions like high BP, heart disease, etc.',
-      image: 'assets/dept-1.jpg',
-      icon: 'assets/dept-icon-2.png',
-      route:'obsterics-and-gynecology'
+      description:'High-risk pregnancies are pregnancies that have the chance of developing complications for both mother and child. People who are underweight or overweight, younger than 18 or older than 35, anemic, into their 5th pregnancy or more; have had previous preterm births, had given births to a large or small baby, had a previous pregnancy loss, history of genetic disease, substance abuse, previous cases of twins or triplets, taken infertility medications, or have medical conditions like high BP, heart disease, etc.',
+      image: 'assets/best-pregnancy-hospital-in-jayanagar-bangalore.jpg',
+      icon: 'assets/best-hospital-for-pregnancy-in-jayanagar-bangalore.png',
+      route:'obsterics-and-gynecology',
+      alt : 'Best Pregnancy Hospital in Jaya Nagar Bangalore',
+      icon_alt : 'Best Hospital for Pregnancy in Jayanagar Bangalore'
     },
     {
       name: 'Female Infertility Treatment',
-      description:
-        'Infertility treatment helps couples who are unable to conceive with conception. There are various types of treatment methods based on the cause of infertility. In the case of women, infertility is treated by medications or fertility drugs in cases of hormonal imbalance or problems related to ovulation. Surgery in case the fallopian tubes are blocked or similar such situations Use of assistive reproductive technology (ART) to solve infertility problems.',
-      image: 'assets/dept-2.png',
-      icon: 'assets/dept-icon-3.png',
-      route:'obsterics-and-gynecology'
+      description:'Infertility treatment helps couples who are unable to conceive with conception. There are various types of treatment methods based on the cause of infertility. In the case of women, infertility is treated by medications or fertility drugs in cases of hormonal imbalance or problems related to ovulation. Surgery in case the fallopian tubes are blocked or similar such situations Use of assistive reproductive technology (ART) to solve infertility problems.',
+      image: 'assets/best-infertility-treatment-in-jayanagar-bangalore.png',
+      icon: 'assets/best-hospital-for-infertility-in-jayanagar-bangalore.png',
+      route:'obsterics-and-gynecology',
+      alt : 'Best Infertility Treatment in Jaya Nagar Bangalore',
+      icon_alt : 'Best Hospital for Infertility in Jayanagar Bangalore'
     },
     {
       name: 'Surgery + Gastrosurgery',
       description:
         'Gastroenterology is a specialty of medicine that focuses on the diseases affecting the digestive system. This includes the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts, and liver. Though many types of digestive problems can be treated with lifestyle changes and medicines, some of them might require a surgical intervention. Surgical gastroenterology is a part of gastroenterology that is related to treating gastric disorders that might require surgical intervention.',
-      image: 'assets/dept-3.png',
-      icon: 'assets/dept-icon-4.png',
-      route:'surgery'
+      image: 'assets/experienced-doctors-in-jayanagar-bangalore.png',
+      icon: 'assets/hospital-near-lalbagh.png',
+      route:'surgery',
+      alt : 'Experienced Doctors in Jaya Nagar Bangalore',
+      icon_alt : 'Hospital near Lalbagh'
     },
     {
       name: 'Vascular Surgeries',
       description:'Vascular surgery is a surgical subspeciality in which diseases of the vascular system, or arteries, veins, and lymphatic circulation, are managed by medical therapy, minimally invasive catheter procedures, and surgical reconstruction. Some of the vascular surgeries that our team performs include varicose vein Trendelenburg operation, diabetic foot care, and laser procedures',
-      image: 'assets/dept-4.png',
-      icon: 'assets/dept-icon-5.png',
-      route:'vascular-surgery'
+      image: 'assets/best-vascular-surgery-hospital-in-jaya-nagar-bangalore.png',
+      icon: 'assets/best-hospital-for-vascular-surgery-in-jaya-nagar-bangalore.png',
+      route:'vascular-surgery',
+      alt : 'Best Vascular Surgery Hospital in Jaya Nagar Bangalore | Aksha Hospital',
+      icon_alt : 'Best Hospital for Vascular Surgery in Jaya Nagar Bangalore | Aksha Hospital'
     },
     {
       name: 'Endoscopic Procedures',
       description:
         'Endoscopic surgery is performed using a scope, a flexible tube with a camera, and light at the tip. This allows your surgeon to see inside the organ and perform procedures without making major incisions, allowing for easier recovery time and less pain and discomfort. Some procedures performed include: diagnostic procedures in gastroscopy and colonoscopy Therapeutic procedures like banding, sclerotherapy, balloon esophagus dilatation, stent placements, PEG tube insertions, and polypectomies. ERCP procedures are also done here.',
-      image: 'assets/dept-5.png',
-      icon: 'assets/dept-icon-6.png',
-      route:''
+      image: 'assets/best-endoscopic-surgery-in-jaya-nagar-bangalore.png',
+      icon: 'assets/best-hospital-for-endoscopic-surgery-in-jaya-nagar.png',
+      route:'',
+      alt : 'Best Endoscopic Surgery in Jaya Nagar Bangalore',
+      icon_alt : 'Best Hospital for Endoscopic Surgery in Jaya Nagar'
     },
     {
       name: 'Cardiology',
       description:'Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure, and valvular heart disease. Subspecialties of the cardiology field include cardiac electrophysiology, echocardiography, interventional cardiology, and nuclear cardiology.',
-      image: 'assets/dept-6.png',
-      icon: 'assets/dept-icon-7.png',
-      route:'cardiology'
+      image: 'assets/best-cardiology-hospital-in-jaya-nagar-bangalore.png',
+      icon: 'assets/best-hospital-for-cardiology-near-me.png',
+      route:'cardiology',
+      alt : 'Best Cardiology Hospital in Jaya Nagar Bangalore | Aksha Hospital',
+      icon_alt : 'Best hospital for Cardiology near me | Aksha Hospital | Jaya Nagar Bangaluru'
     },
     {
       name: 'Paediatric & NICU',
       description:
         'Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. NICU refers to the Neonatal Intensive Care Unit. The birth of a baby is a wonderful and very complex process. Many physical and emotional changes occur for both mother and baby. A baby must make many physical adjustments to life outside the mother’s body. Leaving the uterus means that a baby can no longer depend on the mother’s blood supply and placenta for important body functions. We can manage preborn babies from 32 weeks.',
-      image: 'assets/dept-7.png',
-      icon: 'assets/dept-icon-8.png',
-      route:"pediatrics"
+      image: 'assets/best-hospital-for-pediatrics-near-me.png',
+      icon: 'assets/best-pediatrics-hospital-in-jaya-nagar-bangalore.png',
+      route:"pediatrics",
+      alt : 'Best Hospital for Pediatrics near me | Aksha Hospital | Jaya Nagar Bangalore',
+      icon_alt : 'Best Pediatrics Hospital in Jaya Nagar Bangalore | Aksha Hospital'
     },
     {
       name: 'General Physician',
       description:
         'With healthcare now becoming a priority to most, even the smallest signs of sickness receive care. From an itchy throat to a mild cough or a spike in temperature, many rush to clinics to seek care from general physicians. Our general physicians are highly trained specialists who provide non-surgical health care to patients. They evaluate the medical condition of the patients by suggesting a few lab tests to finalize the diagnosis. They also perform health check-ups on a regular basis to evaluate the status of a disease or medical condition.',
-      image: 'assets/dept-8.png',
-      icon: 'assets/dept-icon-9.png',
-      route:''
+      image: 'assets/best-general-physician-in-jaya-nagar-bengalore.png',
+      icon: 'assets/best-general-physician-near-me.png',
+      route:'',
+      alt : 'Best General Physician in Jaya Nagar Bengalore | Aksha Hospital',
+      icon_alt : 'Best General Physician near me | Aksha Hospital | Jaya Nagar Bangalore'
     },
 
     // Add more departments as needed
@@ -922,10 +957,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     // }
     this.changeDepartment(index, false);
   }
-  constructor(private router: Router) {}
+
   navigateToPage() {
     const currentRoute = this.carouselItems[this.currentIndex].route;
     this.router.navigate([currentRoute]); // Navigate based on the route of the current item
+
+
+
   }
   about(){
     this.router.navigate(['/about-us']);
