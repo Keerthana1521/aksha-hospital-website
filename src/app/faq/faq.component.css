@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.accordion {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 20px;
+    /* width: 100%; */
+  }
+
+  .accordion-header {
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card_title{
+    font-family: "Open sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 3%;
+  }
+
+
+  .flex_box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .accordion-content {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    transition: 1s ease;
+    animation: dropdown 0.5s;
+  }
+
+  .description{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 3%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-close{
+    opacity: 0;
+    transition: 0.5s;
+    height: 0;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+  @keyframes dropdown{
+    from{
+      height: 0px;
+    }
+
+    to{
+      height: auto;
+    }
+  }
+  
+  .accordion.active {
+    background: linear-gradient(109deg, #0F94B2 0%, #312A77 97.87%);
+    color: white;
+    transition: 1s;
+  }
+
+  .angle{
+    margin-right: 3%;
+  }
+
+  @media(max-width : 500px){
+    .card_title{
+      font-size: 12px;
+    }
+
+    .description{
+      font-size: 12px;
+    }
+  }   

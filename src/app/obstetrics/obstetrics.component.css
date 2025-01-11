@@ -92,7 +92,20 @@
 
 .container_2_image img{
     width: 594px;
-    height: 339px;
+    height: auto;
+}
+
+.container_2_new_image img{
+    width: 400px;
+    height: auto;
+}
+
+.subheading_margin{
+    margin-top: 20px;
+}
+
+.para_margin{
+    margin-top: 15px;
 }
 
 /* container 3 */
@@ -227,6 +240,12 @@
 .container_5_image img{
     width: 394px;
     height: 389px;
+}
+
+/* container 6 */
+
+.container_6{
+    padding: 0 5%;
 }
 
 @media (max-width : 1370px){
@@ -464,5 +483,14 @@
     .container_2_image img{
         width: 290px;
         height: auto;
+    }
+
+    .container_2_new_image img{
+        width: 290px;
+        height: auto;
+    }
+
+    .container_6{
+        padding: 1%;
     }
 }

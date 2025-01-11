@@ -1,0 +1,13 @@
+<div class="accordion"  (click)="toggleAccordion()" [ngClass]="{ 'active': isActive }">
+    <div class="accordion-header flex_box">
+        <div class="accordion-header">
+            <div class="card_title">{{quesNum}}. {{ question }}</div>
+        </div>
+        <div class="angle">
+            <i [ngClass]="angle_icon ? 'fa-solid fa-angle-down' : 'fa-solid fa-angle-right'"></i>
+        </div>
+    </div>
+    <div class="ng_content"  [ngClass]="isActive ? 'accordion-content' : 'dropdown-close'">
+      <div class="description" [innerHTML]="answer"></div>
+    </div>
+</div>  
