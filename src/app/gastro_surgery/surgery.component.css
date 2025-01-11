@@ -89,6 +89,16 @@
     height: 339px;
 }
 
+.new_images img{
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.para_margin{
+    margin-top: 20px;
+}
+
 /* container 3 */
 
 .container_3{
@@ -138,6 +148,15 @@
 .container_3_img img{
     width: 425px;
     height: 356px;
+}
+
+.container_4{
+    padding: 0 8%;
+}
+
+.container_5{
+    padding: 0 5%;
+    margin-top: 20px;
 }
 
 @media (max-width : 1370px){
@@ -247,6 +266,11 @@
     flex-direction: column;
 }
 
+.col_reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .container_2_heading{
     font-size: 18px;
 }
@@ -293,6 +317,10 @@
 .container_1{
     background-image: url('../../assets/specialiti/gastro_surgery_mobile_size.png');
     background-size: cover;
+}
+
+.new_images img{
+    width: 300px;
 }
 
 .Obstetrics_heading{

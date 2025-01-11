@@ -42,6 +42,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FamilyComponent } from './family/family.component';
 import { PsychiatryComponent } from './psychiatry/psychiatry.component';
 import { NabhComponent } from './nabh/nabh.component';
+import { FaqComponent } from './faq/faq.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -79,7 +80,8 @@ import { NabhComponent } from './nabh/nabh.component';
     GalleryComponent,
     FamilyComponent,
     PsychiatryComponent,
-    NabhComponent
+    NabhComponent,
+    FaqComponent
 
   ],
   imports: [
