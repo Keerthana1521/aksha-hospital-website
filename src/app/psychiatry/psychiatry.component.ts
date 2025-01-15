@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-psychiatry',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './psychiatry.component.css'
 })
 export class PsychiatryComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Psychiatric Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best psychiatric hospital in Jayanagar, Bangalore, offering expert mental health care with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best psychiatric hospital in Bangalore, , Psychiatric hospital in Jayanagar, Mental health care in Bangalore, Psychiatrists near JP Nagar, Treatment for depression in Banashankari, Aksha Hospital psychiatry services, Counseling and therapy in Jayanagar, Anxiety treatment in Bangalore, Advanced psychiatric care in Bangalore, Top mental health specialists in Bangalore' }
+        
+      );
+    }
+
   doctors = [
     {
       name: "Dr. Manju Aswath", 

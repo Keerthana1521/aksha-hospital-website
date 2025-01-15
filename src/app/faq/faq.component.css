@@ -19,7 +19,7 @@
 
   .card_title{
     font-family: "Open sans";
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -47,7 +47,6 @@
     font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     margin: 0 3%;
     overflow: hidden;

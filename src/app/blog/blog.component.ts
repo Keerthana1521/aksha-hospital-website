@@ -6,12 +6,17 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 
+
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })
 export class BlogComponent {
+
+
+
+
   posts: any[] = [];
   post: any;
   featuredPost: any; 

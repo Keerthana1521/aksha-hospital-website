@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-anesthesia',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './anesthesia.component.css'
 })
 export class AnesthesiaComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Anesthesia Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best anesthesia hospital in Jayanagar, Bangalore, offering safe and expert care with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best anesthesia hospital in Bangalore, Anesthesia services in Jayanagar, Safe anesthesia care in Bangalore, Pain management in Jayanagar, Anesthesiologists near JP Nagar, Aksha Hospital anesthesia team, Advanced anesthesia services in Bangalore, Surgery support in Banashankari, Best anesthesiologists in Bangalore, Safe surgical care in Bangalore, ' }
+        
+      );
+    }
+
   doctors =[
     {
     name: "Dr. Vijaya Kumar", 

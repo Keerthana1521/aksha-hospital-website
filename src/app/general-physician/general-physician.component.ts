@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-general-physician',
@@ -6,6 +8,17 @@ import { Component } from '@angular/core';
   styleUrl: './general-physician.component.css'
 })
 export class GeneralPhysicianComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best General Physician in Jayanagar  Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best general physician hospital in Jayanagar, Bangalore, offering expert care for all health concerns with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best general physician in Bangalore, General physician in Jayanagar, Aksha Hospital general medicine, General practitioner near JP Nagar, Health check-ups in Banashankari, General healthcare services Bangalore, Experienced doctors in Jayanagar, Top physicians in Bangalore, Aksha Hospital medical care, Comprehensive health services in Bangalore,' }
+        
+      );
+    }
+
   doctors = [
     {
       name: "Dr. Kapil Wajapey", 

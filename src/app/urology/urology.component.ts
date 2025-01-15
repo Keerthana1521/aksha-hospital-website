@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-urology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './urology.component.css'
 })
 export class UrologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Urology Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best urology hospital in Jayanagar, Bangalore, offering expert care for kidney, bladder and urinary disorders with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best urology hospital in Bangalore, Urology hospital in Jayanagar, Kidney specialists in Bangalore, Bladder treatment in Jayanagar, Urinary disorder treatment in Bangalore, Urologists near JP Nagar, Pediatric urology care in Bangalore, Advanced urology services in Banashankari, Aksha Hospital urology specialists, Prostate care in Bangalore, ' }
+        
+      );
+    }
+
   doctors = [
     {
       name: "Dr. Manohar C S",

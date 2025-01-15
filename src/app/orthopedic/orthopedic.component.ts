@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-orthopedic',
@@ -7,6 +8,17 @@ import { Component } from '@angular/core';
 })
 
 export class OrthopedicComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Orthopedic Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha is a leading orthopedic hospital in Jayanagar Bangalore, offering expert care for bone, joint, and spine conditions with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best orthopedic hospital in Bangalore, Orthopedic care in Jayanagar, Bone and joint specialists in Bangalore, Spine surgery in Jayanagar, Orthopedic surgeons near JP Nagar, Pediatric orthopedic hospital in Bangalore, Joint replacement in Banashankari, Advanced bone care in Bangalore, Aksha Hospital orthopedic services, Sports injury treatment in Bangalore, ' }
+        
+      );
+    }
+
     doctors = [
       {
         name: "Dr. Sushal ShanthaKumar", 

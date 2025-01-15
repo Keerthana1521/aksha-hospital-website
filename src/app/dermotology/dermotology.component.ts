@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-dermotology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './dermotology.component.css'
 })
 export class DermotologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Skin Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best dermatology hospital in Jayanagar, Bangalore, offering expert care for skin, hair and nail conditions with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best dermatology hospital in Bangalore, Dermatology hospital in Jayanagar, Skin specialists in Bangalore, Hair and scalp treatment in Jayanagar, Dermatologists near JP Nagar, Skin care services in Banashankari, Advanced skin treatment in Bangalore, Aksha Hospital dermatology services, Nail disorder treatment in Jayanagar, Top dermatologists in Bangalore,' }
+        
+      );
+    }
+
   doctors = [
     {
       name : "Dr. Rashmi Agarwal",

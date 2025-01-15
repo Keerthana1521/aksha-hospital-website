@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-doctor',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './doctor.component.css'
 })
 export class DoctorComponent {
+
+  constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Meet Expert Doctors at Aksha Hospital, Jayanagar, Bangalore");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Find experienced doctors at Aksha Hospital, Jayanagar. Top specialists offering advanced, patient-focused care in Bangalore.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Doctors at Aksha Hospital Jayanagar, Best specialists in Jayanagar Bangalore, Experienced doctors near JP Nagar, Top doctors in Banashankari Bangalore, Multispeciality hospital doctors Jayanagar, Expert medical team in Bangalore, Aksha Hospital doctors list, Best doctors in jayanagar, Leading specialists in Bangalore hospitals, Best healthcare providers in Jayanagar, Specialists for advanced treatments in Bangalore' }
+        
+      );
+    }
+
   doctors = [
     {
       name: "Dr. T S Bhoopal",

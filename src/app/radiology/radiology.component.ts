@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-radiology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './radiology.component.css'
 })
 export class RadiologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Radiology Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best radiology hospital in Jayanagar, Bangalore, offering expert imaging services with advanced technology and experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best radiology hospital in Bangalore, Radiology hospital in Jayanagar, Advanced imaging services in Bangalore, CT scan and MRI in Jayanagar, Diagnostic imaging near JP Nagar, X-ray services in Banashankari, Aksha Hospital radiology department, Ultrasound services in Bangalore, Radiology specialists in Bangalore, Imaging technology hospital in Jayanagar, ' }
+        
+      );
+    }
+
   doctors = [
     {
       name: "Dr. Sayalee Gadgil", 
