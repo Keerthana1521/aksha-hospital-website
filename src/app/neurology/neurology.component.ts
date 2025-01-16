@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-neurology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './neurology.component.css'
 })
 export class NeurologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Neurology Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best neurology hospital in Jayanagar, Bangalore, offering expert care for brain, spine and nerve disorders with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best neurology hospital in Bangalore, , Neurology hospital in Jayanagar, Brain and spine care in Bangalore, Neurologists near JP Nagar, Treatment for nerve disorders in Banashankari, Aksha Hospital neurology services, Advanced neurology care in Jayanagar, Stroke treatment in Bangalore, Neurological disorder specialists in Bangalore, Top neurology services in Bangalore' }
+        
+      );
+    }
+
   doctors = [
     {
       name : "Dr. Praveen Kumar S",

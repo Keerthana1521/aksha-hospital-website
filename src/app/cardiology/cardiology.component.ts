@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-cardiology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './cardiology.component.css'
 })
 export class CardiologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Cardiology Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best cardiology hospital in Jayanagar, Bangalore, offering expert care for heart health with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best cardiology hospital in Bangalore, Cardiology hospital in Jayanagar, Heart specialists in Bangalore, Advanced cardiac care in Jayanagar, Cardiologists near JP Nagar, Heart check-up in Banashankari, Aksha Hospital cardiology services, Treatment for heart conditions in Bangalore, Best cardiac care in Jayanagar, Experienced cardiologists in Bangalore, ' }
+        
+      );
+    }
+
     doctors = [
       {
         name: "Dr. Anand Palakshachar",

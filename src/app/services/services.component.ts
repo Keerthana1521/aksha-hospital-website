@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
+
 // import { AccordionModule } from 'primeng/accordion';
 
 @Component({
@@ -7,6 +9,16 @@ import { Component } from '@angular/core';
   styleUrl: './services.component.css'
 })
 export class ServicesComponent {
+
+  constructor(private titleService: Title, private metaService: Meta) {
+        this.titleService.setTitle("Comprehensive Medical Services at Aksha Hospital, Jayanagar");  
+    
+        this.metaService.updateTag({ name: 'description', content: 'Explore advanced medical services at Aksha Hospital, Jayanagar - trusted care with expert doctors for all your healthcare needs.' });
+      
+        this.metaService.updateTag({ name: 'keywords', content: 'Medical services at Aksha Hospital Jayanagar, Best healthcare services in Jayanagar Bangalore, Multispeciality treatments in Bangalore, Advanced procedures in Jayanagar hospital, Affordable healthcare in JP Nagar, Comprehensive care in Banashankari Bangalore, Specialist treatments at Aksha Hospital, Leading medical services in Bangalore, Patient-first care in Jayanagar hospital, Aksha Hospital services Bangalore' }
+          
+        );
+      }
   //  tabs= [
   //   { icon_1 : "", icon_2 : "", title: '', content: '',isOpen: false },
   //   { icon_1 : "", icon_2 : "", title: '', content: '', isOpen: false,},

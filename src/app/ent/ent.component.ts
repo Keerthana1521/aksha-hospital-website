@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-ent',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './ent.component.css'
 })
 export class ENTComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best ENT Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best ENT hospital in Jayanagar, Bangalore, offering expert care for ear, nose and throat disorders with experienced specialists.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best ENT hospital in Bangalore, ENT hospital in Jayanagar, Ear, nose, and throat care in Bangalore, ENT specialists near JP Nagar, Sinus treatment in Banashankari, Aksha Hospital ENT services, Advanced ENT care in Jayanagar, Treatment for hearing loss in Bangalore, Voice disorder specialists in Bangalore, ENT doctors in Jayanagar' }
+        
+      );
+    }
+
     doctors = [
       {
         name: "Dr. Sridutt Shekar", 

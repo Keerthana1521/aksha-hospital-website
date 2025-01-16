@@ -10,11 +10,11 @@ import { Title, Meta, DomSanitizer, SafeHtml } from '@angular/platform-browser';
 export class HomeComponent implements OnInit, OnDestroy {
 
   constructor(private router: Router,private titleService: Title, private metaService: Meta) {
-    this.titleService.setTitle("Best Multi-Specialty Hospital in Jayanagar | Aksha Hospital");  
+    this.titleService.setTitle("Best Multispeciality Hospital in Jayanagar, Bangalore - Aksha");  
 
-    this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital offers top-notch healthcare services in Jayanagar. Compassionate care, advanced treatments, and experienced doctors.' });
+    this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best multispeciality hospital in Jayanagar, Bangalore; providing the best treatment in Jayanagar with advanced procedures. ' });
   
-    this.metaService.updateTag({ name: 'keywords', content: 'multi-specialty hospital Jayanagar, best hospital Bangalore, Aksha Hospital, healthcare Jayanagar' });
+    this.metaService.updateTag({ name: 'keywords', content: 'Best multispeciality hospital in Jayanagar, Multispeciality hospital in Bangalore, Hospitals near Jayanagar, Advanced healthcare in Bangalore, Expert doctors in Jayanagar, Jayanagar hospital with modern facilities, Affordable multispeciality care in Bangalore, Top hospitals in Bangalore, Comprehensive medical services in Jayanagar, Aksha Hospital Jayanagar, Best hospital in Jayanagar, Best Care, Best hospital near me in Jayanagar' });
   }
 
   @ViewChild('counterSection', { static: true }) counterSection!: ElementRef;

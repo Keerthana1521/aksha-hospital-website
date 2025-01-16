@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-oncology',
@@ -6,6 +7,17 @@ import { Component } from '@angular/core';
   styleUrl: './oncology.component.css'
 })
 export class OncologyComponent {
+
+    constructor(private titleService: Title, private metaService: Meta) {
+      this.titleService.setTitle("Best Oncology Hospital in Jayanagar Bangalore | Aksha Hospital");  
+  
+      this.metaService.updateTag({ name: 'description', content: 'Aksha Hospital is the best oncology hospital in Jayanagar, Bangalore, offering expert cancer care with experienced specialists and advanced treatments.' });
+    
+      this.metaService.updateTag({ name: 'keywords', content: 'Best oncology hospital in Bangalore, , Oncology hospital in Jayanagar, Cancer treatment in Bangalore, Oncology specialists near JP Nagar, Chemotherapy in Banashankari, Aksha Hospital oncology care, Advanced cancer care in Jayanagar, Radiation therapy in Bangalore, Cancer specialists in Bangalore, Top oncology services in Bangalore' }
+        
+      );
+    }
+
   doctors = [
       {
         name : "Dr. Pragnya Coca",
