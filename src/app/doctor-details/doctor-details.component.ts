@@ -567,9 +567,9 @@ export class DoctorDetailsComponent {
     {
       name : "Dr. Shanthala Raj",
       slug : "Dr-Shanthala-Raj",
-      qualification : "MBBA, DNB -OBG ",
-      department : "O B G",
-      designation : "Consultant - O B G",
+      qualification : "MBBS, DNB - OBG",
+      department : "OBG",
+      designation : "Consultant - OBG",
       experience : "26",
       image : "../../assets/doctor-32.jpeg",
       about : "",
