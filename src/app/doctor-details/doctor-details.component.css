@@ -1,139 +1,156 @@
 .doctor-profile-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-top: 18vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 18vh;
+}
+
+.profile-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.icon {
+  position: relative;
+  top: 12px;
+  right: 8px;
+  width: 36px;
+}
+
+.doctor-image {
+  flex: 1 1 30%;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
   }
-  
-  .profile-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  .icon{
-    position: relative;
-    top: 12px;
-    right: 8px;
-    width: 36px;
-  }
-  .doctor-image {
-    flex: 1 1 30%;
-    max-width: 300px;
-    margin-right: 20px;
-  }
-  @keyframes rotate {
-    100% {
-      transform: rotate(1turn);
-    }
-  }
-  
-  .doctor-image {
-    position: relative;
-    z-index: 0;
-    width: 300px;
-    height: 420px;
-    border-radius: 15px;
-    overflow: hidden;
-    /* padding: 2rem; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-weight: bold;
-  }
-  .doctor-image:hover img {
-    /* Change to your desired border color */
-  }
-  .doctor-image img {
-    width: 330px;
-    border-radius: 20px;
-    object-fit: cover;
-  ; /* Optional rounded corners */
-  border: 7px solid transparent; /* Initial transparent border */
+}
+
+.doctor-image {
+  position: relative;
+  z-index: 0;
+  width: 300px;
+  height: 420px;
+  border-radius: 15px;
+  overflow: hidden;
+  /* padding: 2rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.doctor-image:hover img {
+  /* Change to your desired border color */
+}
+
+.doctor-image img {
+  width: 330px;
+  border-radius: 20px;
+  object-fit: cover;
+  ;
+  /* Optional rounded corners */
+  border: 7px solid transparent;
+  /* Initial transparent border */
   transition: border-color 0.4s ease-in-out;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
   }
-  @keyframes borderAnimation {
-    0% {
-      border-color: transparent;
-    }
-    25% {
-      border-color: #D964A2; /* First color */
-    }
-    50% {
-      border-color: #332876; /* Second color */
-    }
-    75% {
-      border-color: #34A853; /* Third color */
-    }
-    100% {
-      border-color: #0F96B4; /* Final color */
-    }
+
+  25% {
+    border-color: #D964A2;
+    /* First color */
   }
-  
-  /* Animate border on hover */
-  .doctor-image img {
-    animation: borderAnimation 2s infinite alternate; /* Runs animation forever */
+
+  50% {
+    border-color: #332876;
+    /* Second color */
   }
-  
-  .doctor-details {
-    flex: 1 1 65%;
-    padding-left: 40px;
+
+  75% {
+    border-color: #34A853;
+    /* Third color */
   }
-  
-  .doctor-name {
-    font-size: 32px;
-font-family: Poppins;
-color: #000;
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 24px;
+
+  100% {
+    border-color: #0F96B4;
+    /* Final color */
   }
-  
-  .doctor-name span {
-    font-size: 18px;
-    /* font-weight: normal; */
-    color: #000;
-    /* font-size: 24px; */
-font-weight: 600;
-  }
-  
-  .doctor-title {
-    /* font-size: 20px;
+}
+
+/* Animate border on hover */
+.doctor-image img {
+  animation: borderAnimation 2s infinite alternate;
+  /* Runs animation forever */
+}
+
+.doctor-details {
+  flex: 1 1 65%;
+  padding-left: 40px;
+}
+
+.doctor-name {
+  font-size: 32px;
+  font-family: Poppins;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.doctor-name span {
+  font-size: 18px;
+  /* font-weight: normal; */
+  color: #000;
+  /* font-size: 24px; */
+  font-weight: 600;
+}
+
+.doctor-title {
+  /* font-size: 20px;
     color: #5a5a5a; */
-    margin: 10px 0;
-    font-size: 22px;
-font-weight: 600;
-font-family: Poppins;
-color: #322875;
-  }
-  
-  .experience {
-    /* font-size: 18px; */
-    margin: 10px 0;
-    font-size: 22px;
-    font-weight: 600;
-    font-family: Poppins;
-    color: #322875;
-    margin-bottom: 24px;
-  }
-  
-  .expertise {
-    margin-top: 20px;
-  }
-  
-  .expertise h3 {
-    font-size: 28px;
-font-weight: 600;
-font-family: Poppins;
-color: #000;
-    margin-bottom: 10px;
-  }
-  
-  /* .expertise-list {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #322875;
+}
+
+.experience {
+  /* font-size: 18px; */
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #322875;
+  margin-bottom: 24px;
+}
+
+.expertise {
+  margin-top: 20px;
+}
+
+.expertise h3 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* .expertise-list {
     columns: 2;
     font-size: 18px;
 line-height: 30px;
@@ -148,171 +165,217 @@ font-family: 'Open Sans';
     margin-bottom: 5px;
     list-style-type: disc;
   } */
-  .single-column {
-    columns: 1;
-    font-size: 18px;
-    line-height: 30px;
-    font-family: 'Open Sans';
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    padding-left: 40px;
-  }
-  
-  /* Two column layout for larger screens */
-  .two-columns {
-    columns: 2;
-    font-size: 18px;
-    line-height: 30px;
-    font-family: 'Open Sans';
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    padding-left: 40px;
-  }
-  
+.single-column {
+  columns: 1;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+/* Two column layout for larger screens */
+.two-columns {
+  columns: 2;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-left: 40px;
+}
+
 li {
-    margin-bottom: 5px;
-    list-style-type: disc;
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.about-doctor {
+  /* background-color: #f9f9f9; */
+  padding: 20px;
+  border-radius: 10px;
+  padding-left: 0;
+}
+
+.about-doctor h3 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Poppins;
+  color: #000;
+  margin-bottom: 25px;
+
+}
+
+.about-doctor p {
+  font-size: 18px;
+  font-family: 'Open Sans';
+  color: #000;
+  text-align: justify;
+  margin-bottom: 15px;
+
+}
+
+.doctor-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  /* padding: 20px; Background gradient similar to the design */
+  border-radius: 20px;
+  /* Rounded corners */
+  box-shadow: -25px 25px 0 #aacdf3;
+  /* Subtle box shadow */
+  overflow: hidden;
+}
+
+.doctor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  /* Slightly rounded corners for the image */
+  display: block;
+  object-fit: cover;
+  /* Ensures the image covers the container without distortion */
+  margin-top: 15px;
+  /* box-shadow: -25px 25px 0 #aacdf3; */
+  border-radius: 20px;
+  /* padding-right: 40px; */
+  /* Adjust as needed for vertical alignment */
+}
+
+.back-btn {
+  margin: 20px 0;
+  padding: 5px 10px;
+  background: #322875;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.arrow {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+@media (max-width:1030px) {
+  .doctor-image {
+    margin: 0 0 0px 0;
+    max-width: 35%;
+    padding: 0;
+    position: relative;
+    left: 20px;
   }
-  .about-doctor {
-    /* background-color: #f9f9f9; */
-    padding: 20px;
-    border-radius: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+  }
+
+  .doctor-image {
+    margin: 0 0 0px 0;
+    max-width: 35%;
+    padding: 0;
+    /* box-shadow: -70px 20px 0 #aacdf3; */
+    position: relative;
+    left: 33%;
+    /* padding-bottom: 6rem; */
+  }
+
+  .doctor-details {
+    text-align: center;
+    margin-top: 4rem;
     padding-left: 0;
   }
-  
-  .about-doctor h3 {
-    font-size: 28px;
-font-weight: 600;
-font-family: Poppins;
-color: #000;
-    margin-bottom: 25px;
 
+  .two-columns,
+  .single-column {
+    columns: 1;
   }
-  
-  .about-doctor p {
-    font-size: 18px;
-    font-family: 'Open Sans';
-    color: #000;
-    text-align: justify;
-    margin-bottom: 15px;
-    
-  }
-  .doctor-image-container {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-    /* padding: 20px; Background gradient similar to the design */
-    border-radius: 20px; /* Rounded corners */
-    box-shadow: -25px 25px 0 #aacdf3; /* Subtle box shadow */
-    overflow: hidden;
-  }
-  
-  .doctor-image {
-    width: 100%;
-    height: auto;
-    border-radius: 15px; /* Slightly rounded corners for the image */
-    display: block;
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-    margin-top: 15px; 
-    /* box-shadow: -25px 25px 0 #aacdf3; */
-    border-radius: 20px;
-    /* padding-right: 40px; */
-    /* Adjust as needed for vertical alignment */
-  }
-  
-  @media (max-width:1030px){
-    .doctor-image {
-        margin: 0  0 0px 0;
-        max-width: 35%;
-        padding: 0;
-        position: relative;
-        left: 20px;
-      }
-  }
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .profile-header {
-      flex-direction: column;
-    }
-    .doctor-image {
-      margin: 0  0 0px 0;
-      max-width: 35%;
-      padding: 0;
-      /* box-shadow: -70px 20px 0 #aacdf3; */
-      position: relative;
-        left: 33%;
-      /* padding-bottom: 6rem; */
-    }
-    .doctor-details {
-      text-align: center;
-      margin-top: 4rem;
-      padding-left: 0;
-    }
-    .two-columns,.single-column {
-      columns: 1;
-    }
-    .doctor-details h1{
-        font-size: 20px;
-    }
-    .doctor-name span{
-        font-size: 20px;
-    }
-    .doctor-title, .experience{
-        font-size: 16px;
-    }
-    .expertise h3{
-        font-size: 20px;
-        text-align: left;
-    }
-    li{
-        font-size: 14px;
-        text-align: left;
-    }
-    .about-doctor h3{
-        font-size: 20px;
-    }
-    .about-doctor p{
-        font-size: 14px;
-    }
-  }
-  @media (max-width:430px){
-    .doctor-image{
-      margin: 0 0 0px 0;
-      max-width: 75%;
-      padding: 0;
-      position: relative;
-      left: 20%;
-      width: 100%;
-      margin-top: 3rem;
-    }
-    .doctor-image img{
-      width: 200px;
-      height: 300px;
-    }
-.doctor-details h1{
+
+  .doctor-details h1 {
     font-size: 20px;
-}
-.doctor-name span{
+  }
+
+  .doctor-name span {
     font-size: 20px;
-}
-.doctor-title, .experience{
+  }
+
+  .doctor-title,
+  .experience {
     font-size: 16px;
-}
-.expertise h3{
+  }
+
+  .expertise h3 {
     font-size: 20px;
-}
-.expertise-list{
+    text-align: left;
+  }
+
+  li {
     font-size: 14px;
     text-align: left;
-}
-.about-doctor h3{
-    font-size: 20px;
-}
-.about-doctor p{
-    font-size: 14px;
-}
   }
-  
+
+  .about-doctor h3 {
+    font-size: 20px;
+  }
+
+  .about-doctor p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:430px) {
+  .doctor-image {
+    margin: 0 0 0px 0;
+    max-width: 75%;
+    padding: 0;
+    position: relative;
+    left: 20%;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .doctor-image img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .doctor-details h1 {
+    font-size: 20px;
+  }
+
+  .doctor-name span {
+    font-size: 20px;
+  }
+
+  .doctor-title,
+  .experience {
+    font-size: 16px;
+  }
+
+  .expertise h3 {
+    font-size: 20px;
+  }
+
+  .expertise-list {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .about-doctor h3 {
+    font-size: 20px;
+  }
+
+  .about-doctor p {
+    font-size: 14px;
+  }
+}
